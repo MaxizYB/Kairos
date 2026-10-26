@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kairos-kv"
+version = "0.1.0"
+description = "Distribution-aware continuation scheduling and tiered KV management"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+replay = ["httpx==0.28.1"]
+train = ["numpy==2.5.3", "scikit-learn==1.9.1", "threadpoolctl==3.7.0"]
+
+[tool.setuptools.packages.find]
+include = ["kairos*"]
+
+[tool.setuptools.package-data]
+"kairos._runtime.compat" = ["*.cpp"]
+"kairos._runtime" = ["vendor/**/*.py", "vendor/**/LICENSE", "vendor/**/PROVENANCE.md"]

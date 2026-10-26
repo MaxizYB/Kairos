@@ -1,0 +1,8 @@
+# Recorded serving versions, not a CPU development environment.
+# Install the CUDA build compatible with your driver, following docs/REPRODUCE.md.
+torch==2.13.0
+vllm==0.28.0
+lmcache==0.5.5rc4
+transformers==5.16.1
+httpx==0.28.1
+numpy==2.2.6

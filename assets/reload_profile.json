@@ -1,0 +1,130 @@
+{
+  "reload_seconds_per_token": 6.0106472469320015e-06,
+  "reload_fixed_seconds": 0.0003896964212449699,
+  "rows": [
+    {
+      "tokens": 512,
+      "cpu_hit_e2e_s": 0.04364398494362831,
+      "gpu_hit_e2e_s": 0.0410778783261776,
+      "incremental_s": 0.002566106617450714,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 511,
+      "gpu_local_tokens": 496,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 512,
+      "cpu_hit_e2e_s": 0.04326585307717323,
+      "gpu_hit_e2e_s": 0.04003540426492691,
+      "incremental_s": 0.0032304488122463226,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 511,
+      "gpu_local_tokens": 496,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 1024,
+      "cpu_hit_e2e_s": 0.04942724574357271,
+      "gpu_hit_e2e_s": 0.04276594053953886,
+      "incremental_s": 0.006661305204033852,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 1023,
+      "gpu_local_tokens": 1008,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 1024,
+      "cpu_hit_e2e_s": 0.04961663205176592,
+      "gpu_hit_e2e_s": 0.042552958242595196,
+      "incremental_s": 0.007063673809170723,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 1023,
+      "gpu_local_tokens": 1008,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 2048,
+      "cpu_hit_e2e_s": 0.061887468211352825,
+      "gpu_hit_e2e_s": 0.049921236000955105,
+      "incremental_s": 0.01196623221039772,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 2047,
+      "gpu_local_tokens": 2032,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 2048,
+      "cpu_hit_e2e_s": 0.059640754014253616,
+      "gpu_hit_e2e_s": 0.04783244989812374,
+      "incremental_s": 0.011808304116129875,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 2047,
+      "gpu_local_tokens": 2032,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 4096,
+      "cpu_hit_e2e_s": 0.07608355395495892,
+      "gpu_hit_e2e_s": 0.04818080645054579,
+      "incremental_s": 0.027902747504413128,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 4095,
+      "gpu_local_tokens": 4080,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 4096,
+      "cpu_hit_e2e_s": 0.07968999166041613,
+      "gpu_hit_e2e_s": 0.052785854786634445,
+      "incremental_s": 0.02690413687378168,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 4095,
+      "gpu_local_tokens": 4080,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 6144,
+      "cpu_hit_e2e_s": 0.10022063460201025,
+      "gpu_hit_e2e_s": 0.06404015608131886,
+      "incremental_s": 0.036180478520691395,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 6143,
+      "gpu_local_tokens": 6128,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    },
+    {
+      "tokens": 6144,
+      "cpu_hit_e2e_s": 0.10102823749184608,
+      "gpu_hit_e2e_s": 0.06523233186453581,
+      "incremental_s": 0.035795905627310276,
+      "cpu_local_tokens": 0,
+      "cpu_external_tokens": 6143,
+      "gpu_local_tokens": 6128,
+      "gpu_external_tokens": 15,
+      "cpu_hit_valid": true,
+      "gpu_hit_valid": true
+    }
+  ],
+  "valid_rows": 10,
+  "timing": "Incremental nonstreaming request E2E, CPU cache hit minus GPU APC hit; no queue, same input/output and backend",
+  "excluded": "Not a pure PCIe bandwidth measurement; includes lookup/scatter and extra old-tail prefill",
+  "source": "Independent prompts before formal replay, not fitted on benchmark outcomes"
+}

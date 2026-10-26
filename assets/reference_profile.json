@@ -1,0 +1,7 @@
+{
+  "beta": [0.019864991479592062, 0.00004780528132566058, 0.000000004486551915761084, 0.0],
+  "decode_step_by_seqs": {"1": 0.011144757270812988},
+  "source": "information_prediction_20261020/data/causal_states.json.gz:profile",
+  "source_states_sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995",
+  "unit": "frozen standard solo service seconds; chunked prefill 2048; post-current suffix excludes queue, tools, policy recovery"
+}

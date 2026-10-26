@@ -1,0 +1,1067 @@
+{
+  "files": [
+    {
+      "path": "kairos/_runtime/layout/correctness.py",
+      "bytes": 7895,
+      "sha256": "0e0b5d5ac9ece69eef0d15b81852fb9efb12039a2c9aead1a4d5ee6d9140c24e",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c02fa59d3b1e23f047857ec1b1a0dcd98e06296d6bf06129e28467b23b033198"
+    },
+    {
+      "path": "kairos/_runtime/compat/grant_allocation_correctness.py",
+      "bytes": 4018,
+      "sha256": "c9bec336dad40d56c0d7bc06c103f96eb40f10f1a3ca5e89a2ac142915f73702",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c50e81c50ee117efcf04e4394ce943be7e3bc4a078ebb2c0ef6f8d757bf8c4af"
+    },
+    {
+      "path": "kairos/_runtime/compat/layered_policy.py",
+      "bytes": 7941,
+      "sha256": "cacd4f11fd8c2fe3538acb18acf29842f733311740a93ae668cc876d7922932f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "94efec01dffddf161258b9b2cbe81a1f0514c3cae5dbca367da36b637fffd4b8"
+    },
+    {
+      "path": "kairos/_runtime/layout/worker.py",
+      "bytes": 4554,
+      "sha256": "a42c884b55685ee792db2243ec47851300d414c05c196bed7d9b1b51efae528a",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "7995ecafac19976d16c8e5f368e6b335d6e8183fbed5bc81d2ceca4e7c513445"
+    },
+    {
+      "path": "kairos/_runtime/compat/decode_graph_policy.py",
+      "bytes": 738,
+      "sha256": "3a0890f261bdcd115fffb8bcd213d4307c6979da09b3cc67b815f3a8b79fbd2c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c2202330f9e4b9fc3eebefefc8cf56caab8a10d4d991779b4cabfc8f1bb5b1ca"
+    },
+    {
+      "path": "kairos/_runtime/layout/connector.py",
+      "bytes": 22981,
+      "sha256": "e847983a50d9bfda5f4245ad8bc547259713dc32bf38fedfb7503f20c77039d0",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "a7e3cbb9d8937424eb590725062d73c45858c4ac2cdf094ddb921e27e10bc5db"
+    },
+    {
+      "path": "kairos/_runtime/layout/executable_recovery.py",
+      "bytes": 8337,
+      "sha256": "290175df56de2bb0a8f2d336ac3f15162e45ed42c54977489c8ed18cfc019588",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "2d5c265225b8c214637715ae0cff36a404043b843df348bfff09e3cda19e0869"
+    },
+    {
+      "path": "kairos/_runtime/layout/compact_recovery.py",
+      "bytes": 8176,
+      "sha256": "379ec0d12e46f931180e8a31190437c5f0917536d46ff490a13165fb7bee1b83",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "f6d118c16c45996ba2e90792f9809c2f39926899abd85392d5f0b10ced3d1db6"
+    },
+    {
+      "path": "kairos/_runtime/layout/plan.py",
+      "bytes": 6054,
+      "sha256": "d53b6866c52a8e4699b45743d25dc6798a0f50401762cd219712babfd7ec888b",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "266bed34d7463a739cd66faabe651cb3ffcd0bcd369087af4bf574d9cb87242a"
+    },
+    {
+      "path": "kairos/_runtime/layout/execution_route.py",
+      "bytes": 2019,
+      "sha256": "fdf8c152dc759a654b40c869b7aa35b4c8f06c171ff8779da9c5b47787c294b2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "542d63959103c757a8a8b549e3478e399c5c7aee551b7b2503371ef24f222492"
+    },
+    {
+      "path": "kairos/_runtime/compat/replica.py",
+      "bytes": 18448,
+      "sha256": "845a2f65409412dce43eecaa3c86842c082dfb80b9e58e496a5151831d892c7c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c90ab1e0c0e5d003681531d4560eb6644df3bd5ba909bae274b76495ff5e322c"
+    },
+    {
+      "path": "kairos/_runtime/compat/history_policy.py",
+      "bytes": 16113,
+      "sha256": "926bb556e948a3e34fb4a1e8592679ddbca585d9bfeb5be8ea9166042454e5ac",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "6e9273bb87a26099b9e6e5b94a085f5eb72221dcd6fd47e456f7c278c48d8fc0"
+    },
+    {
+      "path": "kairos/_runtime/compat/range_lookup.py",
+      "bytes": 3014,
+      "sha256": "19703cb0a036ac8ffe12de5e51d6dd9562520d93504ba527d60f5fb6ce59ff42",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "7ed266cef8f126863e23988b216b9a83698a22b462f100d4d54ef66b4ded610b"
+    },
+    {
+      "path": "kairos/_runtime/compat/hicache_baseline.py",
+      "bytes": 14936,
+      "sha256": "a13771337a0453a94edafbf266323acdb3b8d208444719597f58105d52ed33d2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "44c0a89e83384e707fa0c6ddcd458a3c26cce9fbbfdf8a05dfc08fb05bf5d76b"
+    },
+    {
+      "path": "kairos/_runtime/compat/copy_wait_schedule.py",
+      "bytes": 2851,
+      "sha256": "d7bcca7c9765ce6603d4a2edb08ee5d0e028fb88b3928efe6d05d92d9afef0ec",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "043bc89b1d0bfe596effca996db79ea9634a241a085a6c513d27369e27a13844"
+    },
+    {
+      "path": "kairos/_runtime/compat/official_lazy.py",
+      "bytes": 15574,
+      "sha256": "16c9a4588c8fc0455371cbc31d372543049e457b124c4e764fac9aa22ebeed19",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "4a6be63d1281276e25f3e54192bcb2297503ca9ab30f380c5919077d02e1a9d4"
+    },
+    {
+      "path": "kairos/_runtime/compat/official_admission.py",
+      "bytes": 4049,
+      "sha256": "eef9bef5f36151abf966aef23bc25aab9fbb688fbc9a1831fe9c88036df00747",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "cd0e5a7c1e01cf7d59b9452aff6a51a15efa3cbc81e014d70cb19fd122ba3498"
+    },
+    {
+      "path": "kairos/_runtime/compat/scheduler.py",
+      "bytes": 103107,
+      "sha256": "28c6a1a0291c06c0703a2bc28ec5b25a62e793a3a5458ab8f1451c2f85fbb762",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "6336dde8ec9c4eae1d9c9c3bbc624c051af74807e7efb3c6da038c748ad952e6"
+    },
+    {
+      "path": "kairos/_runtime/compat/grouped_eviction.py",
+      "bytes": 6112,
+      "sha256": "fd031bc7a20734118aec8c73afc3bd8d704a38b5ce02e66fbda10a14daae76be",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "2775a7315d8e86287e662465d76a45076646316cb5ae765a0e608cd252f4e43b"
+    },
+    {
+      "path": "kairos/_runtime/compat/joint_eviction.py",
+      "bytes": 9931,
+      "sha256": "66cd08560345ea67e914aee938f352369eb9f67ed70604b05c01ac0b2c97732f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "caf88820476f7b3b744dc0f74cdcbe2933b119b86714f142a89e1e6c3977e6ab"
+    },
+    {
+      "path": "kairos/_runtime/compat/gpu_index.py",
+      "bytes": 6021,
+      "sha256": "65e97416b137610b14baea475890f82b94c1d79c9b69a92b52ed0eb12ee2edc3",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "ddc5a07e69085eead4c8e876120073f68074476184e7ff09c4215ca7489185cc"
+    },
+    {
+      "path": "kairos/_runtime/compat/batch_opportunity.py",
+      "bytes": 2127,
+      "sha256": "fd5f936c16c0e5c303551f04392387842afe1410b5476f72fe330f5bb61747ec",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "7155c58a9f20a75a76fbd6447e3a7ea803959b1f7b81aee4de968aedd8bc6ae7"
+    },
+    {
+      "path": "kairos/_runtime/compat/versions.py",
+      "bytes": 434,
+      "sha256": "7367a14baab818d0ee6ecedb48b124d42dcf65938f19639f9ee460f2efa2b65d",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "84b1eae6409b6b063c9db34f58a69239ed008899c48b77dd9db3df702f1520fb"
+    },
+    {
+      "path": "kairos/_runtime/compat/retention.py",
+      "bytes": 9623,
+      "sha256": "806aa857f0867727513a5878f68189d71d56875f24d78f2606334c7141a67e23",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "4d8de6f0e717b307247f2ed17221f8dd155072dfb4c21847cb60f75daff2de9b"
+    },
+    {
+      "path": "kairos/_runtime/compat/event_model.py",
+      "bytes": 18895,
+      "sha256": "577bec9ad3493f3f865ca40b30ed7c8a8b3da08ffdd3aff9c641c45696044833",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "cde2b6fd63168628a236ecf677461751f0d1b36c8e7f03cecd4ed641ac5cc6b4"
+    },
+    {
+      "path": "kairos/_runtime/compat/policy.py",
+      "bytes": 7476,
+      "sha256": "7f7bb2d3ce6f53470119bac4ba9bb3eeeb5acadc423bbd2b3998c585b106c50e",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "3d8dd6f87549914db7fae9b85265900fb8446a020d846e29a027a2de390aba62"
+    },
+    {
+      "path": "kairos/_runtime/compat/capacity_model.py",
+      "bytes": 5399,
+      "sha256": "274b87a0402b7ac6437f46f35723ffe11e9c34d346771243de296e655eecc6a4",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "d7fd20a248e33af567210ee313e8493e57d740d8002e3bec44cf16ff238f29b3"
+    },
+    {
+      "path": "kairos/_runtime/compat/replica_connector.py",
+      "bytes": 21740,
+      "sha256": "a6c5d9e325570e745b8dcec1ac33066fe14608cb2d5db8dc60afb35369d1c0f2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "01b7e37d0e807d3006e4c1334538e3971ef7f383d22e00c05106b2a05b488b59"
+    },
+    {
+      "path": "kairos/_runtime/compat/hicache_policy.py",
+      "bytes": 12260,
+      "sha256": "a57a08f6b4e4087227bc8c7a87d4a6d1eb44c989bb7052247aa4cdeb1aa55b50",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "463fea3882fc1609809dc7a926e017e1468111466f9e440a3b94ee9e928b3794"
+    },
+    {
+      "path": "kairos/_runtime/compat/cache_baselines.py",
+      "bytes": 10400,
+      "sha256": "13651f11ba4f8c4e2eed55126f26039525cf099a01e642494a84272ecc3d09e1",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "88a581ac7a7d98c8d49a9d9412d3c42003445a2a79c97f1ea9e0f4659a11e0cc"
+    },
+    {
+      "path": "kairos/_runtime/compat/writeback_plan.py",
+      "bytes": 776,
+      "sha256": "7d4ac592bfe0360280e2b7f82e40ceb577d8c689f4c9aacf0fbbf4703a3bbdc9",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "f22343abd49c419945d5a04e6a533e0c3a69ac1e33327da634fa47ba2b6ad7fb"
+    },
+    {
+      "path": "kairos/_runtime/compat/lmcache_server.py",
+      "bytes": 2448,
+      "sha256": "a67800f9bd276d0f13ff890c12fb361bb572a30e5bfeb8351b3d20090dbedc98",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "f742964041810053064c908d4892a66c92d15a1fd0d0a83cec3d5dfd59a9fa99"
+    },
+    {
+      "path": "kairos/_runtime/layout/pcv_runtime.py",
+      "bytes": 35684,
+      "sha256": "22ee2bc6c9e9993c5bdbec1771f05f4e40a1988392d62e16ec180c127171d945",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "40eb597c9d643cf7a55a84fa6250dcf50229ea7e57249fbe13e7fc9edd8bef9a"
+    },
+    {
+      "path": "kairos/_runtime/layout/pcvu_control.py",
+      "bytes": 13367,
+      "sha256": "278ff8c7bf468e01d78d34c58d3d61ad3a864871be72cda3b955d00c44b3f99c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "35be8291a29d72128c29faac1e1c6ca827d7e293cd08f7115d1afb8d5a4fee7e"
+    },
+    {
+      "path": "kairos/_runtime/layout/pcv.py",
+      "bytes": 14860,
+      "sha256": "3243f0b1c3df4db890ab81485e0ee0cb2e40f37b69055d33cfe2d1086ee7d452",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "92068a2eaf810f8ccc4e86abb30619eafd540bd13e62269e8b94a76e1f5de878"
+    },
+    {
+      "path": "kairos/_runtime/layout/recovery_runtime.py",
+      "bytes": 3653,
+      "sha256": "1a07af6e8b920c18e246b98eddf7263d42913642d95194793f1c9bf0718aeacc",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "d44dcd95ad448b50d52c90d283ca2ceec880e3e03a76bb3ed132d55175351250"
+    },
+    {
+      "path": "kairos/_runtime/compat/lmcache_replica.py",
+      "bytes": 52949,
+      "sha256": "919aa8712bebbf67c159c00b9f57bc142aac07e49606abe59d8304c69f8ec9a6",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "d6d4d2c013dc1c97848af1aaccfd822a16d3f602a26b8f4c894a6d2027f0c0c5"
+    },
+    {
+      "path": "kairos/_runtime/compat/range_helper.py",
+      "bytes": 2504,
+      "sha256": "644a70b4a0f7637f2e6c6ef417f5aee2e0f29485d976929d7eae3392d844e1c4",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "24606679223b517ab7b682e66154ddd8c4c95c8fd33729fd7a404a0b4eb67ef9"
+    },
+    {
+      "path": "kairos/_runtime/compat/cpu_service_lease.py",
+      "bytes": 3319,
+      "sha256": "d41de19123daa74c3d3237ef92d90779f7e2460f0950debe152c73ad9bdfc633",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "fbfc43097d12c7d65d6a90b56d0a9623e660ce3a2a470b3edd3dfa60c054d641"
+    },
+    {
+      "path": "kairos/_runtime/layout/recovery.py",
+      "bytes": 5586,
+      "sha256": "31aad54047277fdb1c21999d9ff865c7a29bc9617d026f4c4c9233e96c4a0d1d",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "6c0d8c39f0f5c023ebbf6814517279cd9b32bea0e4e00883cc12747eef09c11b"
+    },
+    {
+      "path": "kairos/_runtime/layout/executable_cpu.py",
+      "bytes": 5878,
+      "sha256": "9de72fa0272d3d7072666f580565dea9e41527af992c2d3dfea655e4764ede1e",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "4a361dd89616fb749351fba01f14be1dce76820b935a0634efc8e0a43489e5ef"
+    },
+    {
+      "path": "kairos/_runtime/layout/next_use.py",
+      "bytes": 9771,
+      "sha256": "92a82f97dbefe349fc713273c0effba43574875803c80a07237807d24a12a3ad",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "5f9693df0113559a3beeb16ec2b44eaf71f0ac08b9fb459f8b759fd1cb84ccb5"
+    },
+    {
+      "path": "kairos/_runtime/layout/runtime.py",
+      "bytes": 6225,
+      "sha256": "004868c23b8d35dad3b778fa5d4af2ad02e40f4b8ebb5c8d0f2d3fc0d395f799",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "0e427d32b4c5bbd5c91f79d04af3bdbb6e0d95c29cffb67370d47d2f5ccbc6a5"
+    },
+    {
+      "path": "kairos/_runtime/compat/recovery_probe.py",
+      "bytes": 3028,
+      "sha256": "bd6405fe31d6e972082d53dbae6020e3eee249be7a5411c07abd298dd355b2a2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "8d2870bf9f2f10774a7ed29ea4b06c520aa14cc03cb8728ed85d1ed0370b9275"
+    },
+    {
+      "path": "kairos/_runtime/compat/baseline_runtime.py",
+      "bytes": 3165,
+      "sha256": "94495b2059c9b9bcc7060ca50c01d11f5fc8be8789ad8ad78dc3c6fd4919a6e4",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "04640d6ecb1ae82a8c2b1e2a1d4ea9631e9df500c7471677c79c6061de7be50b"
+    },
+    {
+      "path": "kairos/scheduler.py",
+      "bytes": 2558,
+      "sha256": "edff7a4a7fdfd7515c0f20f63c11f065862e2980eb4c3d89bacfa4f2fea2486d",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "a926bdaab6b184a2f76271677c52bda24e99ebe347cea4c5a162b7a49b0c62fa"
+    },
+    {
+      "path": "kairos/dispatch.py",
+      "bytes": 7709,
+      "sha256": "7b08987ed73ce907d5f7a86eb3ae7401c4f59626e8ed297b0fc7adbb6409ad76",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "dc2ceabe21678dc048b9fb234df22c12204de6578d34e79d7a6ccf4226bb497e"
+    },
+    {
+      "path": "kairos/_runtime/compat/online_path.py",
+      "bytes": 17309,
+      "sha256": "8ebcfde8ff6fad6a421b15f5c0ff329ed2759fc7fd0f17ccbaaedc37941be9b3",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "ef51c06cb6a39108834f6bf0cad631a26bc5a9c246376ccb50fa0ab332a7e49a"
+    },
+    {
+      "path": "kairos/_runtime/compat/path_calendar.py",
+      "bytes": 13342,
+      "sha256": "c9975c8cf30dd7cc72f3c623d36244943f1499f2771e37e842a07a3ed3b4966a",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "31c4dfb088608aef12cb8a499614db94838cc67928ebe8b92b626b9b3f10ab2f"
+    },
+    {
+      "path": "kairos/_runtime/compat/oracle_program_plan.py",
+      "bytes": 8840,
+      "sha256": "6daf53c862710e2fa8ccc8d81d4d8868bc59a07bad73fcfab9416c48d0be6945",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "59c35ea51558387eba323edf6d85780dd668fae051fe1b75538f1c606dfadb89"
+    },
+    {
+      "path": "kairos/arrival.py",
+      "bytes": 2692,
+      "sha256": "4fe0ebe82a0de07c6de9586b98569b010364ca4dde6751983ce7b5e171b15488",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "99512255297f44196bf2b84dd1caee2934443335b41156f9acd3bf7188cd5e35"
+    },
+    {
+      "path": "kairos/messages.py",
+      "bytes": 3669,
+      "sha256": "5411c630e91fb67141d937fba87d1578ac3e77f6b5e4c68af8b5959cdb556406",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c8a65e3bbd69083879f20fefd562ae906699f1ccad74e641fe623f561aa18b37"
+    },
+    {
+      "path": "kairos/resources.py",
+      "bytes": 2765,
+      "sha256": "94be4e5e2e6987d502175ed230d7c326d3e06a143dd413df7a052c5dea69062f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "5e05c970de10b299fd77bdb48966b3c4d3b2125aa944946fce02d47ef5832f62"
+    },
+    {
+      "path": "kairos/score.py",
+      "bytes": 2048,
+      "sha256": "e975d09f176db524ebd87ec4e9801a2b483f3b7142fb1ecea17a6c60315e9250",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "1f8ffe08c541c2612eabc681dfb68fab153bd72a5b5be0a32df00e864707f092"
+    },
+    {
+      "path": "kairos/cost.py",
+      "bytes": 3224,
+      "sha256": "a8d7402ba8827c5c8016bb21af252f557ea3d678cbf8e80b770fee32cf4e8bd9",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "f2ac06f613f2d18165ebe5ff5248dccab14c54fd46dfd6a3f6f313256419ce1a"
+    },
+    {
+      "path": "kairos/forest.py",
+      "bytes": 3443,
+      "sha256": "b449cf83ae77cc073ccbf7994f407985368bacc0ed8ba187ed21595ab9985747",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "8918d3fb3c665b2808de781e49d5736bca53c28f23fd7408ff5e8e4f33e61c35"
+    },
+    {
+      "path": "kairos/features.py",
+      "bytes": 2019,
+      "sha256": "007f1912bb0b770cd023408b559670bd54140178536734c04605ac20fcc15084",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "3144aef99fdca2080e49c576ab0bba9e1e4f5fb5accb9ee1a7dbd099d8eb2ba4"
+    },
+    {
+      "path": "kairos/_runtime/compat/commitment_scheduler.py",
+      "bytes": 27132,
+      "sha256": "912aa855b39a12874cff6628eb27c7220d546dc456130a67872844d8992b11d6",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "9b6959e758cb2da1bbd1fb71584ca70c83b95fdaaaf2aae9ef25e74d453f6d7d"
+    },
+    {
+      "path": "kairos/_runtime/compat/r83_plan.py",
+      "bytes": 2923,
+      "sha256": "9516c61250ce6abeba55f30cfe0b6ef42761c5be9e8c1c52c41911dd63d98f6c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "43ce42282a70f19e0dab4badb40187728d391093b07a395053894cc313c811f2"
+    },
+    {
+      "path": "kairos/_runtime/compat/lease_opportunity.py",
+      "bytes": 1460,
+      "sha256": "2837ec8503739121f9976213d3de4498b7f085eb6a0e55a4b582dd23abd9402a",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "bab6c592b24bf9d1b0e918dfb0767422563628d164f0a53810b37917c6a46325"
+    },
+    {
+      "path": "kairos/_runtime/compat/causal_action_q.py",
+      "bytes": 5280,
+      "sha256": "a4385ae97d9c9df440694dac8cf5f60c80b15b169cae6814656092cd50b30178",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "23df825ebd70b4a5c23b7233efc9438fdea2a6dbfc44d952045f716ae2fcaa76"
+    },
+    {
+      "path": "kairos/_runtime/compat/call_commitment.py",
+      "bytes": 5209,
+      "sha256": "a547d7d34591165fb091d89375eb3e7a1c917382373b452e77d9eefe8f31a473",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "3ad516919d4d6d51f43dd194809447e983a782348841997d5812908f33198e47"
+    },
+    {
+      "path": "kairos/_runtime/compat/commitment_order.py",
+      "bytes": 1909,
+      "sha256": "8e47e9083432ceef65f53aea14458f1e1c57dd643201cb88f54776f5500e8e26",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "55a365816e9d42a8c93cb31391936d775dd322b21c528d56ebe85bbce63d9287"
+    },
+    {
+      "path": "kairos/protection.py",
+      "bytes": 10909,
+      "sha256": "046e676cb9cbe9b20c056db014597fa28aa9d1e31dc3a569ca9d55a14aacc926",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "11ee73b758d9a63f14fb288af0f3db60811643fd00e2620aee40c2aef618f786"
+    },
+    {
+      "path": "kairos/_runtime/compat/online_path_scheduler.py",
+      "bytes": 93007,
+      "sha256": "12053162f6e8392ae03ac0450cba1ccb6e5f10407717bf2f2985666c88eec64f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "50184bbd8a5d24a1ed56188db07fad2c39800fbffe7f3432cf0059072822b25b"
+    },
+    {
+      "path": "kairos/_runtime/compat/progressive_service_policy.py",
+      "bytes": 2523,
+      "sha256": "a68966821473660a6ffd5556474fe81872b68f429d90bd554edc6b466ca453f2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "b93b10510abdf0ff91dc11c98e3e0feb11a654214552ef45a20d0b865ddfe689"
+    },
+    {
+      "path": "kairos/_runtime/compat/adaptive_service_policy.py",
+      "bytes": 2370,
+      "sha256": "3521c9031549c51b2c4813de06feb0ea8859a1cdbe2bec3e17565a37b717ed89",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "64b08879a045133a672ba3f090fe04ea0030c04471097ec5e647fc8452179a29"
+    },
+    {
+      "path": "kairos/_runtime/compat/cold_admission.py",
+      "bytes": 3983,
+      "sha256": "c563e6803fd7efd927a7812c11e540f732adc34736af1b5776e5d04fba47e218",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "7b08f22fd2d4289b5fd6934abdb80556a18ecd4a85470367d3d8e3f07ba3dd6c"
+    },
+    {
+      "path": "kairos/_runtime/compat/online_path_native.py",
+      "bytes": 3762,
+      "sha256": "067427d60c731604e4bfd5fd2b3a9e7b2c51e8ba5d6e72206fd73ebf12d88a87",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "f8ee08009fe6a9283718da073c6def76d9bfb530bab8cb0e258aa390544be12f"
+    },
+    {
+      "path": "kairos/_runtime/compat/online_path_native.cpp",
+      "bytes": 6203,
+      "sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d",
+      "transformation": "copy",
+      "source_sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d"
+    },
+    {
+      "path": "kairos/_runtime/compat/component_ablation.py",
+      "bytes": 452,
+      "sha256": "9e64cee3c6c58658928225f6d31d621f1de8c35bde5fcf0529592c10e58287d2",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c0b926e3e785b924f357838387776d220bab90c0efff7255ea6f0dc42716e2d4"
+    },
+    {
+      "path": "kairos/_runtime/compat/rank_contract.py",
+      "bytes": 6310,
+      "sha256": "f93da376e4739e89bb8498e82402e3f3379155a60753c93d88878e45ae875986",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "b4faf45fd7dc740a8ca1743da12a24ddcd6190033ffd940e14fbe6c5192ae2b1"
+    },
+    {
+      "path": "kairos/_runtime/compat/continuation_demand.py",
+      "bytes": 3094,
+      "sha256": "576c12373fb33e2b5e473b98596da7dcc5046e42acfdeaafbf6bb7398984c114",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "d69b9f4b030f0aae8c72b117364d57800730a3a2912de222c7f6bd480ceee95e"
+    },
+    {
+      "path": "kairos/_runtime/compat/holding_scheduler.py",
+      "bytes": 6345,
+      "sha256": "b728e0526200179e28a7b2ef568e75a200bb1ebd122fdb87a5a0bc447bafa47b",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "6930f5a36c6b0e38d64469e5232ec442a560b9aecb89baaed72fd780cc9b8623"
+    },
+    {
+      "path": "kairos/_runtime/compat/holding_economics.py",
+      "bytes": 2937,
+      "sha256": "546c2ce2239f2092e8ca21f3066216998daa3f1bcf926b5ab311b0da8dedadc1",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c85110e94e0c42e6d35e27399bdcf2843f82928ce0a6b413267b00d7421b515f"
+    },
+    {
+      "path": "kairos/_runtime/compat/pipelined_prefix.py",
+      "bytes": 4713,
+      "sha256": "82b85d3b405ba4420de44691365bb90beafe279200a1786f1494aed5fd53fcdf",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "91c5bc37cee596a584c83a5f65d3f7384092d07db800a422151317cc921d549d"
+    },
+    {
+      "path": "kairos/_runtime/compat/continuity_bridge.py",
+      "bytes": 35579,
+      "sha256": "f673c2eefd268f4486869779625a1b14474d1e8c2d3e924359c9c1ff2d591082",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "4808d7da6755bbc47e17eead2872272e6f1498bff46d430870dc948529ad25c0"
+    },
+    {
+      "path": "kairos/_runtime/compat/continuity_bridge_model.py",
+      "bytes": 12974,
+      "sha256": "f3e3ac5aa5c0d0c7a01879168c4605cb61e3d5df85f77ac14a24d1927c080afe",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "42436f49d329195beef90cf0cfe7aea7b52a117df64582460e50961c75e119dd"
+    },
+    {
+      "path": "kairos/_runtime/layout/pcv_scheduler.py",
+      "bytes": 24821,
+      "sha256": "1f45087757c625cd3ff9870de34d13433dda6b6166ed3038c75baaed6bbe18a9",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "3f49f69b3c60b192020767efc4150fafd9255ec3e492029b2681a952f6c90d4c"
+    },
+    {
+      "path": "kairos/_runtime/compat/layered_baseline.py",
+      "bytes": 7397,
+      "sha256": "b2d4001237ed9b03dfeb9808a6b9d1fe11049fe94ed7a869d4b1225e103f5a43",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "32f495ef7343e026f20388b2096fd3b756840b614da35fd9294719ee5e056ba3"
+    },
+    {
+      "path": "kairos/_runtime/layout/use_scheduler.py",
+      "bytes": 8461,
+      "sha256": "9a8c053a2a5583b1a9ec62b883cc7c57a1db509278146888438accc33c5c45da",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "b2d193a5701c17e742e9074607afe9da0b1bdd62361149d16ae60162e83792ff"
+    },
+    {
+      "path": "kairos/_runtime/layout/recovery_scheduler.py",
+      "bytes": 22661,
+      "sha256": "cf733639363aa2c6bffcded193df40760692bbe857389227c1433924c1b3095f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "b9e846bb4f01562c99ec21ae7e955323597da3d55791ae8432f81110247cc45d"
+    },
+    {
+      "path": "kairos/_runtime/layout/scheduler.py",
+      "bytes": 30079,
+      "sha256": "43a77b024b9b8d1f16affbd4a2ea1de16b241ddf0764a0561204d68196edfd3f",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "a185ddaadb7a85e09118e73a67c5c91f54d45665e7ef407815a97a792f82ca99"
+    },
+    {
+      "path": "kairos/_runtime/layout/gpu.py",
+      "bytes": 4994,
+      "sha256": "371bbefd83b73326746647023aa0487d60d4d982a6b18602c0786f6709cec949",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "17e639c00435f58566e06835a123b03e510638d9c036e5e7ebe0288dd1dff588"
+    },
+    {
+      "path": "kairos/_runtime/layout/execution_capacity.py",
+      "bytes": 4286,
+      "sha256": "11de9d7d35f1d59c3f30096c979218d502894eebed6cb44ed3d1b99ae74e04e1",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "0f620f983e3981cb8b932e35c7a6436586a0c766d4a0b8d0c9cc09bff6a312b4"
+    },
+    {
+      "path": "kairos/_runtime/layout/query_budget.py",
+      "bytes": 12552,
+      "sha256": "82c38327dd1f0132d80c1c83954cbfd218c87fecb7f69d546ad2f2deecd4ea84",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "ae5db43605d588ecb5f901a2c52c04c1540c1e86d93746f15f253f591df13f25"
+    },
+    {
+      "path": "kairos/_runtime/layout/segment_capacity.py",
+      "bytes": 583,
+      "sha256": "f70cd7681f4d83979b7a4f6ad7d198924913c16a55d36a87946929a200436a0c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "be19db3cb03c3798fc0e6f60c0a2c34958ca09b9c0831eae2e05b8983f77133e"
+    },
+    {
+      "path": "kairos/_runtime/compat/probation_scheduler.py",
+      "bytes": 23051,
+      "sha256": "fac595c99c7c8088d200030a7bf1ec9f9df14cec42fe644a38a1c9ddc509bf8c",
+      "transformation": "import relocation; selected live core extraction",
+      "source_sha256": "c7770609fdbae30030312e3129c4c5888ae75178afd2f6d562a2a08f4884ff5f"
+    },
+    {
+      "path": "kairos/__init__.py",
+      "bytes": 37,
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
+      "transformation": "copy"
+    },
+    {
+      "path": "kairos/_runtime/__init__.py",
+      "bytes": 37,
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
+      "transformation": "copy"
+    },
+    {
+      "path": "kairos/_runtime/compat/__init__.py",
+      "bytes": 37,
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
+      "transformation": "copy"
+    },
+    {
+      "path": "kairos/_runtime/layout/__init__.py",
+      "bytes": 37,
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
+      "transformation": "copy"
+    },
+    {
+      "path": "kairos/_runtime/replay.py",
+      "bytes": 17906,
+      "sha256": "b468239b898c483451b03035f29c9b1a2db451be0e60db7549de7bac624711b7",
+      "transformation": "exact function extraction; reject unshipped tool harnesses",
+      "source_sha256": "f16304c2dbbdf78630263b1f6f1d2fb07e136f19b735de278d69b4e0d2de5d09"
+    },
+    {
+      "path": "kairos/causal.py",
+      "bytes": 4977,
+      "sha256": "5ce8b482fe2cfd018a97f3752c10b197304e59946e4c0198cd963578cc74f434",
+      "transformation": "pure function extraction",
+      "source_sha256": "42bcab66be8f49292d3de2813f3281a738b3d24b48dca8a111ee9f5bed4bf56e"
+    },
+    {
+      "path": "kairos/training_algorithm.py",
+      "bytes": 4172,
+      "sha256": "862bb8df002543115e6e377394e5be3fbe6a16e678c841e8e4a46a9f29460fc6",
+      "transformation": "selected algorithm extraction",
+      "source_sha256": "4947b728cd3c17eadf2ba5b4212ab7d9cb0d9b8728cf2e324037d2d246dde7dd"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/PROVENANCE.md",
+      "bytes": 1213,
+      "sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2",
+      "transformation": "copy",
+      "source_sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_manager.py",
+      "bytes": 23577,
+      "sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd",
+      "transformation": "copy",
+      "source_sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/__init__.py",
+      "bytes": 2403,
+      "sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103",
+      "transformation": "copy",
+      "source_sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/base.py",
+      "bytes": 9325,
+      "sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2",
+      "transformation": "copy",
+      "source_sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/eviction_aware.py",
+      "bytes": 25401,
+      "sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33",
+      "transformation": "copy",
+      "source_sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/fifo.py",
+      "bytes": 5731,
+      "sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6",
+      "transformation": "copy",
+      "source_sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_state.py",
+      "bytes": 9218,
+      "sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289",
+      "transformation": "copy",
+      "source_sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lmcache_mp_connector.py",
+      "bytes": 75466,
+      "sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b",
+      "transformation": "copy",
+      "source_sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b"
+    },
+    {
+      "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lmcache_mp_metadata.py",
+      "bytes": 19144,
+      "sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f",
+      "transformation": "copy",
+      "source_sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f"
+    },
+    {
+      "path": "kairos/_runtime/vendor/hicache-3dc9136/PROVENANCE.md",
+      "bytes": 2384,
+      "sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b",
+      "transformation": "copy",
+      "source_sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b"
+    },
+    {
+      "path": "kairos/_runtime/vendor/hicache-3dc9136/full_component.py",
+      "bytes": 16340,
+      "sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66",
+      "transformation": "copy",
+      "source_sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66"
+    },
+    {
+      "path": "kairos/_runtime/vendor/hicache-3dc9136/unified_tree_core.py",
+      "bytes": 100763,
+      "sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a",
+      "transformation": "copy",
+      "source_sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a"
+    },
+    {
+      "path": "kairos/_runtime/vendor/efficientagent-b21b12a/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transformation": "copy",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "kairos/_runtime/vendor/efficientagent-b21b12a/PROVENANCE.md",
+      "bytes": 1618,
+      "sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623",
+      "transformation": "copy",
+      "source_sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623"
+    },
+    {
+      "path": "kairos/_runtime/vendor/efficientagent-b21b12a/connector.py",
+      "bytes": 15503,
+      "sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268",
+      "transformation": "copy",
+      "source_sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268"
+    },
+    {
+      "path": "assets/forest.json",
+      "bytes": 1550201,
+      "sha256": "cb3d0859f7c837bb4aa719cc2aaa3ca5e8ceec40fa593cd14ea55a286bab1274",
+      "transformation": "copy",
+      "source_sha256": "cb3d0859f7c837bb4aa719cc2aaa3ca5e8ceec40fa593cd14ea55a286bab1274"
+    },
+    {
+      "path": "assets/reference_profile.json",
+      "bytes": 456,
+      "sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87",
+      "transformation": "copy",
+      "source_sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87"
+    },
+    {
+      "path": "assets/program_prior.json",
+      "bytes": 42969,
+      "sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c",
+      "transformation": "copy",
+      "source_sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c"
+    },
+    {
+      "path": "data/workload/trace.json",
+      "bytes": 2352957,
+      "sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
+      "transformation": "copy",
+      "source_sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8"
+    },
+    {
+      "path": "data/workload/visible_messages.json",
+      "bytes": 3880488,
+      "sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a",
+      "transformation": "copy",
+      "source_sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a"
+    },
+    {
+      "path": "data/workload/visible_protocol.json",
+      "bytes": 36301,
+      "sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27",
+      "transformation": "copy",
+      "source_sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27"
+    },
+    {
+      "path": "data/training/causal_states.json.gz",
+      "bytes": 3840707,
+      "sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995",
+      "transformation": "copy",
+      "source_sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995"
+    },
+    {
+      "path": "assets/deployment_profile.json",
+      "bytes": 19722,
+      "sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022",
+      "transformation": "copy",
+      "source_sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022"
+    },
+    {
+      "path": "assets/reload_profile.json",
+      "bytes": 4002,
+      "sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2",
+      "transformation": "copy",
+      "source_sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2"
+    },
+    {
+      "path": "results/predictor.json",
+      "bytes": 12083,
+      "sha256": "d19f2893fe56b579cacb092cb614a33558e434d9608d722b2aa9060005f3279b",
+      "transformation": "JSON export",
+      "source_sha256": "92e6a61ac7c6f7dde6715ee6936b03f9bfca4c44248ec9f6aaf8b607505996a1"
+    },
+    {
+      "path": "results/kairos/jobs.json",
+      "bytes": 8383,
+      "sha256": "082d1152c85cca1adfc995f1e697c064f786e7c6797e1c7697263985054b28a9",
+      "transformation": "method label only",
+      "source_sha256": "082d1152c85cca1adfc995f1e697c064f786e7c6797e1c7697263985054b28a9"
+    },
+    {
+      "path": "results/kairos/summary.json",
+      "bytes": 847,
+      "sha256": "89a85902db7f78d930e5c6bc849c98ddebfe228b8c8b8ce5cf0e14e5da93c0ae",
+      "transformation": "method label only",
+      "source_sha256": "ad191d8fb08abff96b7992d7bc45f5796ad9df1f8c833ea53ad598723b52d0f9"
+    },
+    {
+      "path": "results/kairos/requests.jsonl",
+      "bytes": 927630,
+      "sha256": "19f7046bd35b599ceb7cdb2b6d2d9ccf1269903f187b02545f4ba2603b7cb740",
+      "transformation": "method label only",
+      "source_sha256": "19f7046bd35b599ceb7cdb2b6d2d9ccf1269903f187b02545f4ba2603b7cb740"
+    },
+    {
+      "path": "results/kairos/resources.json",
+      "bytes": 50974,
+      "sha256": "9ec2385be9a08cdd5e9f16a16f9a365b5c77231168e032eb8b54d59ec9dda6a5",
+      "transformation": "JSON export",
+      "source_sha256": "9ec2385be9a08cdd5e9f16a16f9a365b5c77231168e032eb8b54d59ec9dda6a5"
+    },
+    {
+      "path": "results/kairos/gapped-correctness.json",
+      "bytes": 1111364,
+      "sha256": "5b754d38773318e2f707ca448d55de97f8162110e99f13c36c799758ca8d465a",
+      "transformation": "JSON export",
+      "source_sha256": "8b81614835f4e186b16117d792f211bc13cbe52e1eaea141f653bb23a24c3f3f"
+    },
+    {
+      "path": "results/kairos/cleanup.json",
+      "bytes": 313,
+      "sha256": "36ca2d47593948fd348c3822ef1ba7d9c4389c64849bc71909cb8931c4fa407e",
+      "transformation": "JSON export",
+      "source_sha256": "36ca2d47593948fd348c3822ef1ba7d9c4389c64849bc71909cb8931c4fa407e"
+    },
+    {
+      "path": "results/kairos/scheduler.jsonl.gz",
+      "bytes": 4542782,
+      "sha256": "7cc77c88eb5ce23f50a45e79e01844996e26e39b0cda935cc8469aa3d0a4b416",
+      "transformation": "lossless gzip; original private event identifiers preserved",
+      "source_sha256": "33927d8a26033d890e59c276c7457d586c0eb35e6d3df3b0edc89f2bc5164fa9"
+    },
+    {
+      "path": "configs/kairos.json",
+      "bytes": 4041,
+      "sha256": "3db4c729b2972210e3eb5646c8dbb7cdd0d5d0f47c34d42da4ff640b753257cf",
+      "transformation": "JSON export",
+      "source_sha256": "60414d1b58df7e54c9fca4f30ae68c3cf018961791a8aacffafe0f82d4b854a0"
+    },
+    {
+      "path": "results/continuum/jobs.json",
+      "bytes": 8370,
+      "sha256": "2380c4fa7dec4129fe415ab0c9d0cf4bcd265a4370272356604abe13b5670631",
+      "transformation": "method label only",
+      "source_sha256": "2380c4fa7dec4129fe415ab0c9d0cf4bcd265a4370272356604abe13b5670631"
+    },
+    {
+      "path": "results/continuum/summary.json",
+      "bytes": 851,
+      "sha256": "74be9b425a900bb84447195ce4c13f7c46f10f2d43c39e922fbed3cbf28ef38d",
+      "transformation": "method label only",
+      "source_sha256": "91b4a572d8e00d4602576c4d04a335d32b10bc2c1ece8e54e3419964cb87da72"
+    },
+    {
+      "path": "results/continuum/requests.jsonl",
+      "bytes": 928572,
+      "sha256": "31024af0181882cc2f3c1eb8e5fa167df6719545e8755080a415355fe4d7cb2c",
+      "transformation": "method label only",
+      "source_sha256": "31024af0181882cc2f3c1eb8e5fa167df6719545e8755080a415355fe4d7cb2c"
+    },
+    {
+      "path": "results/continuum/resources.json",
+      "bytes": 54115,
+      "sha256": "b706176be070e8febee685ae1c7126eb8f79977b99ade5ad73241464fee61b7c",
+      "transformation": "JSON export",
+      "source_sha256": "b706176be070e8febee685ae1c7126eb8f79977b99ade5ad73241464fee61b7c"
+    },
+    {
+      "path": "results/continuum/gapped-correctness.json",
+      "bytes": 1111365,
+      "sha256": "67c4bb3cd9d86e8e2bf747047f2b6c9597614627538fcf78b686548868467e86",
+      "transformation": "JSON export",
+      "source_sha256": "209f1c4dd459588721fa0dc232e42552f38f4b8470fc73de82ab5e7874de4226"
+    },
+    {
+      "path": "results/continuum/cleanup.json",
+      "bytes": 311,
+      "sha256": "9bf5916b8529a40a13739f5446be3fef859f18a9a2b80a758a91de3eb261bc57",
+      "transformation": "JSON export",
+      "source_sha256": "9bf5916b8529a40a13739f5446be3fef859f18a9a2b80a758a91de3eb261bc57"
+    },
+    {
+      "path": "results/continuum/scheduler.jsonl.gz",
+      "bytes": 2667289,
+      "sha256": "3c475ede20ca18179cf63b65aa81baf287efcfa5dc64abb172161fdc7ca5cacb",
+      "transformation": "lossless gzip; original private event identifiers preserved",
+      "source_sha256": "a3744ba2393b7371f25070d89584fb2d12beb9722e0520a22cb183574b2b9f24"
+    },
+    {
+      "path": "configs/continuum.json",
+      "bytes": 3620,
+      "sha256": "eb38fcf8094ab6d9f234c7e5bdf31b49b9597eea6d5fadace44ea87ba0e84caa",
+      "transformation": "JSON export",
+      "source_sha256": "01fc862ac8e37b8f507bd30e7a3acf84ab4f46c5c58b9c07abd180824b971068"
+    },
+    {
+      "path": "results/comparison.json",
+      "bytes": 5785,
+      "sha256": "81f71ff84eb43135ec04848d977730dda1a8e02b354c26c94e50740a88410185",
+      "transformation": "JSON export"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 3095,
+      "sha256": "cf6cc3d32a55b70768bff38f8da3c6e3abae6715ef99c5be3d0dbff03267626c",
+      "transformation": "JSON export"
+    },
+    {
+      "path": "provenance/measured_source_hashes.json",
+      "bytes": 38939,
+      "sha256": "1e3c32052d0a83b590f73796e2d6ddd1be19b3f978b880f4a68eaf8bb1114801",
+      "transformation": "JSON export"
+    },
+    {
+      "path": "results/mechanism.json",
+      "bytes": 5304,
+      "sha256": "560f3ceabb92af9378b021fc30285847ad975afe8beee350fff34e862e859e3d",
+      "transformation": "JSON export"
+    },
+    {
+      "path": "tests/fixtures/forest_predictions.json",
+      "bytes": 384007,
+      "sha256": "17252ce068babb7da14d692d15622a24ff511ccca2f68b43fea0776b1c2d6e81",
+      "transformation": "JSON export"
+    },
+    {
+      "path": "provenance/runtime-lock.txt",
+      "bytes": 5110,
+      "sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f",
+      "transformation": "copy",
+      "source_sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f"
+    },
+    {
+      "path": "results/kairos/server.log.gz",
+      "bytes": 8496,
+      "sha256": "d8244853bb93800d39dee16a6a85a56f2435dc2fd94e05b03702dcbb2245e3f4",
+      "transformation": "lossless gzip",
+      "source_sha256": "9ec734846325603e83043e55cb19e15f129e6d3c9e001663e246b5009856fe23"
+    },
+    {
+      "path": "results/kairos/lmcache.log.gz",
+      "bytes": 9189,
+      "sha256": "f6192f3e882a5eaaa482eecf9c0785b7e68f43334d24619876c2cd496364eee2",
+      "transformation": "lossless gzip",
+      "source_sha256": "d8f57d77fe26edb182f5b20264c961fcd2e8beb928fea54b851be7b88fda774e"
+    },
+    {
+      "path": "results/kairos/gapped-worker.jsonl.gz",
+      "bytes": 4837,
+      "sha256": "324341566b59ee5c69b85c51474301f91d5035cdaa6f29bff5b5aa9f8f3ff1da",
+      "transformation": "lossless gzip",
+      "source_sha256": "e1d9e26a67340d5e6f0b68bbe4e46b53c35b320cba1c6a9f7145a7e3367d6e1a"
+    },
+    {
+      "path": "results/kairos/transfers.jsonl.gz",
+      "bytes": 11495,
+      "sha256": "2412ecfaaccd37a7733c0ce2c48a9f442f15f68676e23013e9e98d68f609836d",
+      "transformation": "lossless gzip",
+      "source_sha256": "9cfd0cc709ca12314ee3279f7db359b098593702b275ee544a9f85cb1a86d5df"
+    },
+    {
+      "path": "results/kairos/replicas.jsonl.gz",
+      "bytes": 223718,
+      "sha256": "4b6d6e903f63aa57dec02c1f2f56f26e30479a8341cae6111532b2e5e274ba76",
+      "transformation": "lossless gzip",
+      "source_sha256": "55d19e907ca10095a5cd70eeef058415413488cd44f02cdab9e5573ef416c434"
+    },
+    {
+      "path": "results/continuum/server.log.gz",
+      "bytes": 9025,
+      "sha256": "9ed67cdafc2f54d634d031a18cab93f9683f2843a41701b80f347d80deb7bfca",
+      "transformation": "lossless gzip",
+      "source_sha256": "9e8056ada9d473eab6393550f5df6014139000332b9124e91ec0335b6093546b"
+    },
+    {
+      "path": "results/continuum/lmcache.log.gz",
+      "bytes": 8085,
+      "sha256": "93e458476a4cc8cbb97f4a54cf157e66e5cf3cba1eb0a97d0853d0968e81b454",
+      "transformation": "lossless gzip",
+      "source_sha256": "47b4aa8b29ba3f930dafc85b41e773e71db301b66142df8a6556b0f00adf54de"
+    },
+    {
+      "path": "results/continuum/gapped-worker.jsonl.gz",
+      "bytes": 4748,
+      "sha256": "80f3c16264849dec4aa964bd0bd99e961a313c22401a2890cc0e0b5dbe79407d",
+      "transformation": "lossless gzip",
+      "source_sha256": "047525e743fc575a9c6df60f1b479883aa58834ccceab819f6e8b3c160d495ae"
+    },
+    {
+      "path": "results/continuum/transfers.jsonl.gz",
+      "bytes": 11216,
+      "sha256": "beaae16935b197fcde141c6da79054f158130fa81d37a01610a52a011ab2350c",
+      "transformation": "lossless gzip",
+      "source_sha256": "e3002e8fcc86a5efa0b603373aad36336d812a9fdaada321b64b81d4766cf11c"
+    },
+    {
+      "path": "results/continuum/replicas.jsonl.gz",
+      "bytes": 214084,
+      "sha256": "f91117e8b4c98215a51e87b1cfb423478c8cc13cc12e39ad1193dca8bff2959a",
+      "transformation": "lossless gzip",
+      "source_sha256": "3ea32a95879d12d7f56445306a4b4688e56ca5c0d31933962b176b8e09ec1a8e"
+    },
+    {
+      "path": "provenance/tokenizer-verification.json",
+      "bytes": 88,
+      "sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5",
+      "transformation": "JSON export",
+      "source_sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5"
+    }
+  ],
+  "note": "Source hashes identify measured artifacts; packaging and source relocation are not a GPU rerun."
+}

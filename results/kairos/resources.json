@@ -1,0 +1,1900 @@
+[
+  {
+    "time": 1793012610.350235,
+    "stage": "lmcache_startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "1",
+      "util": "0"
+    },
+    "available_ram": 51215884288,
+    "owned_rss": 40058880,
+    "new_foreign_gpu_pids": []
+  },
+  {
+    "time": 1793012615.663318,
+    "stage": "lmcache_startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "4",
+      "util": "0"
+    },
+    "available_ram": 50808487936,
+    "owned_rss": 745832448,
+    "new_foreign_gpu_pids": []
+  },
+  {
+    "time": 1793012620.939005,
+    "stage": "lmcache_startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "404",
+      "util": "5"
+    },
+    "available_ram": 46098817024,
+    "owned_rss": 5796036608,
+    "new_foreign_gpu_pids": []
+  },
+  {
+    "time": 1793012621.2346184,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "404",
+      "util": "5"
+    },
+    "available_ram": 45478313984,
+    "owned_rss": 6698594304,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.1630859375,
+      4.92138671875,
+      5.19482421875
+    ],
+    "cpu_pressure": "some avg10=9.64 avg60=9.98 avg300=9.03 total=580555391877\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012626.5068882,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "412",
+      "util": "0"
+    },
+    "available_ram": 41672138752,
+    "owned_rss": 10270896128,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.06982421875,
+      4.88916015625,
+      5.1826171875
+    ],
+    "cpu_pressure": "some avg10=8.77 avg60=9.71 avg300=8.99 total=580555916715\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012631.7736697,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "412",
+      "util": "0"
+    },
+    "available_ram": 41375293440,
+    "owned_rss": 10676330496,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.06396484375,
+      4.8740234375,
+      5.17578125
+    ],
+    "cpu_pressure": "some avg10=7.12 avg60=9.31 avg300=8.92 total=580556254193\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012637.026023,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "412",
+      "util": "0"
+    },
+    "available_ram": 40725610496,
+    "owned_rss": 11638669312,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.8984375,
+      4.826171875,
+      5.15869140625
+    ],
+    "cpu_pressure": "some avg10=7.31 avg60=9.17 avg300=8.90 total=580556708613\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012642.291956,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "412",
+      "util": "0"
+    },
+    "available_ram": 40532660224,
+    "owned_rss": 11867996160,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.38916015625,
+      5.3271484375,
+      5.3193359375
+    ],
+    "cpu_pressure": "some avg10=9.47 avg60=9.47 avg300=8.97 total=580557339178\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012647.5612717,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16581",
+      "util": "0"
+    },
+    "available_ram": 38328238080,
+    "owned_rss": 14407880704,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.27783203125,
+      5.3212890625,
+      5.3173828125
+    ],
+    "cpu_pressure": "some avg10=6.94 avg60=8.99 avg300=8.87 total=580557384159\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012652.840653,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16581",
+      "util": "0"
+    },
+    "available_ram": 35225513984,
+    "owned_rss": 17500745728,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.01513671875,
+      5.28271484375,
+      5.3046875
+    ],
+    "cpu_pressure": "some avg10=9.60 avg60=9.29 avg300=8.93 total=580558275497\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012658.1301422,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16581",
+      "util": "0"
+    },
+    "available_ram": 36184006656,
+    "owned_rss": 16356843520,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.93359375,
+      5.27783203125,
+      5.302734375
+    ],
+    "cpu_pressure": "some avg10=6.78 avg60=8.75 avg300=8.83 total=580558424594\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012663.409967,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16581",
+      "util": "0"
+    },
+    "available_ram": 29120737280,
+    "owned_rss": 23620083712,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.83447265625,
+      5.498046875,
+      5.37451171875
+    ],
+    "cpu_pressure": "some avg10=7.81 avg60=8.82 avg300=8.84 total=580558900896\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012668.687517,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16581",
+      "util": "0"
+    },
+    "available_ram": 31171416064,
+    "owned_rss": 21576343552,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.52734375,
+      5.45654296875,
+      5.361328125
+    ],
+    "cpu_pressure": "some avg10=5.19 avg60=8.18 avg300=8.70 total=580559061445\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012673.9573379,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "16541",
+      "util": "0"
+    },
+    "available_ram": 40291336192,
+    "owned_rss": 12396027904,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.16455078125,
+      5.39892578125,
+      5.34326171875
+    ],
+    "cpu_pressure": "some avg10=5.79 avg60=8.08 avg300=8.67 total=580559491972\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012679.226456,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "22461",
+      "util": "0"
+    },
+    "available_ram": 39763197952,
+    "owned_rss": 12930011136,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.1513671875,
+      5.4091796875,
+      5.34716796875
+    ],
+    "cpu_pressure": "some avg10=4.60 avg60=7.69 avg300=8.58 total=580559649479\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012684.500642,
+    "stage": "startup",
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "22509",
+      "util": "0"
+    },
+    "available_ram": 39379124224,
+    "owned_rss": 13370875904,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.89892578125,
+      5.369140625,
+      5.33447265625
+    ],
+    "cpu_pressure": "some avg10=6.50 avg60=7.81 avg300=8.59 total=580560140564\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012685.1976027,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23200",
+      "util": "94"
+    },
+    "available_ram": 39353028608,
+    "owned_rss": 13381574656,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.89892578125,
+      5.369140625,
+      5.33447265625
+    ],
+    "cpu_pressure": "some avg10=6.50 avg60=7.81 avg300=8.59 total=580560143087\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012687.2112331,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "0"
+    },
+    "available_ram": 39253893120,
+    "owned_rss": 13523279872,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.89892578125,
+      5.369140625,
+      5.33447265625
+    ],
+    "cpu_pressure": "some avg10=5.32 avg60=7.56 avg300=8.53 total=580560162198\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012689.2253277,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "0"
+    },
+    "available_ram": 39249063936,
+    "owned_rss": 13526249472,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.74658203125,
+      5.34619140625,
+      5.3271484375
+    ],
+    "cpu_pressure": "some avg10=5.26 avg60=7.47 avg300=8.51 total=580560321374\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012691.2329192,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "84"
+    },
+    "available_ram": 39245959168,
+    "owned_rss": 13527216128,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.74658203125,
+      5.34619140625,
+      5.3271484375
+    ],
+    "cpu_pressure": "some avg10=6.30 avg60=7.59 avg300=8.52 total=580560538140\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012693.2402034,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "0"
+    },
+    "available_ram": 39242756096,
+    "owned_rss": 13528113152,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.74658203125,
+      5.34619140625,
+      5.3271484375
+    ],
+    "cpu_pressure": "some avg10=6.79 avg60=7.63 avg300=8.53 total=580560727637\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012695.2468593,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "100"
+    },
+    "available_ram": 39241781248,
+    "owned_rss": 13529690112,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.4462890625,
+      5.29052734375,
+      5.30908203125
+    ],
+    "cpu_pressure": "some avg10=7.73 avg60=7.78 avg300=8.55 total=580560991038\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012697.2619083,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "24"
+    },
+    "available_ram": 39242469376,
+    "owned_rss": 13530103808,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.4462890625,
+      5.29052734375,
+      5.30908203125
+    ],
+    "cpu_pressure": "some avg10=6.69 avg60=7.59 avg300=8.51 total=580561008722\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012699.2712617,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "0"
+    },
+    "available_ram": 39236636672,
+    "owned_rss": 13530230784,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.25,
+      5.25244140625,
+      5.29638671875
+    ],
+    "cpu_pressure": "some avg10=5.48 avg60=7.34 avg300=8.45 total=580561010961\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012701.2860112,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "100"
+    },
+    "available_ram": 39236833280,
+    "owned_rss": 13530390528,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.25,
+      5.25244140625,
+      5.29638671875
+    ],
+    "cpu_pressure": "some avg10=4.67 avg60=7.13 avg300=8.40 total=580561077155\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012702.4717648,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "0"
+    },
+    "available_ram": 39232245760,
+    "owned_rss": 13530607616,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.25,
+      5.25244140625,
+      5.29638671875
+    ],
+    "cpu_pressure": "some avg10=7.08 avg60=7.49 avg300=8.46 total=580561286579\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012704.4781966,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "100"
+    },
+    "available_ram": 39211573248,
+    "owned_rss": 13532196864,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.98974609375,
+      5.1982421875,
+      5.2783203125
+    ],
+    "cpu_pressure": "some avg10=8.70 avg60=7.77 avg300=8.51 total=580561626594\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012706.48395,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "100"
+    },
+    "available_ram": 39209828352,
+    "owned_rss": 13533859840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.98974609375,
+      5.1982421875,
+      5.2783203125
+    ],
+    "cpu_pressure": "some avg10=8.21 avg60=7.71 avg300=8.50 total=580561761438\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012708.4890175,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "100"
+    },
+    "available_ram": 39209250816,
+    "owned_rss": 13534126080,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.669921875,
+      5.12841796875,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=6.72 avg60=7.46 avg300=8.44 total=580561765455\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012710.4941618,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23202",
+      "util": "93"
+    },
+    "available_ram": 39205445632,
+    "owned_rss": 13538324480,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.669921875,
+      5.12841796875,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=5.50 avg60=7.21 avg300=8.38 total=580561769168\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012712.499821,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "89"
+    },
+    "available_ram": 39203823616,
+    "owned_rss": 13540036608,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.669921875,
+      5.12841796875,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=7.22 avg60=7.47 avg300=8.43 total=580562087877\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012714.5046256,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39201636352,
+    "owned_rss": 13541687296,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.5361328125,
+      5.0927734375,
+      5.24267578125
+    ],
+    "cpu_pressure": "some avg10=8.81 avg60=7.75 avg300=8.48 total=580562425118\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012716.5106034,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "61"
+    },
+    "available_ram": 39199682560,
+    "owned_rss": 13543993344,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.5361328125,
+      5.0927734375,
+      5.24267578125
+    ],
+    "cpu_pressure": "some avg10=7.94 avg60=7.62 avg300=8.45 total=580562514520\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012718.5157726,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39199178752,
+    "owned_rss": 13544587264,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.3330078125,
+      5.041015625,
+      5.22509765625
+    ],
+    "cpu_pressure": "some avg10=6.68 avg60=7.41 avg300=8.40 total=580562540329\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012720.5207732,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39197331456,
+    "owned_rss": 13546323968,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.3330078125,
+      5.041015625,
+      5.22509765625
+    ],
+    "cpu_pressure": "some avg10=5.47 avg60=7.16 avg300=8.34 total=580562546112\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012722.5262613,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39197016064,
+    "owned_rss": 13546889216,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.3330078125,
+      5.041015625,
+      5.22509765625
+    ],
+    "cpu_pressure": "some avg10=7.56 avg60=7.48 avg300=8.40 total=580562888122\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012724.5317993,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39196549120,
+    "owned_rss": 13547499520,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.38671875,
+      5.0400390625,
+      5.2236328125
+    ],
+    "cpu_pressure": "some avg10=8.36 avg60=7.63 avg300=8.42 total=580563133075\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012726.5369937,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "85"
+    },
+    "available_ram": 39194656768,
+    "owned_rss": 13548740608,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.38671875,
+      5.0400390625,
+      5.2236328125
+    ],
+    "cpu_pressure": "some avg10=7.39 avg60=7.48 avg300=8.39 total=580563176886\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012728.5433385,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39194722304,
+    "owned_rss": 13548961792,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.91650390625,
+      5.13916015625,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=6.05 avg60=7.24 avg300=8.33 total=580563295267\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012730.5486794,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39193149440,
+    "owned_rss": 13549903872,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.91650390625,
+      5.13916015625,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=8.21 avg60=7.59 avg300=8.39 total=580563655097\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012732.5558062,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39193219072,
+    "owned_rss": 13550198784,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.91650390625,
+      5.13916015625,
+      5.2548828125
+    ],
+    "cpu_pressure": "some avg10=8.36 avg60=7.63 avg300=8.40 total=580563844619\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012734.5619078,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39190794240,
+    "owned_rss": 13551054848,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.8427734375,
+      5.1201171875,
+      5.248046875
+    ],
+    "cpu_pressure": "some avg10=8.11 avg60=7.61 avg300=8.39 total=580564002735\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012736.5675647,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39190614016,
+    "owned_rss": 13552414720,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.8427734375,
+      5.1201171875,
+      5.248046875
+    ],
+    "cpu_pressure": "some avg10=7.73 avg60=7.56 avg300=8.37 total=580564054066\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012738.5731306,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "89"
+    },
+    "available_ram": 39190212608,
+    "owned_rss": 13552914432,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.69482421875,
+      5.08447265625,
+      5.23583984375
+    ],
+    "cpu_pressure": "some avg10=6.32 avg60=7.31 avg300=8.31 total=580564056930\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012740.5790865,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "44"
+    },
+    "available_ram": 39189913600,
+    "owned_rss": 13553033216,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.69482421875,
+      5.08447265625,
+      5.23583984375
+    ],
+    "cpu_pressure": "some avg10=5.18 avg60=7.07 avg300=8.26 total=580564090200\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012742.584416,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39190401024,
+    "owned_rss": 13553037312,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.69482421875,
+      5.08447265625,
+      5.23583984375
+    ],
+    "cpu_pressure": "some avg10=5.51 avg60=7.07 avg300=8.25 total=580564339176\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012744.5889983,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "78"
+    },
+    "available_ram": 39188717568,
+    "owned_rss": 13553090560,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.7197265625,
+      5.0830078125,
+      5.234375
+    ],
+    "cpu_pressure": "some avg10=7.41 avg60=7.36 avg300=8.30 total=580564642708\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012746.5942726,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "64"
+    },
+    "available_ram": 39190151168,
+    "owned_rss": 13553102848,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.7197265625,
+      5.0830078125,
+      5.234375
+    ],
+    "cpu_pressure": "some avg10=7.15 avg60=7.32 avg300=8.29 total=580564678322\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012748.6006913,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39189774336,
+    "owned_rss": 13553500160,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.50146484375,
+      5.03173828125,
+      5.216796875
+    ],
+    "cpu_pressure": "some avg10=5.85 avg60=7.08 avg300=8.23 total=580564681350\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012750.6058924,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39189598208,
+    "owned_rss": 13553516544,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.50146484375,
+      5.03173828125,
+      5.216796875
+    ],
+    "cpu_pressure": "some avg10=4.79 avg60=6.85 avg300=8.17 total=580564771629\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012752.6108704,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39189430272,
+    "owned_rss": 13553516544,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.50146484375,
+      5.03173828125,
+      5.216796875
+    ],
+    "cpu_pressure": "some avg10=6.64 avg60=7.11 avg300=8.22 total=580565069608\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012754.616069,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "50"
+    },
+    "available_ram": 39187574784,
+    "owned_rss": 13553725440,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.54150390625,
+      5.03076171875,
+      5.21533203125
+    ],
+    "cpu_pressure": "some avg10=7.43 avg60=7.24 avg300=8.24 total=580565283754\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012756.6217527,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39188959232,
+    "owned_rss": 13553848320,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.54150390625,
+      5.03076171875,
+      5.21533203125
+    ],
+    "cpu_pressure": "some avg10=6.81 avg60=7.13 avg300=8.21 total=580565374144\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012758.6274455,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39188684800,
+    "owned_rss": 13553934336,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.57861328125,
+      5.02978515625,
+      5.2138671875
+    ],
+    "cpu_pressure": "some avg10=8.47 avg60=7.42 avg300=8.26 total=580565655427\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012760.6327462,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39189172224,
+    "owned_rss": 13553950720,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.57861328125,
+      5.02978515625,
+      5.2138671875
+    ],
+    "cpu_pressure": "some avg10=6.94 avg60=7.18 avg300=8.21 total=580565668327\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012762.638487,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "84"
+    },
+    "available_ram": 39188271104,
+    "owned_rss": 13554364416,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.57861328125,
+      5.02978515625,
+      5.2138671875
+    ],
+    "cpu_pressure": "some avg10=7.31 avg60=7.24 avg300=8.21 total=580565885939\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012764.6448746,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39188369408,
+    "owned_rss": 13554388992,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.3720703125,
+      4.97900390625,
+      5.1962890625
+    ],
+    "cpu_pressure": "some avg10=7.80 avg60=7.33 avg300=8.22 total=580566083603\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012766.6505992,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "78"
+    },
+    "available_ram": 39188459520,
+    "owned_rss": 13554393088,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.3720703125,
+      4.97900390625,
+      5.1962890625
+    ],
+    "cpu_pressure": "some avg10=6.38 avg60=7.09 avg300=8.17 total=580566089529\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012768.6559262,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39187886080,
+    "owned_rss": 13554397184,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.181640625,
+      4.92919921875,
+      5.1787109375
+    ],
+    "cpu_pressure": "some avg10=5.41 avg60=6.89 avg300=8.12 total=580566114548\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012770.661012,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39187779584,
+    "owned_rss": 13554401280,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.181640625,
+      4.92919921875,
+      5.1787109375
+    ],
+    "cpu_pressure": "some avg10=4.79 avg60=6.73 avg300=8.08 total=580566281932\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012772.6664836,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39187021824,
+    "owned_rss": 13554556928,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.181640625,
+      4.92919921875,
+      5.1787109375
+    ],
+    "cpu_pressure": "some avg10=7.36 avg60=7.13 avg300=8.15 total=580566669769\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012774.6722004,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39187468288,
+    "owned_rss": 13554552832,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.0869140625,
+      4.89697265625,
+      5.1669921875
+    ],
+    "cpu_pressure": "some avg10=7.11 avg60=7.09 avg300=8.14 total=580566796851\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012776.6788874,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39186296832,
+    "owned_rss": 13554937856,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.0869140625,
+      4.89697265625,
+      5.1669921875
+    ],
+    "cpu_pressure": "some avg10=5.82 avg60=6.86 avg300=8.08 total=580566799117\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012778.6838892,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185612800,
+    "owned_rss": 13555236864,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.83935546875,
+      4.83203125,
+      5.14453125
+    ],
+    "cpu_pressure": "some avg10=4.77 avg60=6.64 avg300=8.02 total=580566801246\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012780.689413,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185661952,
+    "owned_rss": 13555236864,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.83935546875,
+      4.83203125,
+      5.14453125
+    ],
+    "cpu_pressure": "some avg10=6.08 avg60=6.81 avg300=8.05 total=580567061399\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012782.6980715,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185870848,
+    "owned_rss": 13555261440,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.83935546875,
+      4.83203125,
+      5.14453125
+    ],
+    "cpu_pressure": "some avg10=9.50 avg60=7.41 avg300=8.17 total=580567574534\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012784.703784,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39186468864,
+    "owned_rss": 13555294208,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.8525390625,
+      4.81787109375,
+      5.13818359375
+    ],
+    "cpu_pressure": "some avg10=10.32 avg60=7.62 avg300=8.21 total=580567874440\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012786.7092023,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185731584,
+    "owned_rss": 13555294208,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.8525390625,
+      4.81787109375,
+      5.13818359375
+    ],
+    "cpu_pressure": "some avg10=8.45 avg60=7.37 avg300=8.15 total=580567877960\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012788.713883,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "92"
+    },
+    "available_ram": 39184900096,
+    "owned_rss": 13555531776,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.7841796875,
+      4.78759765625,
+      5.12646484375
+    ],
+    "cpu_pressure": "some avg10=6.92 avg60=7.13 avg300=8.10 total=580567881468\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012790.7194262,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185616896,
+    "owned_rss": 13555556352,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.7841796875,
+      4.78759765625,
+      5.12646484375
+    ],
+    "cpu_pressure": "some avg10=7.11 avg60=7.16 avg300=8.09 total=580568044091\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012792.7241483,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39185747968,
+    "owned_rss": 13555556352,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.7841796875,
+      4.78759765625,
+      5.12646484375
+    ],
+    "cpu_pressure": "some avg10=9.45 avg60=7.58 avg300=8.18 total=580568457183\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012794.7293935,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39184949248,
+    "owned_rss": 13555589120,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.64111328125,
+      4.7412109375,
+      5.109375
+    ],
+    "cpu_pressure": "some avg10=9.18 avg60=7.59 avg300=8.17 total=580568627005\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012796.7347574,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39184678912,
+    "owned_rss": 13556097024,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.64111328125,
+      4.7412109375,
+      5.109375
+    ],
+    "cpu_pressure": "some avg10=7.52 avg60=7.34 avg300=8.12 total=580568629193\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012798.7405467,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39184736256,
+    "owned_rss": 13556097024,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.50927734375,
+      4.6953125,
+      5.09228515625
+    ],
+    "cpu_pressure": "some avg10=6.16 avg60=7.10 avg300=8.06 total=580568631053\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012800.7466238,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "99"
+    },
+    "available_ram": 39184248832,
+    "owned_rss": 13556121600,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.50927734375,
+      4.6953125,
+      5.09228515625
+    ],
+    "cpu_pressure": "some avg10=6.85 avg60=7.20 avg300=8.08 total=580568871228\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012802.75264,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39183704064,
+    "owned_rss": 13556183040,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.50927734375,
+      4.6953125,
+      5.09228515625
+    ],
+    "cpu_pressure": "some avg10=8.87 avg60=7.55 avg300=8.14 total=580569248793\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012804.7571537,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39183855616,
+    "owned_rss": 13556183040,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.46826171875,
+      4.6669921875,
+      5.08056640625
+    ],
+    "cpu_pressure": "some avg10=8.89 avg60=7.60 avg300=8.15 total=580569434450\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012806.7628264,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39183794176,
+    "owned_rss": 13556187136,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.46826171875,
+      4.6669921875,
+      5.08056640625
+    ],
+    "cpu_pressure": "some avg10=7.28 avg60=7.35 avg300=8.09 total=580569437029\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012808.7690077,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39182860288,
+    "owned_rss": 13556187136,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.51123046875,
+      4.65576171875,
+      5.07470703125
+    ],
+    "cpu_pressure": "some avg10=5.96 avg60=7.11 avg300=8.04 total=580569447771\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012810.7741046,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39182430208,
+    "owned_rss": 13556187136,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.51123046875,
+      4.65576171875,
+      5.07470703125
+    ],
+    "cpu_pressure": "some avg10=6.15 avg60=7.11 avg300=8.03 total=580569604097\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012812.7792997,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39182716928,
+    "owned_rss": 13556789248,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.51123046875,
+      4.65576171875,
+      5.07470703125
+    ],
+    "cpu_pressure": "some avg10=7.39 avg60=7.30 avg300=8.06 total=580569875730\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012814.7839882,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39182278656,
+    "owned_rss": 13556969472,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.7109375,
+      4.67822265625,
+      5.080078125
+    ],
+    "cpu_pressure": "some avg10=7.68 avg60=7.35 avg300=8.07 total=580570027465\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012816.7897513,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "92"
+    },
+    "available_ram": 39182266368,
+    "owned_rss": 13557018624,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      3.7109375,
+      4.67822265625,
+      5.080078125
+    ],
+    "cpu_pressure": "some avg10=6.47 avg60=7.15 avg300=8.02 total=580570058915\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012818.795205,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39181262848,
+    "owned_rss": 13557506048,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.85546875,
+      4.8994140625,
+      5.14990234375
+    ],
+    "cpu_pressure": "some avg10=5.48 avg60=6.94 avg300=7.97 total=580570080330\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012820.8012824,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "65"
+    },
+    "available_ram": 39179427840,
+    "owned_rss": 13557506048,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.85546875,
+      4.8994140625,
+      5.14990234375
+    ],
+    "cpu_pressure": "some avg10=5.57 avg60=6.91 avg300=7.96 total=580570216329\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012822.8069742,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180689408,
+    "owned_rss": 13557579776,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.85546875,
+      4.8994140625,
+      5.14990234375
+    ],
+    "cpu_pressure": "some avg10=7.46 avg60=7.21 avg300=8.02 total=580570542950\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012824.8120437,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39181336576,
+    "owned_rss": 13557628928,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.8671875,
+      4.9013671875,
+      5.14892578125
+    ],
+    "cpu_pressure": "some avg10=7.56 avg60=7.24 avg300=8.02 total=580570715067\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012826.817591,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180574720,
+    "owned_rss": 13557870592,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.8671875,
+      4.9013671875,
+      5.14892578125
+    ],
+    "cpu_pressure": "some avg10=6.19 avg60=7.00 avg300=7.96 total=580570727152\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012828.8231726,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180697600,
+    "owned_rss": 13557870592,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.79736328125,
+      4.88623046875,
+      5.142578125
+    ],
+    "cpu_pressure": "some avg10=5.06 avg60=6.77 avg300=7.91 total=580570737414\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012830.8294241,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180066816,
+    "owned_rss": 13557874688,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.79736328125,
+      4.88623046875,
+      5.142578125
+    ],
+    "cpu_pressure": "some avg10=4.51 avg60=6.61 avg300=7.87 total=580570863341\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012832.8347027,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180431360,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.79736328125,
+      4.88623046875,
+      5.142578125
+    ],
+    "cpu_pressure": "some avg10=5.68 avg60=6.76 avg300=7.89 total=580571144389\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012834.84033,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180333056,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.81396484375,
+      4.88818359375,
+      5.1416015625
+    ],
+    "cpu_pressure": "some avg10=6.28 avg60=6.83 avg300=7.89 total=580571238644\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012836.8456657,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180570624,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      4.81396484375,
+      4.88818359375,
+      5.1416015625
+    ],
+    "cpu_pressure": "some avg10=5.33 avg60=6.64 avg300=7.85 total=580571280631\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012838.8569605,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "0"
+    },
+    "available_ram": 39181225984,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.1103515625,
+      5.15576171875,
+      5.22705078125
+    ],
+    "cpu_pressure": "some avg10=4.54 avg60=6.45 avg300=7.80 total=580571354345\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012840.8618588,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "0"
+    },
+    "available_ram": 39180615680,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.1103515625,
+      5.15576171875,
+      5.22705078125
+    ],
+    "cpu_pressure": "some avg10=4.80 avg60=6.44 avg300=7.79 total=580571526652\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012842.8665237,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39179972608,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      6.1103515625,
+      5.15576171875,
+      5.22705078125
+    ],
+    "cpu_pressure": "some avg10=6.11 avg60=6.62 avg300=7.82 total=580571807451\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012844.8713858,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180951552,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.94091796875,
+      5.13623046875,
+      5.22021484375
+    ],
+    "cpu_pressure": "some avg10=6.99 avg60=6.76 avg300=7.84 total=580571900088\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012846.8775103,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "0"
+    },
+    "available_ram": 39180251136,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.94091796875,
+      5.13623046875,
+      5.22021484375
+    ],
+    "cpu_pressure": "some avg10=5.72 avg60=6.54 avg300=7.78 total=580571902379\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012848.8825338,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180218368,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.625,
+      5.083984375,
+      5.20263671875
+    ],
+    "cpu_pressure": "some avg10=4.69 avg60=6.33 avg300=7.73 total=580571908743\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  },
+  {
+    "time": 1793012850.887813,
+    "gpu": {
+      "index": "0",
+      "uuid": "GPU-3e598ac0-7089-654d-3915-382847f019d2",
+      "total": "24564",
+      "used": "23206",
+      "util": "100"
+    },
+    "available_ram": 39180406784,
+    "owned_rss": 13557923840,
+    "new_foreign_gpu_pids": [],
+    "loadavg": [
+      5.625,
+      5.083984375,
+      5.20263671875
+    ],
+    "cpu_pressure": "some avg10=4.74 avg60=6.28 avg300=7.71 total=580572115406\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=0"
+  }
+]

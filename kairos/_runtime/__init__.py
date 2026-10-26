@@ -1,0 +1,1 @@
+"""Kairos self-contained package."""

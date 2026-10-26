@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-26",
+  "rows": [
+    {
+      "method": "kairos",
+      "summary": {
+        "method": "kairos",
+        "wall_s": 150.2583994846791,
+        "start_wall_time": 1793012702.4706469,
+        "end_wall_time": 1793012852.7301836,
+        "completed": 178,
+        "failed": 0,
+        "jobs": 16,
+        "jct_mean_s": 93.59650352376048,
+        "jct_p95_s": 136.18118099914864,
+        "primed_jct_mean_s": null,
+        "primed_jct_p95_s": null,
+        "ttft_mean_s": 3.748182134776052,
+        "ttft_p95_s": 25.814089033519856,
+        "itl_mean_s": 0.028423190411976832,
+        "itl_p95_s": 0.052755298977717725,
+        "e2e_mean_s": 7.898258526772889,
+        "e2e_p95_s": 29.37308035343886,
+        "request_throughput": 1.1846259550911131,
+        "output_token_throughput": 174.12670499440384,
+        "total_token_throughput": 6267.849273185085,
+        "hierarchy": "Program=one user target; human wait excluded from Program JCT",
+        "workload_scope": "public production metadata, synthetic token identity, bounded serial subset"
+      },
+      "cache": {
+        "prefill_queries": 151393,
+        "local_hits": 686128,
+        "external_hits": 78112,
+        "h2d_gib": 10.79296875,
+        "d2h_gib": 19.01953125,
+        "pins": 161,
+        "ttl": {
+          "n": 161,
+          "mean": 1.0702810909437097,
+          "min": 0.4362761974334717,
+          "p50": 0.4983673095703125,
+          "p90": 3.383781909942627,
+          "p95": 3.383781909942627,
+          "p99": 3.383781909942627,
+          "max": 3.383781909942627,
+          "cv": 0.9332446779123438
+        },
+        "unpin_reasons": {
+          "online_observed_growth_deficit": 21,
+          "online_idle_support_expired": 15,
+          "handover_after_allocation": 125
+        },
+        "held_pin_reference_page_seconds": 24218.562569618225,
+        "preemptions": 0,
+        "gapped_skipped_queries": 0,
+        "fence_wait_s": 0
+      },
+      "decode": {
+        "batch_size": {
+          "n": 5075,
+          "mean": 4.933596059113301,
+          "min": 1,
+          "p50": 5.0,
+          "p90": 7.0,
+          "p95": 8.0,
+          "p99": 8.0,
+          "max": 8,
+          "cv": 0.42422298356359583
+        },
+        "step_wall_s": {
+          "n": 5075,
+          "mean": 0.046339544360640604,
+          "min": 0.020505672320723534,
+          "p50": 0.044924283400177956,
+          "p90": 0.048264179751276975,
+          "p95": 0.07129670726135376,
+          "p99": 0.13147143254056576,
+          "max": 0.25657324865460396,
+          "cv": 0.37352592261201734
+        },
+        "pipeline_step_sum_not_wall": 263.8429030366242
+      },
+      "work_signature": "bffde5a7eaa1e2e2bcf55353bc09515a8edf7249e77e0da6c076f08d5ae9b5a7"
+    },
+    {
+      "method": "continuum",
+      "summary": {
+        "method": "continuum",
+        "wall_s": 161.16666623950005,
+        "start_wall_time": 1793008964.4046676,
+        "end_wall_time": 1793009125.5726979,
+        "completed": 178,
+        "failed": 0,
+        "jobs": 16,
+        "jct_mean_s": 106.47199567954522,
+        "jct_p95_s": 150.11822508042678,
+        "primed_jct_mean_s": null,
+        "primed_jct_p95_s": null,
+        "ttft_mean_s": 4.992322279197907,
+        "ttft_p95_s": 20.176272800611354,
+        "itl_mean_s": 0.027827455255700472,
+        "itl_p95_s": 0.03830147278495133,
+        "e2e_mean_s": 9.055534134236991,
+        "e2e_p95_s": 26.63978775860744,
+        "request_throughput": 1.1044467454298827,
+        "output_token_throughput": 162.34126206419919,
+        "total_token_throughput": 5843.621525312513,
+        "hierarchy": "Program=one user target; human wait excluded from Program JCT",
+        "workload_scope": "public production metadata, synthetic token identity, bounded serial subset"
+      },
+      "cache": {
+        "prefill_queries": 183846,
+        "local_hits": 689152,
+        "external_hits": 47200,
+        "h2d_gib": 6.57421875,
+        "d2h_gib": 37.51171875,
+        "pins": 144,
+        "ttl": {
+          "n": 144,
+          "mean": 0.5283197226364993,
+          "min": 0.04701113700866699,
+          "p50": 0.40343189239501953,
+          "p90": 0.9132051896303892,
+          "p95": 0.9132051896303892,
+          "p99": 0.9132051896303892,
+          "max": 0.9132051896303892,
+          "cv": 0.5807911811370109
+        },
+        "unpin_reasons": {
+          "ttl_expired": 22,
+          "handover_after_allocation": 119,
+          "deadlock_fallback": 3
+        },
+        "held_pin_reference_page_seconds": 61321.33622217178,
+        "preemptions": 9,
+        "gapped_skipped_queries": 0,
+        "fence_wait_s": 0
+      },
+      "decode": {
+        "batch_size": {
+          "n": 6145,
+          "mean": 4.090480065093572,
+          "min": 1,
+          "p50": 4.0,
+          "p90": 7.0,
+          "p95": 8.0,
+          "p99": 8.0,
+          "max": 8,
+          "cv": 0.5452862183423658
+        },
+        "step_wall_s": {
+          "n": 6145,
+          "mean": 0.043372864982429996,
+          "min": 0.019987616688013077,
+          "p50": 0.04249444790184498,
+          "p90": 0.04766023065894842,
+          "p95": 0.04850053060799837,
+          "p99": 0.09303889777511354,
+          "max": 0.30546438973397017,
+          "cv": 0.29718754703139544
+        },
+        "pipeline_step_sum_not_wall": 302.6999143725261
+      },
+      "work_signature": "bffde5a7eaa1e2e2bcf55353bc09515a8edf7249e77e0da6c076f08d5ae9b5a7"
+    }
+  ],
+  "limitations": [
+    "One forward replay per method; no statistical significance claim.",
+    "Fixed current output contracts; no unknown EOS or agent task-quality evaluation.",
+    "Workload used in mechanism development; not untouched policy evaluation.",
+    "These are archived measurements, not a GPU rerun of the renamed package."
+  ]
+}

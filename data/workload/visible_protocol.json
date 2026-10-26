@@ -1,0 +1,1096 @@
+{
+  "trace_sha256": "ea7dc28e3c0113db69c4658a3993c424490bed75a6e9034c05ffae6a40453c52",
+  "sources": {
+    "django__django-12308": "4c5d6160f53ed1e38f696bffe5d1e2460847f46d73da536619d8eafe5e2eb361",
+    "sympy__sympy-17318": "084384489e37f6b942d5575f6fa7ddcd415592319e06eaf7e0a07adfb6fc39c7",
+    "django__django-12039": "fdb5b75afac8e40267e8b87895200973ba7c1b90df3bb901e326c5a8c999a4ed",
+    "sympy__sympy-13974": "f92ac198f7df321bdd08a5a0e988b1a984e6a76a21e61f5a698d763dcf4863bb",
+    "django__django-11734": "df62356507bd793450a3d3bf3f720aa247679c100ba0392822d51e29572f0e63",
+    "matplotlib__matplotlib-23412": "c467a7b35b6c7050960a586a5a9da750515bd6f5ff550a763922b0a2ac5ca796",
+    "sympy__sympy-23824": "0b21c96a94e82a76dd378dcfb099da18328fe7cae48fe2825d6939815ab66379",
+    "astropy__astropy-13453": "1b2c6cfe64c2146c16fb6461106604df9b27e20934e1a9e1e90df55c30498192",
+    "django__django-16256": "f93e182276b4bce327fa601745c81ab37eb5918e093cefcd59c04cfb5ad5052f",
+    "scikit-learn__scikit-learn-14983": "bd571ae76885f59ed0958604b2d5c061f5266b9dc2e3aea9c058d27a86f9cccc",
+    "django__django-13512": "9e3f0d547806eba35185b47a0fd8aaa3c8f9c585e64354232c6cabbc4704fb25",
+    "django__django-14672": "efd8936bc66a63aff59a28bc68d9ac7763744c4078ed9e038e35d14546f6c6c0",
+    "sympy__sympy-18763": "2c632e9297e30ddb15d0703f31e9b454ee1a1ef5d5dc3b8b146e97f5b62f868f",
+    "pytest-dev__pytest-7521": "d6904db92170d144ec8052d7e81b2e30a509c0b4145b2a6e7bd4b917254ff164",
+    "astropy__astropy-13977": "4177798c2d508a7a6bdfcc1b10c3890c5bd3e75e13def637d345667ff802af20",
+    "django__django-13012": "6fe543cf6ed23c2973a7bf88366adb84e2d53a0faabbbf2b98e0b8b79ca061fb"
+  },
+  "visible_messages_sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a",
+  "request_signatures": [
+    {
+      "program": "django__django-12308",
+      "stage": 0,
+      "prompt_tokens": 1218,
+      "prompt_sha256": "a6762ed3af64530582b18b8cb206e520a60c56532d4f93a9d79bb98fc9333304"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 1,
+      "prompt_tokens": 2160,
+      "prompt_sha256": "71b64637fa21fe5a409602dd9073f075ba6bee76af713594c5443f54277e7481"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 2,
+      "prompt_tokens": 2284,
+      "prompt_sha256": "c2f0c3756d61fd3806704b630fa4e972dd28fbce8517f37536c01f31b3795eff"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 3,
+      "prompt_tokens": 2720,
+      "prompt_sha256": "751dde1e58be7ff041fc4d5d6275f7e8e9e7420ada080e0e767071064d68534c"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 4,
+      "prompt_tokens": 3113,
+      "prompt_sha256": "ffaa2a50895f00f168f410f7ef65ded99516c477d8f4dca6cf15d7dc03f4c31a"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 5,
+      "prompt_tokens": 5415,
+      "prompt_sha256": "c36c9e9b5a1eb52e76b27ac746b61e3cd9dfea903fb1f7721f569bbcd7db90f9"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 6,
+      "prompt_tokens": 5684,
+      "prompt_sha256": "b747bfb621c12d72f72a344d227bc183c0797edd8c6bcf70e156b20d062d3c29"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 7,
+      "prompt_tokens": 5941,
+      "prompt_sha256": "8749adc0661bfc08eda51fe06e5424edbf9f3108632e5ed86ba30c1d4ac6e88d"
+    },
+    {
+      "program": "django__django-12308",
+      "stage": 8,
+      "prompt_tokens": 6209,
+      "prompt_sha256": "a28fa31bbbf1f0796f6d66544a16d43445548075615ed0c8f8721e51f63ec9ac"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 0,
+      "prompt_tokens": 2026,
+      "prompt_sha256": "0684809faeef3d8d642bcad6e41243c148726b43698ca7660aa3bef8c33f3e30"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 1,
+      "prompt_tokens": 3115,
+      "prompt_sha256": "6d6573f1a2da1d3bdbf328b7bb5f1e7d7220020b370f13cf00062041e81bc164"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 2,
+      "prompt_tokens": 3801,
+      "prompt_sha256": "198cd1cde95e6e8e7ce257806b2613181b3743461fc7563f00077b97fe2bb8ac"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 3,
+      "prompt_tokens": 4101,
+      "prompt_sha256": "3ab1d743da3c7c42759dfb830946aca1057022b22472f465d925ab0efb1c1d44"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 4,
+      "prompt_tokens": 4471,
+      "prompt_sha256": "1486e429771208b1f00e58ce7408c0c2126851205f6199b1429c3f3ac25bffca"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 5,
+      "prompt_tokens": 4718,
+      "prompt_sha256": "2876fc5fa8497d457ae2d4f0f30155ee5195d76c9564a27e8474222f720b616a"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 6,
+      "prompt_tokens": 4949,
+      "prompt_sha256": "0238b2bc24ebe2273f7a5b9cbb35851c2cd68fee376911ce97c6ab39c7c74a3c"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 7,
+      "prompt_tokens": 5214,
+      "prompt_sha256": "7e6304ffe52160489abfb4bf660288e7e43495a8f08ca516be9fceedf1b5f4d4"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 8,
+      "prompt_tokens": 5494,
+      "prompt_sha256": "3580aa1f7d2209dc665cadf9caf3320344570318d3aff88e2ec20572dfb74456"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 9,
+      "prompt_tokens": 5715,
+      "prompt_sha256": "7e92b372626fa5c711fec9bbe4aeb3117061de7875d9419ecf5e1e5a7d1490ae"
+    },
+    {
+      "program": "sympy__sympy-17318",
+      "stage": 10,
+      "prompt_tokens": 6056,
+      "prompt_sha256": "aef59c40dd0bfff36cdc79d41d89df8ca2150bbc497aed2e1bf32f8ee2257994"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 0,
+      "prompt_tokens": 1415,
+      "prompt_sha256": "a286f1e49dba845bb44cf5ae913a9b629fea05bab3cada9a1aa6ab05e32bc8c1"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 1,
+      "prompt_tokens": 2362,
+      "prompt_sha256": "d36dc4bfcd3757627a0a7d952e3ee419057e74339156ba828155793995cb57ef"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 2,
+      "prompt_tokens": 3830,
+      "prompt_sha256": "68cb3b27601b30db413642ebf4e94a741c041762a66e61112e41ce7dd60ad38d"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 3,
+      "prompt_tokens": 4140,
+      "prompt_sha256": "229316cdf0d4c17ff1f23113005751811af2e7e3d0239ea0f407a168809e9ef9"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 4,
+      "prompt_tokens": 5416,
+      "prompt_sha256": "6b4a1bf7c126ab1994df563354a8c43bb209683f6fe8f95f0a802237993ea362"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 5,
+      "prompt_tokens": 5746,
+      "prompt_sha256": "5a4ff9a2b58464331e189ba3fa5809ccfa250c2b6e85a7f75bb5b84201e7d2c4"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 6,
+      "prompt_tokens": 5925,
+      "prompt_sha256": "18cd397f3e0aa58b064977e6a1b7ac202c5ff2ec3fa18f06960a422ccd48a70c"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 7,
+      "prompt_tokens": 6062,
+      "prompt_sha256": "e82b73848746b2301e483e16ac06a2b5e7a2c177bf59ac3f7f3a3863d1096c1b"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 8,
+      "prompt_tokens": 6310,
+      "prompt_sha256": "a0f88226cf8545a53a14561dc24ddf58aac152ae3e9f4bd19aad4677ba1244b9"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 9,
+      "prompt_tokens": 6389,
+      "prompt_sha256": "27ba7739228baf91ed364758eb28bdf6a74f29f0d1d14ec253d09160c45019af"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 10,
+      "prompt_tokens": 6728,
+      "prompt_sha256": "19d42bbf90f8ceafe6ea0e09d2621cea99132f21058c1ccde18777315b28f51e"
+    },
+    {
+      "program": "django__django-12039",
+      "stage": 11,
+      "prompt_tokens": 8459,
+      "prompt_sha256": "750edb39aca7ff06080198def66fce392fb01fb1566574f3f3ded6b532d4778c"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 0,
+      "prompt_tokens": 1491,
+      "prompt_sha256": "d12d0eb0ec7845268e1f72672075fc78c4d55bc2e5fc46e9ecb72aa1bde941a3"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 1,
+      "prompt_tokens": 2418,
+      "prompt_sha256": "b9d74f6a7ebb81d28454a660523210eefa3c7813d1461f75a7de23e0a01bcbc6"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 2,
+      "prompt_tokens": 3639,
+      "prompt_sha256": "a6666c00bdf2519450bedf6a984be31623ba029578a0a3d791820afff774f192"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 3,
+      "prompt_tokens": 6298,
+      "prompt_sha256": "90f6f02f868cbb5e5168bf3691071cd24ca998e4409c35142357c5f06c905d8e"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 4,
+      "prompt_tokens": 6642,
+      "prompt_sha256": "c94048d26516d2fdcf8edf72b1dd2be131275b1aa5e8d5536e2c58f59673be55"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 5,
+      "prompt_tokens": 7157,
+      "prompt_sha256": "fecb92e5eb3cde254b230b6fa53d8e16224a61da85ddb60bdcf000acf3f4f45d"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 6,
+      "prompt_tokens": 7443,
+      "prompt_sha256": "b237ea075bf0c3d9588347ce7a021253539ec0b30f434923b8e94840b411f3dc"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 7,
+      "prompt_tokens": 7928,
+      "prompt_sha256": "dcbce05ee29ffd451a190b0db480fca2205171e446fafdc491693d2c14083135"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 8,
+      "prompt_tokens": 8205,
+      "prompt_sha256": "e2079eec5251926082d3f527220a35489125914a087fe86d0aa6630ce6d9b72e"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 9,
+      "prompt_tokens": 8603,
+      "prompt_sha256": "97bd172f288dc19f51d981335d39056a9e8f8e2f0b040c060adbb9312722bad3"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 10,
+      "prompt_tokens": 8727,
+      "prompt_sha256": "445a4e4dd0d4f0e60ebace9eace305ce2635d68f623945bbd625f0b7517b5a4e"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 11,
+      "prompt_tokens": 9335,
+      "prompt_sha256": "0c109fefd6ad37b594f8fe50dbfbd3de6c45714d9f2c6db03aee6ee6db6e1067"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 12,
+      "prompt_tokens": 9574,
+      "prompt_sha256": "91ef5bbb4c4a5b7522d8951f267dae6d16854089b042a5b1305d93254e2183ce"
+    },
+    {
+      "program": "sympy__sympy-13974",
+      "stage": 13,
+      "prompt_tokens": 9884,
+      "prompt_sha256": "f6daec82ab597b6fed539c6fb02c9b247ba87eb29907acb1f8c40938e5c90b60"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 0,
+      "prompt_tokens": 1341,
+      "prompt_sha256": "71d5468591a96d4c066b394dcc6a9bd46550f95f3540d2939a02a2182c740e6a"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 1,
+      "prompt_tokens": 2287,
+      "prompt_sha256": "4d2627ca19c4a2113e754aa53d9aa24acc1434393ffd4cb39fa7f44810fc20ca"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 2,
+      "prompt_tokens": 2719,
+      "prompt_sha256": "0c2a5f50b353408bf339990ae091584d865f56380f1baaf9ff43b69912f45c94"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 3,
+      "prompt_tokens": 2837,
+      "prompt_sha256": "eb049df3bc0b3920c54f9f5ac604c60d6b4c85046fff9673e4d54ce7ba7e5032"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 4,
+      "prompt_tokens": 2921,
+      "prompt_sha256": "5059db64bd3e89439a57d37105ebe56deb72fd73c243f9a38e3b1d1d0558e125"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 5,
+      "prompt_tokens": 3047,
+      "prompt_sha256": "19d743b3c721c07213ca00935fba7b822408da54d4874310164a77d954680725"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 6,
+      "prompt_tokens": 3164,
+      "prompt_sha256": "19d2094a9e791f72eaa158789aa018eeda72902bcd7bb8f7ac231764f3d8d1eb"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 7,
+      "prompt_tokens": 3294,
+      "prompt_sha256": "8485b9fca08a65711583e1f0d4a10c8dcd23857a448606c9d1120e50a4b607c7"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 8,
+      "prompt_tokens": 5008,
+      "prompt_sha256": "3aef067395d3161de737204872d8cbf6b80cbf15dc6fa71a594b687f807db199"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 9,
+      "prompt_tokens": 6321,
+      "prompt_sha256": "3dc426fee359ae2432b687a737507269a9cc4c9598c30372f55bcac8cb061165"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 10,
+      "prompt_tokens": 6584,
+      "prompt_sha256": "3b8cf87d18b6bcdd1ab2b18d77b193002d2b9776afef9d46e50bc086220db9ca"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 11,
+      "prompt_tokens": 7006,
+      "prompt_sha256": "68cc8e8ec393eea520d6f3d4f0b116cc939909b116ec0a01ef4d6d662583effc"
+    },
+    {
+      "program": "django__django-11734",
+      "stage": 12,
+      "prompt_tokens": 7323,
+      "prompt_sha256": "a4decbe55c629482c48a903fdb9a14f144d9be1352cf457af0ef56c42ea94614"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 0,
+      "prompt_tokens": 1764,
+      "prompt_sha256": "37a54b1f7816aad1671301280f67f3147796acc00f44e391b3ff1d75bc5e00d7"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 1,
+      "prompt_tokens": 2014,
+      "prompt_sha256": "bef20a445a5850985ac8a17242533a878a1ce62010cc67912008aa86eda369b3"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 2,
+      "prompt_tokens": 2111,
+      "prompt_sha256": "dad92e048000d6e43dd8f46a42e02bc5588491eee87b41d2a01ae300e6ffe3f3"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 3,
+      "prompt_tokens": 2712,
+      "prompt_sha256": "8f2d59ac4ebb82d2d746b2cd78b8dfafe9797a84e64e125a437a0a7e820ae32c"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 4,
+      "prompt_tokens": 3560,
+      "prompt_sha256": "03da591041d4b67ff89284bed302da7daf5774fc3dbd3d9a054fde074cfbdc45"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 5,
+      "prompt_tokens": 4493,
+      "prompt_sha256": "8d140d53ed7ababf0c1c7e8e1392727759a6c8bb1784861fc214dc717e7327fe"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 6,
+      "prompt_tokens": 4649,
+      "prompt_sha256": "9097420ec5d5405a1aacdad08d01a52e3d5fdaba66a71c0c883d5c29a03f8c27"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 7,
+      "prompt_tokens": 4732,
+      "prompt_sha256": "aea7f66cd9b52d53093e77c0c232887ec134f66e4070bba726311362f331dbbf"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 8,
+      "prompt_tokens": 4869,
+      "prompt_sha256": "bc21f248b8f7bca2d17c5ec2dbe4328f4565ffb17f507c3d6be8271592172585"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 9,
+      "prompt_tokens": 5822,
+      "prompt_sha256": "a8a403856e9ae1b030d086879038e47175ebc8b3f4d8f8b7989f144ea95de9da"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 10,
+      "prompt_tokens": 8488,
+      "prompt_sha256": "b02bb90c78536ba0ef93e2794f781d4fcf85bec60d4a28362a8178b35b497350"
+    },
+    {
+      "program": "matplotlib__matplotlib-23412",
+      "stage": 11,
+      "prompt_tokens": 8952,
+      "prompt_sha256": "890f535687aba2ee9393755824e2cd75d82717815177e2bcf9918f4dc066cecb"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 0,
+      "prompt_tokens": 1690,
+      "prompt_sha256": "05b06e75c50d1003fbf30ea093dcf52f8e313e184c341ca5cb3a04fce95fd807"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 1,
+      "prompt_tokens": 2899,
+      "prompt_sha256": "b17a4eb557dba70dcb75f39fa887d5fec8c4f7db931f6c9b3091eacbce10befe"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 2,
+      "prompt_tokens": 3004,
+      "prompt_sha256": "bbf4b7b9bac034ee6e03e02c93b83c2050c793e34025c5194a4be9395f78ff25"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 3,
+      "prompt_tokens": 4108,
+      "prompt_sha256": "a174ef320604c6a2fb8c29233a83ce5dab519c4d6be02b2726561343cf1b847d"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 4,
+      "prompt_tokens": 6897,
+      "prompt_sha256": "6dcbd0a06e06cf592981f6d7dad9259535bb3806f2db4200079835c160a48e6b"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 5,
+      "prompt_tokens": 7505,
+      "prompt_sha256": "b9b94eb8e787df0d8c1befaafcf741d7205a495d77971bcf799236707e180e28"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 6,
+      "prompt_tokens": 7690,
+      "prompt_sha256": "d0cb97e1acc79f1a7e0edf48957f609027fcce45caf568b40b05ee14d9d6c31f"
+    },
+    {
+      "program": "sympy__sympy-23824",
+      "stage": 7,
+      "prompt_tokens": 8016,
+      "prompt_sha256": "f1ddde98d27ab6c739a83a0cd7ce93f213b449f20e440116c4965ee7155e23c6"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 0,
+      "prompt_tokens": 3384,
+      "prompt_sha256": "ed45f7ef3a6285ef5aed7ce4d6481daef720a3f9d4006fa6bd6a6c1fd1013a2b"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 1,
+      "prompt_tokens": 3911,
+      "prompt_sha256": "61745d43f4c0356faffec964ec1eeb2dd882a1994f192f708c7f45e13efaab24"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 2,
+      "prompt_tokens": 6064,
+      "prompt_sha256": "2f1ec544967c51fbff8d2ee294dfdba4d1bffa1b31ba878db910bf151e720988"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 3,
+      "prompt_tokens": 6499,
+      "prompt_sha256": "6081f2e2d2c722260f6344e7f769186fbc606b671ae93a499ca6e480f6269cbe"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 4,
+      "prompt_tokens": 7415,
+      "prompt_sha256": "5b32b0242f5e5b2dfaee800b3d119f2c1ab36770c8057f54c238a20bb24dc2d4"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 5,
+      "prompt_tokens": 8273,
+      "prompt_sha256": "e1eb2beaabccd17054ba4148665c0bd09419b24316400656ed19989e31eaa4c8"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 6,
+      "prompt_tokens": 9278,
+      "prompt_sha256": "793ba6215c7100c55e96ff69e73d16a844c04b3add1a63fed4d884230ac0dc81"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 7,
+      "prompt_tokens": 10287,
+      "prompt_sha256": "8d11649c021a0ec008e75ee201793912508629c15dce44d5dffbd6713b461a2f"
+    },
+    {
+      "program": "astropy__astropy-13453",
+      "stage": 8,
+      "prompt_tokens": 11455,
+      "prompt_sha256": "4be4a083834e68a901c56b7ea848f85561a737302784a922e393e55d4fdefb77"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 0,
+      "prompt_tokens": 1798,
+      "prompt_sha256": "96f8c2b7f678698a7593ea9895fcbc4fcf4452fc8ab49d42d9243cef3d5ad741"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 1,
+      "prompt_tokens": 1907,
+      "prompt_sha256": "2539af34753371b5b14ffd40e3e299493936435444cd9b1399bda255d1a9782a"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 2,
+      "prompt_tokens": 2008,
+      "prompt_sha256": "e957bf19416ad0142b2a7128c4072553f83e7717e3645932a2878396bc95dcfd"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 3,
+      "prompt_tokens": 4093,
+      "prompt_sha256": "48b89c7673be61e91480ac4c03a8c1ce11a3e97cd91121815d4958aaca785e0b"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 4,
+      "prompt_tokens": 4273,
+      "prompt_sha256": "6a24d357cb715c2f6b98f95a4c23c54456e6a26fcf45500f36e282342c59a5af"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 5,
+      "prompt_tokens": 6457,
+      "prompt_sha256": "963d999cd54505ccb2cb7b526b85e9ec5060adb9951514f61f2cc4a73288cef1"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 6,
+      "prompt_tokens": 6685,
+      "prompt_sha256": "155dd711589f409a43e4e39fc42a6758211ef502c38db7e267cb002d68913ceb"
+    },
+    {
+      "program": "django__django-16256",
+      "stage": 7,
+      "prompt_tokens": 6794,
+      "prompt_sha256": "7853996b99ed67d44e8f1c454596b51ca6653524853d1b83d760af7594bb77c6"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 0,
+      "prompt_tokens": 1569,
+      "prompt_sha256": "abc3fb178e68e77091490b7b8f62ed01cd7da0128e6e34597b4cb7b6837fc710"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 1,
+      "prompt_tokens": 1689,
+      "prompt_sha256": "d729646b5ba3595b47c489c977ed5897f4c24f2a42abc8ad8e30f83127b3a9f3"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 2,
+      "prompt_tokens": 2652,
+      "prompt_sha256": "59cd1ad215a553bb43cbbe60ed8704d9dadce8378ff0ff5b39a52188d8b1f80a"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 3,
+      "prompt_tokens": 3772,
+      "prompt_sha256": "b1716bc9bafce5424cd2543f331957d5fdfd09179d0ad60f0f468d87b4a1f169"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 4,
+      "prompt_tokens": 4013,
+      "prompt_sha256": "a98af8a8511b98bd3a45b2c8063da0e42fbd676899f04c47003081c5d6faf8c2"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 5,
+      "prompt_tokens": 4167,
+      "prompt_sha256": "2d557cd965d8905f6d551bf485f01b3f2fe89ab1a3c49a409cc83947e02fcf24"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 6,
+      "prompt_tokens": 4556,
+      "prompt_sha256": "ea89eaaca95ccb16010aa3d6d6f6786ef0b7c1a2c2e923b4c515baf292ba85fa"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 7,
+      "prompt_tokens": 4793,
+      "prompt_sha256": "e53943b8629c3d8da8f382a51578e796b19e995dbaa3de6c7dff6ed57b307f39"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 8,
+      "prompt_tokens": 5038,
+      "prompt_sha256": "8f4afda9fed7be377e7b3b10ba50c1770d0930614c332d840d275f4e067998c9"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 9,
+      "prompt_tokens": 5275,
+      "prompt_sha256": "ba8a8de741c6db8dedc4583bbbaf927828a877c21006b1c023cd4efe9f019289"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 10,
+      "prompt_tokens": 5474,
+      "prompt_sha256": "cf935537ca7b264d445552a095c8bbd64b4629c6611fb56de7a13417eef807ae"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 11,
+      "prompt_tokens": 5796,
+      "prompt_sha256": "b12668d29052a49e86db139a7d7712631ef24d3470e650ffe159001552791cbd"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 12,
+      "prompt_tokens": 6105,
+      "prompt_sha256": "3a074d25f73d7ae540dd99fb0a74aa22a8c2e92adca160c6f40308a90ccdee6a"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 13,
+      "prompt_tokens": 6211,
+      "prompt_sha256": "04367220b086f4d25fdde9fe6a88031564741fa7c824d52acbf5db3c44661ef4"
+    },
+    {
+      "program": "scikit-learn__scikit-learn-14983",
+      "stage": 14,
+      "prompt_tokens": 6637,
+      "prompt_sha256": "1c867ec2c89568268992675c63989e0b8f860076421059d3fbab6f0210490a52"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 0,
+      "prompt_tokens": 1235,
+      "prompt_sha256": "312df3dfddf3192b4ab2599d6bd5ad55853c4c3bf42900141f955bbbff65ceeb"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 1,
+      "prompt_tokens": 2207,
+      "prompt_sha256": "5ddf8275251a4d52602e1de7c735293690354678656641a57968eb3a23e1d5e9"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 2,
+      "prompt_tokens": 2927,
+      "prompt_sha256": "b0bdd58a941e41402b15d196610d3dc83f4ccac6f4f4ce465493c2f4e79075cb"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 3,
+      "prompt_tokens": 3287,
+      "prompt_sha256": "35e3997e664e15aa5ee70419e0ac915511faaeb506b0cc37186f51a9e4db8daf"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 4,
+      "prompt_tokens": 3650,
+      "prompt_sha256": "813541f5119b3a0183e4ed1052f24befef632a3825696baeff1d49ee3f6693a2"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 5,
+      "prompt_tokens": 5930,
+      "prompt_sha256": "e85749e71a14d8fd9124ee142f41a5e152b2c2a8ee049ae379fc8007e855d84e"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 6,
+      "prompt_tokens": 6190,
+      "prompt_sha256": "4f8c01a66ef2a6eede04dbc607fd2e3e251556d3bd0706c6ac907b9aeef2a98d"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 7,
+      "prompt_tokens": 6639,
+      "prompt_sha256": "72e1cbb7625735f414df9b315d7c072e9af7b137f84f5d099b16518fede52d2b"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 8,
+      "prompt_tokens": 7000,
+      "prompt_sha256": "b95a0a97b935c570cb0a16fae120e3872e3e3f678d2811ae387b5594e4ea7e50"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 9,
+      "prompt_tokens": 7168,
+      "prompt_sha256": "9a023467ff817ec7d054d9d097d46fe7f81f6041f3fb21bae3a5f284e7a44235"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 10,
+      "prompt_tokens": 7361,
+      "prompt_sha256": "5d8c735696abb2a4114f697dbd4098bda38e350ecc62a4914d7f65306c3f77a3"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 11,
+      "prompt_tokens": 7532,
+      "prompt_sha256": "20453b7f3d82777406790647afd4e308808091b667c2838f6590c577f9e7a91c"
+    },
+    {
+      "program": "django__django-13512",
+      "stage": 12,
+      "prompt_tokens": 7734,
+      "prompt_sha256": "1b277ce2f50263d96426268792896cd68dbe557dab237ea90c96fb3611691859"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 0,
+      "prompt_tokens": 2903,
+      "prompt_sha256": "bbcceefa63f83f830eaa9f254a6c946193d16d05fc0d317f6102dd6f00d81634"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 1,
+      "prompt_tokens": 3883,
+      "prompt_sha256": "19f62c3945a650294a3b1afdda747441e9a98ed28dd9946c06221ba59d7032f3"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 2,
+      "prompt_tokens": 4014,
+      "prompt_sha256": "a42b061f1d5096e5c5d4f9688a73cb219cb0c6e5ab43ef5f602d866163ea63b8"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 3,
+      "prompt_tokens": 4147,
+      "prompt_sha256": "2bac41ae53abebd5e008585cf7a66ad7e3daaae55f6c5e2810bfa8649a6c3993"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 4,
+      "prompt_tokens": 6491,
+      "prompt_sha256": "5adfe1441dd6021216ee5308a4bbba928ddc14efcb488224a268a53f7935fa48"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 5,
+      "prompt_tokens": 6802,
+      "prompt_sha256": "fca2d035ae668f97b24086d656d355da6bcdcab90ba3adff955d04cd0d063745"
+    },
+    {
+      "program": "django__django-14672",
+      "stage": 6,
+      "prompt_tokens": 6985,
+      "prompt_sha256": "7c3b803a3f2c00cda08bcd052dc1f110ef8da2981ca0c2a076802e2b63cdce7f"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 0,
+      "prompt_tokens": 1350,
+      "prompt_sha256": "fc3a06f573b12bb1f168672164e32a554a3d61af69ae4fc0375e1bc8db12cf40"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 1,
+      "prompt_tokens": 2391,
+      "prompt_sha256": "06e1535cbccce4ed361e82e82d7c1f668d61380de7d3a653e0ac3994aae8b1c9"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 2,
+      "prompt_tokens": 3442,
+      "prompt_sha256": "414b067d19fe085d8b67c4e78020323da1e228f2934dd65863e77df935006d57"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 3,
+      "prompt_tokens": 3577,
+      "prompt_sha256": "8afc74ba5a07fa46dd95c36b12f9fc3ccae8da194f8a35617bd3b7d69b08b203"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 4,
+      "prompt_tokens": 3718,
+      "prompt_sha256": "aeea066d49837e0141cfcccb03c9312a7b2331535c9ed675203eabe9b96c5776"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 5,
+      "prompt_tokens": 3824,
+      "prompt_sha256": "0529ee7e63cefcaf8519c108b5b02f6fd0826438fc63b9e9e21910fd8e478457"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 6,
+      "prompt_tokens": 4257,
+      "prompt_sha256": "6d931c8dd12ca44df6568f7f647873541b3a0ea6401af7abf16f7f09974390bf"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 7,
+      "prompt_tokens": 5220,
+      "prompt_sha256": "0534fb6db062d46da34d42ddfb87bfac3f0228b1d527b54a05a11909b90fda1c"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 8,
+      "prompt_tokens": 5354,
+      "prompt_sha256": "d5fa1e4d082d9e499e4feb5046efed9021b23a46a6a054c52f70f40dea007a02"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 9,
+      "prompt_tokens": 5483,
+      "prompt_sha256": "d0769cfa5ce8a821f71da0be62577d3f6d470d121cec635decd7b3f0d446b1bf"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 10,
+      "prompt_tokens": 5913,
+      "prompt_sha256": "df55858a328fe48e3e201b23702d121e22a78d076baea9f9707a6c7cf7dd631e"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 11,
+      "prompt_tokens": 6341,
+      "prompt_sha256": "1860333a655abcc1072495de11c7d76cb4cbb7558f612e8706dffc5f15cfab30"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 12,
+      "prompt_tokens": 6797,
+      "prompt_sha256": "78b5cdea6e793cc989a2d5c0e8aeb8aaeb8d7cb2b43b2424ba34beb2ed4d1490"
+    },
+    {
+      "program": "sympy__sympy-18763",
+      "stage": 13,
+      "prompt_tokens": 7348,
+      "prompt_sha256": "9ecc288bd4ceafb3943854e6cedc7e4f89fefd61a9356029d2ed51eb108f9943"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 0,
+      "prompt_tokens": 2236,
+      "prompt_sha256": "3b79521676e540eaa0938900491c641b55831094aea9f7c8eafa90510f52329f"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 1,
+      "prompt_tokens": 2416,
+      "prompt_sha256": "25d39ce6a6d3653c960237eb5002f7184942136cf5f58c5b0ba8551e51572e5b"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 2,
+      "prompt_tokens": 4484,
+      "prompt_sha256": "0afaec078ed21a5bb50ff769f50c65adfa497362edf5af6e2f56b372e3847fa8"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 3,
+      "prompt_tokens": 6091,
+      "prompt_sha256": "d588d1ed6cbb77aa23a56ac905ba418abfdade8a3ef40212c25a5046f99547f4"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 4,
+      "prompt_tokens": 6607,
+      "prompt_sha256": "92a152144dcb7dce54a2b3ca35ad3eb7aae6081033dc6e3f99b8a3a50457c772"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 5,
+      "prompt_tokens": 6831,
+      "prompt_sha256": "03adf8691804f75d9e286048a3b189b113245c89aba2b89ca835cd0a5523156e"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 6,
+      "prompt_tokens": 7099,
+      "prompt_sha256": "34fa2b91226cc3a671352632f73f9bca683672c4a2a384e812fbd05ebc287251"
+    },
+    {
+      "program": "pytest-dev__pytest-7521",
+      "stage": 7,
+      "prompt_tokens": 7333,
+      "prompt_sha256": "759c75a040555df2503ee084a455463928961f45d502a91f3f263d889590e6f7"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 0,
+      "prompt_tokens": 2028,
+      "prompt_sha256": "763af8f100430de7d293f95d9933bdc9f04f6d31b5889dcf1fdee2e26cf32476"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 1,
+      "prompt_tokens": 3163,
+      "prompt_sha256": "e85182b984594a9c3cb6c2a8d7de200aa01c57dc7e40c1265cb1e2d5d92511b6"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 2,
+      "prompt_tokens": 3977,
+      "prompt_sha256": "013215ff1833d8d31c676e0ae4a2b861060c60c9dc4c165e0d474bc01d4eb9b3"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 3,
+      "prompt_tokens": 4192,
+      "prompt_sha256": "c81d9052e215ce2b20d295fa0b8c196220ca5dc67ad74498b28176c8f0a5fcb1"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 4,
+      "prompt_tokens": 4701,
+      "prompt_sha256": "b8f1bbd9a80c9ae1bbe103c39deb78c10858013a9b5a31cadc20fe1a647f4c63"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 5,
+      "prompt_tokens": 5356,
+      "prompt_sha256": "e13f4352061ceeff2f2a8fa7392f1a0d452009b766522b60f3407aaa1bc5f006"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 6,
+      "prompt_tokens": 5873,
+      "prompt_sha256": "368ae3fd5349dd80a5d304d71cb643817739a0f4a40710e443ce3899184f81a0"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 7,
+      "prompt_tokens": 6610,
+      "prompt_sha256": "df9d2d1f82e9c6cec342514712eb84e93cb6791fe7b8c40ca6db38aa0f9ae7c8"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 8,
+      "prompt_tokens": 7239,
+      "prompt_sha256": "89cdfb7b60596805ef89b8f3e23961caed9679e0e639e03b2d489059316e30ed"
+    },
+    {
+      "program": "astropy__astropy-13977",
+      "stage": 9,
+      "prompt_tokens": 7754,
+      "prompt_sha256": "23cd499bdbb2fec75ec4bc8f12d94801cc983d45281fa718b226db2b85a5b051"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 0,
+      "prompt_tokens": 1447,
+      "prompt_sha256": "e741351fb4c2ca9b9fdad39eac493eecd3f59e4e8d7f42a9b5e2dda4fe72f473"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 1,
+      "prompt_tokens": 2391,
+      "prompt_sha256": "81cf06de2de8480b35b6b8d4eb2af4bb799460ff8e3cc63ae5222d16795b021f"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 2,
+      "prompt_tokens": 3089,
+      "prompt_sha256": "761a6ed87cf42e5755fda33bf90bdea91ffaf6de7998b1174bb27671647ab7f6"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 3,
+      "prompt_tokens": 3424,
+      "prompt_sha256": "45e30d9b6ba0d5ce1eb2d5a7943b52c0d372ec2a88bdf6f44a62b703ea72bffa"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 4,
+      "prompt_tokens": 4020,
+      "prompt_sha256": "6ca643515c7c29f565cf74399f9b288d3bd16fc37d40d4de91ba01d1197a2fb2"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 5,
+      "prompt_tokens": 4122,
+      "prompt_sha256": "3b8bff920cbd6971d30b4f39c9030c38cbf6757f26ca435f028487e0ccc424a8"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 6,
+      "prompt_tokens": 6570,
+      "prompt_sha256": "3828250378afdc02c3bc05973524750b3cc1f5ff7f32fc51eecda732168a69ec"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 7,
+      "prompt_tokens": 6977,
+      "prompt_sha256": "5efd61501913b54db9d9e9d99ea3d6c17cd0e985c7eadd4001de74ec4fd6f78f"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 8,
+      "prompt_tokens": 7159,
+      "prompt_sha256": "e6e21e014995bbf5e3225d1fd9f17e65423cddcd049e668ec421ff8520a1f042"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 9,
+      "prompt_tokens": 7355,
+      "prompt_sha256": "68c593610e41e620c0ce0e40229f762b52f87734a6b38d41fd09491993a914f9"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 10,
+      "prompt_tokens": 7613,
+      "prompt_sha256": "bb267af9b280b79e39a1b26a31d7755f1ae01eb63fffffc91cac3fd4ab42ee95"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 11,
+      "prompt_tokens": 7904,
+      "prompt_sha256": "e7dcc8c203aebc720a2177d4dc126e6e41540957fddeac514388b6302c2716b3"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 12,
+      "prompt_tokens": 8226,
+      "prompt_sha256": "d6818bdb72a4f0b450c53413d78cab66514feb84c05ee099fc4cb8632f3eef98"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 13,
+      "prompt_tokens": 8443,
+      "prompt_sha256": "04782f1d7a5d71cfaf187fff7354c18f295438cf1017c7365b93b9e5335f4e8a"
+    },
+    {
+      "program": "django__django-13012",
+      "stage": 14,
+      "prompt_tokens": 11118,
+      "prompt_sha256": "c85d09fc988596847d80c0a7470ecc0457a8e22da7e2412711cbe66113082dfa"
+    }
+  ],
+  "current_assistant_included": false,
+  "future_outcomes_included": false,
+  "boundary": "only messages preceding the currently arrived teacher request",
+  "post_completion": "reuse pre-call R+; next arrived prefix refreshes features"
+}

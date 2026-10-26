@@ -1,0 +1,4 @@
+# Lightweight CPU-only versions used to rebuild the frozen forest.
+numpy==2.5.3
+scikit-learn==1.9.1
+threadpoolctl==3.7.0
