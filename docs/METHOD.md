@@ -43,11 +43,11 @@ program 是一个用户目标；call 是其中一次 LLM 请求。当前工作�
 
 Worker 从当前可见消息重建上一轮已发生的 assistant 输出，与保存的上一轮 prompt 对齐，累计已完成标准服务。用于当前 call 的标准前缀为：
 
-\[
+$$
 k=b\left\lfloor\frac{\min\{\operatorname{LCP}(\text{上一轮已提交历史},\text{当前输入}),n-1\}}b\right\rfloor,
 \quad b=16.
 \tag{1}
-\]
+$$
 
 重建时排除尚未被模型计算的最后一个 token。k 表示历史内容可继承的边界，不是当时仍驻留 HBM 的长度。首轮没有 completed output，不产生用于细化的个体后缀预测。
 
@@ -57,19 +57,19 @@ k=b\left\lfloor\frac{\min\{\operatorname{LCP}(\text{上一轮已提交历史},\t
 
 固定参考 profile 定义：
 
-\[
+$$
 c_r(n,o,k)=\sum_h\left[\beta_0^r+\beta_1^r q_h+
 \beta_2^r q_h(2a_h+q_h+1)/2+\beta_3^r\right]_++o d_1^r,
 \quad a_1=k,\ q_h=\min(2048,n-a_h),\ a_{h+1}=a_h+q_h.
 \tag{2}
-\]
+$$
 
 只累加非空 chunk。[x]₊ 为非负裁剪。第 u 轮的标签为：
 
-\[
+$$
 R_u^+=\sum_{v>u}c_r(n_v,o_v,k_v),\qquad s_u=c_r(n_u,o_u,k_u).
 \tag{3}
-\]
+$$
 
 参考 profile 固定来自独立小模型标定，仅定义统一工作单位；不是本次 8B 实际速度。工具时间、排队和策略引起的额外恢复不在标签内。s 与 R⁺ 共用单位，不随本次缓存丢失改变。
 
@@ -83,10 +83,10 @@ R_u^+=\sum_{v>u}c_r(n_v,o_v,k_v),\qquad s_u=c_r(n_u,o_u,k_u).
 
 结构侧独立构造 32 等分分位网格，补零/最大值并去重。区间中点 z、宽度 Δ 对应多输出回归标签：
 
-\[
+$$
 y_j(R)=\sqrt{\Delta_j}\,\mathbf1\{R\le z_j\}.
 \tag{4}
-\]
+$$
 
 平方损失对应网格上的积分 CDF 误差近似，因而与 CRPS 对齐；不声称精确求解连续 CRPS 最优树。分裂阈值只由结构侧决定；叶分布只使用估计侧标签，空叶回退到该树全部估计侧样本。原子按 0.01 参考秒合并。
 
@@ -94,22 +94,22 @@ y_j(R)=\sqrt{\Delta_j}\,\mathbf1\{R\le z_j\}.
 
 对特征 x，输出 48 个命中叶经验分布的平均：
 
-\[
+$$
 \widehat P(R\in A\mid x)=\frac1T\sum_{h=1}^T
 \frac{\sum_{j\in E_h\cap L_h(x)}w_j\mathbf1\{R_j\in A\}}
 {\sum_{j\in E_h\cap L_h(x)}w_j}
 =\{(r_a,p_a)\}_a.
 \tag{5}
-\]
+$$
 
 分母为空时按上述回退。部署只需 float32 对齐、树遍历、原子合并和归一化，不需 sklearn。零原子表示模型的“本轮后无服务量”质量，不是已知该 call 必为最后一轮；最大样本也不是物理上界。
 
 模型选择使用固定三折 program 分组 OOF 的宏平均 CRPS：
 
-\[
+$$
 \operatorname{CRPS}(P,y)=\sum_a p_a|r_a-y|-\tfrac12\sum_{a,b}p_ap_b|r_a-r_b|.
 \tag{6}
-\]
+$$
 
 先 program 内平均，再 program 等权平均。另报分布均值 MAE、90% 区间覆盖/宽度、同阶段配对排序。具体结果见[实验文档](EXPERIMENTS.md)。不能将“一个概率分布”的质量概括为单一准确率，也不把宽区间当作预测非常精确的证据。
 
@@ -119,29 +119,29 @@ y_j(R)=\sqrt{\Delta_j}\,\mathbf1\{R\le z_j\}.
 
 令 g 为当前 computed tokens 与 HBM 命中的较大值，限制到 prompt 内再向下对齐 16-token 页。CPU chunk 为 256 tokens，已提交集合为 C。从 floor(g/256) 开始连续扫描 C，不能跳过缺口，停止位置为 c：
 
-\[
+$$
 e=\min(n,\max(g,256c)),\quad \ell=e-g,
 \quad T^{restore}=\mathbf1\{\ell>0\}a_H+\ell b_H+C_d(n,e).
 \tag{7}
-\]
+$$
 
 C_d 为式 (2) 同形的部署 prefill 成本，但使用部署 β、不含输出。CPU 后面孤立存在的块不能越过中间缺口。正在写入尚未提交的块不算副本。若异步接收已经完成或 prompt 全部 computed，则恢复项为零。
 
 最终当前报价为：
 
-\[
+$$
 o^{rem}=\max(1,o-\#\text{已生成}),\qquad t=T^{restore}+o^{rem}d_1^d.
 \tag{8}
-\]
+$$
 
 H2D 增量报价含查找/scatter 等开销，不是纯 PCIe 带宽。单序列 decode profile 用于比较，不预测未来 batch 组合。目录是建议性快照；真正执行前仍重查锁、hash 与存在性。恢复报价不是将来布局不变的承诺。
 
 ## 6. 核心指标与其解释
 
-\[
+$$
 \boxed{B=\sum_a p_a\frac{s}{s+r_a},\qquad J=\frac{t}{B}.}
 \tag{9}
-\]
+$$
 
 按 J 升序，同分按 program 初始到达顺序。B 表示完成当前一步占“本轮加后缀标准工作”的预期比例，不是完成整个 program 的概率；t/B 表示单位这种推进比例的当前代价。
 
@@ -149,10 +149,10 @@ H2D 增量报价含查找/scatter 等开销，不是纯 PCIe 带宽。单序列 
 
 边界上：R⁺=0 时 J=t，退化为当前成本排序；后缀确定且 t=s 时 J=s+R⁺。固定 t、B 的串行不可抢占代理问题中，相邻交换对加权本轮完成时刻和的差为：
 
-\[
+$$
 [\sum B C]_{i\to j}-[\sum B C]_{j\to i}=B_jt_i-B_it_j.
 \tag{10}
-\]
+$$
 
 因此 t/B 排序解这个简化代理。真实系统有批处理、自悬挂和容量约束；代理目标不等于 program JCT，不提供每次换序必改善 JCT 的保证。
 
@@ -168,10 +168,10 @@ H2D 增量报价含查找/scatter 等开销，不是纯 PCIe 带宽。单序列 
 
 Native 还保留执行类别：已恢复或已有 computed 进度的 waiting 优先，随后才比较 program rank。实际编码为：
 
-\[
+$$
 \operatorname{priority}=10^6\mathbf1\{\text{尚未恢复且 computed=0}\}+\operatorname{rank}_{\pi_d}.
 \tag{11}
-\]
+$$
 
 这是类别编码，不是新效用权重。故执行并不是对全部 waiting 无条件取 J 最小者。
 
@@ -183,11 +183,11 @@ Native 每引擎步运行；上层竞争由到达、逻辑完成、真实容量�
 
 每个 call 使用公开当前输出合同/上限计完整需求：
 
-\[
+$$
 M_i=\lceil(n_i+o_i^{cap})/16\rceil,\quad
 \sum_j r_j-r_i+M_i\le L,\quad L=C_{usable}-32.
 \tag{12}
-\]
+$$
 
 同时检查 active 名额；工具期保留身份也可能占 active，所以它不等于 decode batch 大小。32 页为原执行协议安全余量，不是为 J 设计的调参阈值。归档实测 Cusable=2524，因此 L=2492。
 
@@ -203,29 +203,29 @@ Grant 更新 owner 的完整当前调用预约和 request 集合；后来的重�
 
 对 gap 样本 d₁…dN 定义：
 
-\[
+$$
 F(\tau)=N^{-1}\sum_a\mathbf1\{d_a\le\tau\},\quad
 H(\tau)=N^{-1}\sum_a\min(d_a,\tau).
 \tag{13}
-\]
+$$
 
 保护收益 V=ĉ+α W̄：ĉ 是按已提交长度报价的恢复成本 aH+bH×length；W̄ 是此前无 pinned 连续性返回调用的等待样本均值；α 是当前未 grant ready/running 的其他 owner 中、位于 π₀ 下游的比例。Tool-idle 不纳入这些 peer。这里的恢复价没有升级为式 (7) 的精确布局差分。
 
 令 Q 为当前未 grant ready 集合，a 为 free pages 加本轮预计释放页数：
 
-\[
+$$
 \Delta=\sum_{j\in Q}(M_j-a)_+,\quad
 \rho=\min(1,\Delta/\max(1,L))\min(1,|Q|/\max(1,S)).
 \tag{14}
-\]
+$$
 
 没有竞争者则 ρ=0。它是状态机会成本代理，不是逐页精确影子价格，重复 deficit 也不是独立物理需求之和。
 
-\[
+$$
 \boxed{\tau^*=\arg\max_{\tau\in\{0,d_1,\ldots,d_N\}}
 \{F(\tau)\max(0,V)-\rho H(\tau)\}.}
 \tag{15}
-\]
+$$
 
 断点间 F 不变而 H 不减，所以只需排序后以累计数/前缀和扫描经验断点；O(N log N)，同效用取更早 deadline，无样本取零。ρ=0 且 V>0 时通常选最大支持，不能仅因经济公式存在就声称每个状态都有额外收益。
 
@@ -237,28 +237,28 @@ H(\tau)=N^{-1}\sum_a\min(d_a,\tau).
 
 恢复对象是 GPU 连续前缀加 CPU 可连续接续区间，不是两层命中块数之和。chunk 对齐的说明模型为：
 
-\[
+$$
 \mathcal R(g,C)=\min(\{j:g\le j<m,\ j\notin C\}\cup\{m\}).
 \tag{16}
-\]
+$$
 
 GPU 覆盖 0…2，CPU 有 3、4、5 时可接续到 6；若 GPU 缺 2 且 CPU 也缺 2，后续 3、4、5 无法跨洞。实际仍按 16-token 页处理，不进行任意缺口 attention。
 
 GPU allocator 只在 ref=0 的合法 free 候选中，逐页选择删除前后所有已知 owner 联合边界损失最小者：
 
-\[
+$$
 \delta(b)=\sum_{p:b\in p}(\mathcal R_p^{before}-\mathcal R_p^{after(b)}).
 \tag{17}
-\]
+$$
 
 每删一页更新边界，共享页累计各 owner 影响；同损失沿 native 顺序。整组 native victims 对联合边界零损失时可直接采用，但不能把旧单页零分数当作共同删除零损失证明。这是贪心选择，不是全局最优子集求解。
 
 CPU STORE 仅在实际空间不足时回收。新缺失对象数 Nnew、chunk 字节 z、当前用量/容量 U/C 对应：
 
-\[
+$$
 D=\max(0,Nnew\cdot z-(C-U)),\quad K=\lceil D/z\rceil.
 \tag{18}
-\]
+$$
 
 候选必须原生可驱逐、非待写/在途/锁定。已知 owner 只允许删除不缩短当前联合前缀的对象；普通 history-cover 的恢复价 G(c)=[(β₁−bH)256c+β₂(256c)(256c+1)/2]₊ 及带时间归一的日志值不越过这个零损失可行域。
 

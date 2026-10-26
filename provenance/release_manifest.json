@@ -9,7 +9,7 @@
     {
       "path": "README.md",
       "bytes": 3309,
-      "sha256": "e09b84122ecb1a392a3f287b98b051358bd52a8b91deb191b6ec14c108677f45"
+      "sha256": "48c6bfe198a86fa62e56e4ad4ce83ff40476cbf2b822c4530a01685af5f4ae87"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -117,7 +117,7 @@
     {
       "path": "docs/METHOD.md",
       "bytes": 19981,
-      "sha256": "882ce55070e889bbb59cd0ed1be6c34660ee2f8ee6944d8716d60ace53c31a8c"
+      "sha256": "8eff7d84805269cd15497660de6dfa9bc35726bedb45dc175f95a1d3dc368cb2"
     },
     {
       "path": "docs/REPRODUCE.md",

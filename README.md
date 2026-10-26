@@ -4,10 +4,10 @@ Kairos 面向单 GPU 上交替执行 LLM 调用与工具等待的 agent program�
 
 核心指标是：
 
-\[
+$$
 B_i=\mathbb E\!\left[\frac{s_i}{s_i+R_i^+}\right],\qquad
 J_i=\frac{t_i}{B_i}\quad\text{（越小越先）}.
-\]
+$$
 
 其中 s 是当前标准工作量，R⁺ 是当前轮之后的标准服务量分布，t 是当前布局下的恢复、重算及输出成本。它是局部推进指标，不是整个程序 JCT 的预测或最优性保证。
 
