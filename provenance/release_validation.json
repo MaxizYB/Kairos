@@ -1,0 +1,17 @@
+{
+  "cpu_unit_tests": 36,
+  "original_controller_equal_snapshots": 120,
+  "original_controller_equal_transactions": 120,
+  "restore_boundary_alignments": 47,
+  "references_checked": [
+    "claim credit",
+    "shared pages",
+    "native running",
+    "DMA retirement"
+  ],
+  "information_boundary_checked": true,
+  "benchmark_cells_verified": 9,
+  "benchmark_calls_per_cell": 178,
+  "gpu_runs_during_packaging": 0,
+  "standalone_relocation_checked": true
+}

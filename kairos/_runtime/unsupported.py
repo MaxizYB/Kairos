@@ -2,7 +2,7 @@
 
 
 def unavailable(*args, **kwargs):
-    raise ValueError('This branch is not part of the Kairos release configuration')
+    raise ValueError("This branch is not part of the Kairos release configuration")
 
 
 CompactPredictor = unavailable

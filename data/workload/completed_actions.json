@@ -1,0 +1,1105 @@
+{
+  "schema": "recorded-current-actions-v1",
+  "actions": {
+    "django__django-12308": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3eee86bccc99e1f2d52779980767050cd82c4f1d246e8c666cdea9d835c34ab4"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "6ab3890710ce8a86dfdf23f8e3e524dc7f7869f698828947decf5d40e372f658"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "5b0da68c0fa06e62516d8a1d3ceb4cb23960d2f4ce63c75c7f9d9e4e5750900c"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "12ae9293d15273375434899684813891d22f0131cd9b834789b1a49381ca202e"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "cd01202d148fe98337db1f3477223b58c56f4d17af31b72778061bb0771c40ae"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "04cc23f2eea4f1601638428e7b2bdcce6bf016f2337b69e3d80563ed48b4bffc"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "e2de6f0aa6dd7d910f4f2d989317088e7638addf34426822517c4370aa3d8cc0"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "e93e1bdcd2e8fbbceb70ee236b7beead7efd1a3eda30461662a042ed48cda18a"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "e57588ac648a449476d3b4777d9cd0a9d6351b34dbf899f2035b43fa800cfb8a"
+      }
+    ],
+    "sympy__sympy-17318": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "a8f447429ab54fa5698796af78be7d22d09f5d7ee229c62c7e0c3848b15dd522"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "fec0005f2028df008539da581e98885160e010c901bb8d49591366323015f8e4"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "59e423050a83fe961b6872d083ab1336b755bf21c68d9931ad3284434b71b57a"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "98565f226178042c558f0ea1a3e73bc0ee264b007a2ebc9d0310a030573ffdcc"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "be6001c2637966b69ff209b4c363afe7bc662765e9af45475c42f5f11e9e56d4"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0cecce36b73d0bcf30b9bf3825fb83a9087b5bd81f274baf4e7c8baa0b964f20"
+      },
+      {
+        "tool": "python",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "55e842a6cb3503e1094fecc47318a53cc7f39221ccc19072303e7aa5d4684c37"
+      },
+      {
+        "tool": "pip",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "fdce8471a801a08cb40df3c123581222caa0a92bece4d009c639973b45b58346"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "e38d1f4d389ab737f184cf3651953827e829ef29f9335a2ca37a840f8fba3372"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "2a264da1f6fc13969a31b9ed1f35135785acd4a39a7631f4c60a3f399449c9f0"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "114d144bfc881433741327e60b3005a2f144a17c9d6e2e704335b00469939876"
+      }
+    ],
+    "django__django-12039": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "76b1e44efbb5de705af43aa8aeda65eb281ff8fbe9fac392a16c35af7cdfbbe8"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1bfb9dac735b367be5f04b049961e9e15e2181e97fedb39cb5407a64a7482761"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f8ad85365a8689c818625a58d720754b2aef8db0a696716590529d9cbde6bf00"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "25c293c5fd3774ac7ca428a668de6e8927a82adfbfd53dff56530b81bfede962"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b929e0a3c0e7c38042239bb91ca5e99023ee666df8e8638124e6c08fd4f9c589"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4611f637910366fedda233c6d581683a475af771308ec5c6b976b783231ac5ff"
+      },
+      {
+        "tool": "cp",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "432c78587b09c7313700064077872a80bb3e364a558b457471ab13e35ca98f91"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "a2c54eb31ed6fdfe2096176a44ae948f6b3110c320ab9fba27b666625f46998d"
+      },
+      {
+        "tool": "mv",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "e5cb11182c320a58aa0b2f2f2ff33224e663c59cff2d6a6b5bd5031d866e66d2"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "699dce59cdd958f4507f680795df89a976d8054707bdb6ac9d2b90ea0b4399b9"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "219c118df3dcde478ac2ae6f35024c17c7f30b00b90bcd3b03fbc898a122797e"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "10f99d7fcfaec33a59b15e0f46a08549d51bb18ab67d16c2f0d6ead819df8be1"
+      }
+    ],
+    "sympy__sympy-13974": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "38ce79310b6ff0812cd957fd60432b724385b840745e34358a00f20cb2bbfe06"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1c5b9d9d56af1d74ce08578fb0b04a3700b4c63ee1651d0c6f055f24e1056d37"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f0fdf032b6da95abfe96080089b9c50c7e4dbdd1078457b05d1a17ef7599ad6d"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "01fb8d19c29a2a8848cb3e01512bf50ff462799d5f71d612e5e9b31e0fdc5072"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "eabf0731bca017e2fd9380b5ecef4afd586549d15038a406c7e2e6528983a1b0"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "744c28049e8e126b976c3677f939025be167d92a998821ca9b536df13ef4a010"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "316bc8cd6820ab09296ba5338cf7086921b149b19393b05a7a99e8b3accb418a"
+      },
+      {
+        "tool": "python",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "65deef7b9f82c2e0a632003c8b392db2e5ac993e9f22fb0e18f86f3282a9865f"
+      },
+      {
+        "tool": "pip",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "31f49244465917de93eaa9b32647de49aef78c460cde236bbd0c70d7eaa0b286"
+      },
+      {
+        "tool": "python",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "77012b309f30ee64dbcdc9814136acc61980370f19e087d0fe5c96e49c81c51f"
+      },
+      {
+        "tool": "pip",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "288e01764fdbef5a7fb6dd3a3381caa0ffac7eb55a29c0bc41755f42131397d8"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0b71328f6b918ece8c3b9e544702d3f0513dbd22ae585e2725717026a3d4b881"
+      },
+      {
+        "tool": "python",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "efd7578e840b044b0855793e2522585b01923bf2517a4e3cb3eb5eae9a07dfdb"
+      },
+      {
+        "tool": "git",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "e92d1c5394a651e9deb47d61e0dc16d1e29da4d899c761a187742ecf76914172"
+      }
+    ],
+    "django__django-11734": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b5fc5ef8cc11b0c16aab96bf40bdce3e9f171dc8bff71944005fb71972eea117"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ddd2ae7014ab0fc8085f7aaa2374ad796d2d7462f122a47be132aeac5c73ef04"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1cace0f83737e5ef3e4b51d7b8862e125372bfabba8498576b81835bbabf669d"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "dbccb384d2a7470544ac48beae3ebe41fbb3707c78cbfc96d4ac5ecf388eeaf9"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "73c7bb731f25ea1a6484b93c4494b829420425cdf60f47d6ba06b18648a7c72c"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "00a4605e2aaeddfcc310ccf7c47563c56ba65dae7bfbd7c4780e8c2542445d14"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4e12a9f2ca9f8678bc47d314875d0b2391dba9dd7d9dd423abf6dfd00a3989ba"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f6d7c97e260b929e310980af35b24842edd78e50eb8bd5854e75c4067c6cab90"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "c08eb9f40b66e20745929137814a2ebab95da73499bec2127e5a93897f220aee"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "99aad17806fe7ebeb524e0d188ec755729a3b91fe1fe10765ee4577d52d3c7d3"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "61aeec463901a6e378255107758dac5af0bb1ad8b6ebb9ebb16d2dcc8b608cf3"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1756aa8ae37c9f84fbc20ab3b816751742f4d5c8ff459a7bb7eb2a28010a0e30"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "18fa38593b8ab26761f777aeea81d4395d3d392a1b27c737460582eae30d455a"
+      }
+    ],
+    "matplotlib__matplotlib-23412": [
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "48dda34aea0591dd448db605129dd6db866721e7d1704c03cfa160bf566deea8"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b2a6e07228d662724c44ce25af05683c8b15967da0a89417311cdd484894fcba"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "c1bec7b51697f745e9d8f640a715dd04303b7a71f386ac20b243f7ee52fda8c6"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "47fdbfbc90e8bf9da35bb54139377033138c6d2998ac608b69c47e38232332bc"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "fadee79ebca17d17e65b36c7e8e9e5de0f88ca72ce2e430dbab2840bf0fa7115"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0e6f40c4a6f4b0315e86d24536864d2abf1e2cceff979dc70a604de05d9b7e9d"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f403733b8eefde9e426e261dfd92f8e2a6b884830ec37c73e99dfb8bbb62390b"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "31f37699c65d967aade5a4d5b40db526663ae6100b2a1a12fbee30ffcda95c1e"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ce47129bf75437cde1f355bc1db5a72c2f2ff5397e4ca7be456671aa26b45321"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0ce91dd6c3dfe6caa4f3f949dac118dcdd3b86d56d1c395988acb59bcb727b32"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f2e9d9fe0d97ddb00f92814ba413902768efc196de36c14bb70bbcf36807cbdd"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "cb3712ce599215a8bd41c09872202fc5ecd74c6526b9e73bf620c997cfbf98c8"
+      }
+    ],
+    "sympy__sympy-23824": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f385a6fe9daa44249b916aca4be8379c39bdea480f0bf926c0dbdec297cfe1c3"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1565c20d1f862bf57d08236f64f7bc0e32559e5ded2312f62fadbd0fb369df5f"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "cd82f83bc3381ac75ddf050b0ceeb6f6993537da7ef9cd1d9cfb871c8ab2f68e"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "667544216a384b646ed8efddcd4b74cfd8b1cee29e929117ccd596524a7cb593"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "94d2ea7d7a3b4f96ebb4b2311031afa3a9fb743f3692abf785de2fd486898e4d"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ce9bdc72e336d0c461ec2fff57fda5f866d5dc012672fc94132f1cf208527665"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "292fa31190b745cea1a78ec67423e88b84582e95dcc9a965a66f295c996a3198"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "0878a6ae89354305818dbca864c11e174e23a766f9c20b1f254250d61d70212b"
+      }
+    ],
+    "astropy__astropy-13453": [
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "5ba5c9a6905701c4ecf4d372943944d2064bd3306b377a5de1eb6f06d7e4ed38"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "a593f49d0540cabc207f3765acf0c4ac2ae2ea16cffff3b7751cdcd1ed0fcbad"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "6a81093e697c5f41e2e943d2febbd908d038d6a8bbc2a5fb14272edbd4530701"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "48538ef93405ecb7c00af9f1e8533deb81f3a24b4565017aa5476975947d43d7"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8c5ff8a7b5969f762d44d35d6047ce757f83c1e40846e16eed725292976e2fe7"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8613103bb491a910468b36cad7176ed452e3400fcc79d356b8f91972fe0f7d48"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "99355cfb8feba3c8df6c651f4ce449c563c34c6cefd6a19fbe12b56cf1b92810"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "5ee58ad5b9f0b404665b1935299b567e927fa4b60861176260eaa913f17c7b63"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "6bff7ae1aecc84e7c4f9b55395115a9d96bd0ba2bb8bafe565901abd8a1211c0"
+      }
+    ],
+    "django__django-16256": [
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3353ad1608dac77a5dacbe372c51a6c3121ffc7745e2b81b45f4e733efb52639"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "50d70e4932a94010b08a1f7574e25d4ebb1f3312d3a8b686fa198cfd1bb3c6b0"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "5bdcee5fedcfefe5456b6c8888e52bc08f97cb53e94a39cc5992e40644f713eb"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "bfd11fcd55259e5c1a567d8a99955b938808a95729dcf0b5465a4e8569d0e4d2"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "90531e64aeb53320750c26e7221959ed56ba244b1122b53c4133ba6a85eeabae"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "a6f16af996f3047f5195c0f01bd6c1486720ced9debb104f0c55c2ea9213de3b"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "80083e8d789a93d6232dbbf2e66759a8244f7768cae775d44b6668958be11857"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "bf59207ba1f5ecbd42d7ade1ceef1dfe0922a58f5b16f827d11d77cf2d8e2c34"
+      }
+    ],
+    "scikit-learn__scikit-learn-14983": [
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "d968ad5b7dcd1e85c6a0b35ae151be9795067236a836203f5343800dfbf21d1d"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "7dfbfb5df68a27b6f83cd0ec0a505bc6c805f75945a48e8a6c0dbd2e721ea2ba"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "cf98cf01aecf7ebf53edcf5d8a8e7bc0c6b3283dd9b69d08b2cdca162d193bac"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "7b2088055d0529b5abea14356c0a323883545e347f65ae359fa113b0188a49f9"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "667bbd7a1c816052a9db1e5846cbe8c0cb42d0f09df2303d3dda2b01b07c0336"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "d347dae676ade324c7c2df17c24a8b2a5dedf9a00d2b819405b6a7a038e58606"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8018be52b7a8947cdc6a7cf852a53f95640d3d234e4801a83081976b270746b3"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8a39ddf657d1ac94b5c62fba50364fdb27c9d15156e73e69378bc0b5753a6a8e"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "51cbcfa84ce0c626dc0a58b58342eeccfa2385542d9b4762cdeadba1d1a207d3"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1f69b88ed758744e1ae630786d4fc9c37ddf595400c15b9f975ecb77d375f1ff"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "62f4e476f2d465fff3708f16a9251c5d431898bf1d04c43ba64c56dcbb67ea64"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "6214dde0f1278114f10db121a274a8f66a4051783eff196b4ead8a5b6cb20e59"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "52750ba98134170883c987479d239bff7f797f160967cd89c0ec302de7c1b1bd"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4320c42321f45b37a555d6a28423d554105d7c8fe10b6ab24d07951e2c750dd3"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "da8a8a33f86866f1e5a9b3aa6b92631d925ed760a8cd9b9e0864699cdded1890"
+      }
+    ],
+    "django__django-13512": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "7746b57573daa87519f7a4bc90e9d2352044b9fbd726438b00e718e23e253020"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b3a417b37e1a62415aa003a6d78b136a02b4622a6368ff1860d3df28cb7bf722"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "72732c2e96f024840a22ebda263d82d0adbc6ab68865ca9c7490a2125dbf2fb6"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b6ea35f9711d53183d3a832b17f7802802eb6c2990dfe6af0903341a82f0622c"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f95cb13e6081de0ad977ab6f8a455b859012c208f5bbffc90460817c1e63289b"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0ffb6b0113cf2f415e8c07cd82d686d10f101db149dc67077bdd218705355ac5"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b098206bfd1f9446f21bbb55724087d88f2ade36a3d76e34e5c6c52d95f821bd"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "2cb4fd2b71be2e087e61d5042d6182ce6ab72623946818ca2138aea9211375a9"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "99b9afa3645f4979f84e300f0876851d8e19b03221c0fb1356d5d48ef0d41fc9"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8b05290d260ca24ef14814807fc21efa349e028bcccc4c0805bad958078f506d"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f9d29a987429ab3372ab1e31acfabc4eff527b226c360108085c576c0a1dd560"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ddde56e56aeee377099bdd334295a39a966bb1a310ff6e418fec4e2054217205"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "f0552cf1846468776ed2b7cf1ce5d11d0d64b49ab6e1ef694323a8ec3d648c9c"
+      }
+    ],
+    "django__django-14672": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "337d9e7fb1d0c3bdda2be338f414d206fa25d7d4d5f2b0899b035757849e9124"
+      },
+      {
+        "tool": "cd",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "a84e8ecaa4537e818c9bc372c2a50fae7daac17d44e0258130edfe5d7136c674"
+      },
+      {
+        "tool": "cd",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4877541483d35ef05ecd52929e9aecb1fecfa014a183b7dec2f38912dc147b4a"
+      },
+      {
+        "tool": "cd",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "975f5d7e55762501c3c43a65a80cd26bb0660fbd1213b7d12885b018e0fb0bb8"
+      },
+      {
+        "tool": "cd",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "46e820e734c1ff486d953282e30e52b1126ebfe33568701bf3e4328d49be576e"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "dcdd72c253e2ab632efdadded7469d4eb6f4ab220d72afa2eebeae496ae9528b"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "8ffeacff76c90791bacaa3f278fde4900ba60e68e5719be74499fc472397cab0"
+      }
+    ],
+    "sympy__sympy-18763": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3ecdd321f6820277ab94360fa527e2ec82b01c9d262bdd483c54fa4f75b8fcb1"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "741f4a9f870bb1e6b955f591fc18319032e59c579bf06770487ab2966c3410c7"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "7e5ab1df69e65c7649694edcc331cf2af98207b3838c4ca577734cde329cda37"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "c20b599f8a394a8a7be072406c99c03a30aa64e53e32bfbf2a2b25b6bca4d5c5"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "099341c399df5d81002c1e3bb7e77fa8faeac24601156599e64fb4e0b3c129c0"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b8b19af6acf05bc7d9624617ea6c0e56472f2a1a1d434f0255143f7c62f903a6"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "e7d2b9229beb1f15b2a4646850f9c27468d137ee3b4760087c5c47010a59c285"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "9ee2b2d83a811186db16c38af62cc83491e0364a20896c32c196eaccf282a296"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "42b48388168dc7aa121fdb76f0bcb0290c2495ad1c30ed59c4d1a91872b3bb9b"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "82d2c3832a3c525b92c706e6c3a319a0689145d8f4f9d07f9602c01e1208025c"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ae6a8201f6cf5de48065721b7a489ac67e66e45ee109f81551c5b483fcd7e016"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "930ff9a47c81a959640a4ad7597c3db815af027d1a4afa88a4b93d79c83397be"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4a28400dcd713b2db680fbbf8b23998cf45a52c4f51b0490d871ec3aa3b9d198"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "723764ce8a6f11da048ad930a32a0e03436bd02b89ad1a00deb2330d4b8bd13b"
+      }
+    ],
+    "pytest-dev__pytest-7521": [
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b1d35a0f8773d3d7cdb01d03c87f2ae9fdfdfaf94674b7b9c975dce7aef2cc82"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "adb5e95a84e1bafecc402df344a7f83bf883df8260dc2545a6a0603464ecef5f"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "c2ce66028ffaa1fd33484cd0a2a7543a5975087cfb23c46664d50c9eeeab0ac6"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "0f37d512ab629d53b40d9724f3a1fc3ca58c30d9ab232a170cc5c465f4e2a6a2"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "eb21ee5b07abaa8ac504f81231b5538ac0a19b8ff045455a70c69d07693d4f62"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b1838bb3e30a2f094ada835ae89dc2b42c517d6622c8a1f156fd702131de5743"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1cb480e2a492b8ca14f5808707926ea2fad9073cd74fcbc3f019c052c48785f8"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "b22e63718641ccc1273a286a80d80247763c58be7f24839cdde070a8800b0a32"
+      }
+    ],
+    "astropy__astropy-13977": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3b6497140274cdd5673c763905d99a49efd9e1054cad13f7b4d0e08abeebd9d6"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "6b71cb8976e6f66118cff7dd9ec475b37963b9e5a4c9659ac107e918c07553a3"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3036e3a2205b702a93379a608ac3feaf463532137476535eb17d7cdd103aebd1"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8315c43096cd0b430a29f072f239e93f380578e295e7e659e6cd0c47d2f88d3c"
+      },
+      {
+        "tool": "grep",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "311cc4f6bda1997c2994f7bedb33d99c362cb2621072a86dac129b4d1bf9a7ce"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "999e34d4f17aa6e221ba2acf593050bf682cdd3de04d235f42815b71a50c8a7b"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "04580b10e7a8544864abaa1d1982fd918b81d69c52181e8c067900a6605e5877"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "26614fd7c30e4c5b9ea0b8e76f5e2ff19321e6c0fc29b704cacae244d4296406"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "50a603a982d22d5243291bc47c6d910e13cf4f8ae2e9279afc859f7f5ef8f0f5"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "f63d81cfaa21e4e4eb549cb439ecb2275e81117c970069fe20c3cc7318c5f038"
+      }
+    ],
+    "django__django-13012": [
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "bc47df10339551c6b6f579ccbe4ebd08d3c28608bc9c94a61bed414f9e69b0d9"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "8a7d401835a40a3cbbdd0b43a76116962d1627d7034c65badd272613af306616"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "204e2462324f54427e19048c6bab10096173637f6e348f9edc450f6b72326beb"
+      },
+      {
+        "tool": "ls",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "b6419531b6d31c7c3cf170d70225886029f12c3c82bd8c5cbab2489a0e8abb6a"
+      },
+      {
+        "tool": "find",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ee8039049c6768017ca6ae2acf39a4380c051726d3e87eb7e9ea25a82bd8599e"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "3d7bd931c80517f3224e7f565af57d1f650a8882b103ffd002bf8099e2baa61a"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "ffa678c78f1fa9c084264c7da7c42f52ef37111a06797b9671e7279d0e53b96e"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "d8ebf76cc4639df68ca0101e3af1e5f9d37fb131b9250857417d1cd68af75bf5"
+      },
+      {
+        "tool": "sed",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f073246f009c9a3f86c7edcea5ec84da4a43a772c0de5e3885da4ce266557530"
+      },
+      {
+        "tool": "cp",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "28961bfd77f99baf596b1d18c3e16d5e5352617c8cf9265e12f9be44b542b60f"
+      },
+      {
+        "tool": "cp",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "5001eb28246ac5db9ab373915e167f3375c0cecd77d3c6a3ff2d27ddb544639e"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "4cb35add044b368756f69558798870dae63de30c7e226dc19b6b30a58a4f6214"
+      },
+      {
+        "tool": "git",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "1ab0e208106d99f5a4019a5f94b83de7dfc8340d1218982f5e632164c2dc4148"
+      },
+      {
+        "tool": "cat",
+        "terminal": false,
+        "evidence": "current-tool-action",
+        "assistant_sha256": "f91aa9c27399355605183fb710757e29cdc12413064d9f2b7d58d287cf830ad2"
+      },
+      {
+        "tool": "echo",
+        "terminal": true,
+        "evidence": "explicit-submit-action",
+        "assistant_sha256": "9a8773d0430a7008bde3b7b5b93d61d860ba07bba14832625fdefa716975a666"
+      }
+    ]
+  }
+}

@@ -7,4 +7,6 @@ dist/
 runs/
 models/
 .cache/
+.ruff_cache/
+.pytest_cache/
 *.so

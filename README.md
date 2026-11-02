@@ -1,65 +1,116 @@
-# Kairos：在正确的时机推进 Agent 程序
+# Kairos
 
-**10.27 注：当前版本有巨大设计缺陷，正在修复中**
+Kairos 面向单 GPU 上交替执行 LLM 调用与工具等待的多轮 Agent Program，联合安排执行机会、跨轮 KV 保护和 GPU/CPU 状态恢复，以降低 Program 完成时间（JCT）。
 
-Kairos 面向单 GPU 上交替执行 LLM 调用与工具等待的 agent program。它用因果后缀分布衡量当前调用的预期推进比例，以实际 GPU/CPU KV 前缀报价执行成本，并在完整调用容量承诺内安排成熟续轮。
+完整设计、动机、公式、数据分析和实验结果见[方法文档](Kairos_Method_Design_Section_2_ZH.md)。[配套图表](figures/)提供 PDF、PNG 与 SVG；三张方法结构图另有[可编辑 PowerPoint](figures/method/Kairos_Method_Figures.pptx)。
 
-核心指标是：
+## 方法
+
+两个分布森林分别预测当前输出规模和本轮之后的剩余服务量。Kairos 根据当前布局的物理执行代价与预期任务推进比例，对所有 ready 调用统一排序：
 
 $$
-B_i=\mathbb E\!\left[\frac{s_i}{s_i+R_i^+}\right],\qquad
-J_i=\frac{t_i}{B_i}\quad\text{（越小越先）}.
+J_i=\frac{t_i}{\mathbb{E}[s_i/(s_i+R_i^+)]}.
 $$
 
-其中 s 是当前标准工作量，R⁺ 是当前轮之后的标准服务量分布，t 是当前布局下的恢复、重算及输出成本。它是局部推进指标，不是整个程序 JCT 的预测或最优性保证。
+独立的容量事务按此顺序检查原生执行前沿与执行名额，维护容量 claim，并仅撤销更低优先级的安全 optional pin。部分保留只作用于本次计划原本需要撤销的 victim，受 claim 和每一步提交余量约束。工具期间，有限 TTL 权衡可观测恢复收益与当前容量机会成本；后端按 GPU/CPU 联合可恢复前缀管理状态，并通过页边界恢复减少重复搬运。
 
-## 从哪里开始
+## 代码导读
 
-- [完整方法](docs/METHOD.md)：文字流程、公式、森林训练、调度、容量承诺、TTL 与两层 KV。
-- [架构与代码导读](docs/ARCHITECTURE.md)：每个模块做什么，以及哪里改、哪里不改。
-- [复现指南](docs/REPRODUCE.md)：CPU 核验、训练重建、固定模型与完整 GPU 回放命令。
-- [实验设置、结果和局限](docs/EXPERIMENTS.md)：只报告 Kairos 与 Continuum。
-- [第三方来源与发布范围](THIRD_PARTY.md)。
+```text
+kairos/
+  scheduler.py             完整调度器的类组合与 vLLM 入口
+  prediction/              当前输出、后缀服务森林及因果历史
+  scheduling/
+    snapshot.py            ready/running/idle 的统一观测快照
+    score.py               物理服务报价与推进率 J
+    priority.py            就绪顺序和连续性位置
+    admission.py           claim、grant、安全部分撤销和 idle 物理计价
+    retention.py           只读容量计划与保留预算
+    forecast.py            当前输出预测与原生 KV 前沿账本
+    program.py             Program 历史、异步后缀预测与生命周期
+    cache.py               请求级分布与服务报价缓存
+    integral.py            running 推进积分的精确复用
+  continuity/              工具返回分布与经济 TTL
+  backend/                 GPU/CPU 联合覆盖及实际恢复传输
+  replay/                  因果请求边界、私有执行停止、完成后观测
+  observability/           分布日志压缩与事后展开
+  _runtime/                vLLM/LMCache 引用、分配和传输适配
+assets/                    两类森林、训练先验和独立服务标定
+configs/                   Kairos 与 Continuum 启动配置
+data/                      SWE 回放输入、到达序列和离线训练状态
+results/benchmark/         九组逐 Program/请求指标与汇总
+figures/
+  workload/                调用跨度、等待长尾、上下文复用与剩余工作
+  prediction/              当前森林与真实观测、区间校准及任务例子
+  method/                  三张方法示意图和可编辑 PPTX
+  evaluation/              Dense 柱状图与 Poisson 到达曲线
+  data/                    图表数据、指标、选例规则与来源哈希
+provenance/                来源映射、校验和及验证记录
+tests/                     CPU 决策、信息边界、引用和字节恢复测试
+```
 
-## 已归档的端到端结果
+阅读主流程可从 `scheduler.py` 开始，依次看 `snapshot.py`、`score.py` 和 `admission.py`；TTL 见 `continuity/holding.py`，后端见 `backend/coverage.py` 与 `backend/transfer.py`。运行时中的原生分配、抢占与 DMA 引用边界由适配层维护。
 
-Qwen3-8B / 单卡 RTX 4090 24 GiB / CPU KV 8 GiB；16 programs、178 calls、26164 output tokens。每方法一次正向回放，均 178/178 完成、0 失败。
+## 本地检查
 
-| 方法 | Mean program JCT/s ↓ | P95 program JCT/s ↓ | 总回放时间/s ↓ |
-|---|---:|---:|---:|
-| Continuum | 106.472 | 150.118 | 161.167 |
-| Kairos | 93.597 | 136.181 | 150.258 |
-| 降低 | 12.09% | 9.28% | 6.77% |
+使用 Python 3.12+ 和轻量虚拟环境；本地检查无需安装 torch 或 vLLM。
 
-单请求 P95 TTFT 和 P95 E2E 并非全面改善，详见实验文档。本结果是已测实现的归档证据，不是重命名独立包后重新进行的 GPU 测量；没有多次回放置信区间，也不是未参与开发的盲测。
-
-## 无 GPU 也能先验证
-
-从仓库根目录运行，只需 Python 3.12+ 标准库：
-
-~~~bash
+```bash
+uv venv .venv
+source .venv/bin/activate
 python -m kairos.verify
 python -m unittest discover -s tests -v
 python -m kairos.audit
 python -m kairos.evaluate
-python scripts/report.py
-python -m kairos.run --method kairos --model /path/to/checkpoint --output runs/check --dry-run
-~~~
+```
 
-训练重建需要轻量 NumPy/scikit-learn；GPU 回放需要独立的服务器环境。不要在无 GPU 的开发机上安装服务端依赖。模型权重不包含在仓库中。
+测试包含 120 组冻结控制器快照/事务回归、部分撤销与 claim 安全性、公开上限与真实工作量隔离、完成后观测，以及 CPU 模拟的异步字节恢复。`evaluate` 在留出 Program 上评价随附的后缀森林；`audit` 从九组逐程序和逐请求记录重新核对工作量与平均 JCT。
 
-## 仓库布局
+图表可在本地 CPU 复现，绘图依赖单独安装，不需要 torch 或 vLLM：
 
-~~~text
-kairos/              易读的评分、分布预测、训练、保护与复现入口
-  _runtime/          冻结的执行/引用/传输适配层，非第二套研究项目
-assets/              冻结森林、标准单位、部署和恢复成本、工具先验
-configs/             两方法完整命令与环境参数模板
-data/                固定回放输入、逐到达可见消息、数值训练/评价状态
-results/             两方法逐请求/逐程序结果、压缩决策日志与汇总
-provenance/          文件校验和、已测源文件校验和、独立包验证记录
-tests/               不依赖 torch/vLLM 的回归与等价检查
-docs/                方法、架构、复现和实验
-~~~
+```bash
+uv pip install -e '.[figures]'
+python scripts/build_figures.py
+python scripts/draw_method.py
+```
 
-当前交付使用源码 checkout（可 editable 安装），不是包含模型、数据和部署环境的自包含 wheel。运行仅支持本仓库发布的两种配置；内部兼容标识不是对外实验版本列表。
+第一条脚本使用发布模型重算 SWE 留出预测，并读取随附的匿名聚合工作负载统计；第二条脚本用同一套几何布局生成三页原生 PowerPoint 形状与 PDF/PNG/SVG。PPT 中的文字、色块、页条和连线均可编辑。图表设计参考 CONTINUUM 的长尾分析、到达率曲线及模块分组，以及 CacheBlend 的缓存布局图；来源见 [sources.json](figures/data/sources.json)。预测器只与真实观测比较；区间覆盖率、宽度、Program 等权与调用等权的区别在方法文档中解释。
+
+## 服务器启动
+
+在独立服务器环境中准备 `requirements-server.txt` 对应的 CUDA、vLLM 和 LMCache 依赖。使用源码 checkout（或 editable 安装），模型权重单独存放。当前配置对应 Qwen3-8B BF16、FlashAttention 2、TP=PP=1、GPU KV 5,935,988,736 bytes、CPU KV 10 GiB、最大并发 8、16K 上下文及 2,048 batch tokens。
+
+```bash
+# 查看完整命令和环境；不会启动模型。
+python -m kairos.run --method kairos \
+  --model /path/to/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218 \
+  --output runs/check --dry-run
+
+# Dense 固定工作量回放。
+python -m kairos.run --method kairos \
+  --model /path/to/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218 \
+  --output runs/dense --gpu 0 --engine-cpus 0-3 --helper-cpus 4-7
+
+# Poisson 首次到达；JPS=2 使用 poisson_jps2.json。
+python -m kairos.run --method kairos \
+  --model /path/to/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218 \
+  --trace data/workload/poisson_jps1.json --output runs/poisson-jps1
+```
+
+`--method continuum` 使用同一回放边界启动 Continuum 对照。`--profile` 与 `--reload-profile` 可提供独立设备标定；随附文件来自归档 RTX 4090 实验，更换设备后需重新标定。运行产物包含启动配置、完成状态、逐请求/Program 指标及决策日志，可用 `python -m kairos.audit --run runs/dense` 检查。
+
+固定 Replay 的输出标签仅由私有执行停止适配器使用。调度器在请求到达时接收独立公开上限、当前 prompt 和已完成历史；工具类别及显式结束意图在本轮输出完成后进入观测。训练和事后评价可使用标签。此次仓库整理完成了 CPU 回归与命令检查，整理后的入口尚未重新做 GPU 端到端测量。
+
+## 归档实验
+
+同一张 RTX 4090、Qwen3-8B、16 个 SWE Program、178 次调用。每个方法与负载组合运行一次；下表为平均 Program JCT，单位秒。
+
+| 到达模式 | vLLM+LMCache | Continuum | Kairos |
+|---|---:|---:|---:|
+| Dense burst | 128.48 | 105.12 | **85.14** |
+| Poisson，JPS=1 | 123.79 | 85.35 | **80.02** |
+| Poisson，JPS=2 | 122.52 | 97.50 | **83.44** |
+
+Poisson JPS=2 下，Kairos/Continuum 的 P95 JCT 为 141.57/141.34 秒，尾部并非全面领先。以上是集成系统的单次观测；Native 使用同步路径，研究方法使用异步路径。逐组数据见 [results/benchmark/summary.json](results/benchmark/summary.json)，完整解释见方法文档。
+
+

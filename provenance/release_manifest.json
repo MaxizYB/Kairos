@@ -3,1090 +3,1366 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 82,
-      "sha256": "95aff4271e726b96f7c031c0c30a63a81087f1ff854af31aec6da618de063351"
+      "bytes": 110,
+      "sha256": "084cf961f6454fa3f1af066fb8a1ff20ec39b851089ccd5da4a7017df5d54715"
+    },
+    {
+      "path": "Kairos_Method_Design_Section_2_ZH.md",
+      "bytes": 54976,
+      "sha256": "5f696557c48b02589c12a30e5ce6002c7a968bef42c3dfcc33d51884f7b8f11a"
     },
     {
       "path": "README.md",
-      "bytes": 3309,
-      "sha256": "48c6bfe198a86fa62e56e4ad4ce83ff40476cbf2b822c4530a01685af5f4ae87"
+      "bytes": 7707,
+      "sha256": "82f604f6019b2a9d88312ea546c736eb5879c1801d66124b9142acc80ad801f6"
     },
     {
-      "path": "THIRD_PARTY.md",
-      "bytes": 3304,
-      "sha256": "af391f1c3abef28349bd668567b0bdd65c8b1283c7a63b4065ed3b93db4a373c"
-    },
-    {
-      "path": "assets/deployment_profile.json",
-      "bytes": 19722,
-      "sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022",
-      "export_sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022",
-      "source_sha256": "a08d9e3b28095bc20366a3a7dfe9b7578c514b0b4cbebb60be048bf75c73e022",
+      "path": "assets/current_output.json",
+      "bytes": 1373716,
+      "sha256": "1c5317e09eb17bb9c0a968bb684ae8a6590a527517bd7cea4c6e15420497ed6b",
+      "export_sha256": "1c5317e09eb17bb9c0a968bb684ae8a6590a527517bd7cea4c6e15420497ed6b",
+      "source_sha256": "1c5317e09eb17bb9c0a968bb684ae8a6590a527517bd7cea4c6e15420497ed6b",
       "release_modified": false
     },
     {
+      "path": "assets/current_output_metadata.json",
+      "bytes": 1332707,
+      "sha256": "89244ae8d38a30c1f5a02ecadf4cbb2b31a09aea1e4be8ba567c2ebf5b398ed3",
+      "export_sha256": "89244ae8d38a30c1f5a02ecadf4cbb2b31a09aea1e4be8ba567c2ebf5b398ed3",
+      "source_sha256": "89244ae8d38a30c1f5a02ecadf4cbb2b31a09aea1e4be8ba567c2ebf5b398ed3",
+      "release_modified": false
+    },
+    {
+      "path": "assets/deployment_profile.json",
+      "bytes": 20022,
+      "sha256": "c778351305463befca77bbfa3948507b448e9e218fe4ad32e33d5e8287ed3409"
+    },
+    {
       "path": "assets/forest.json",
-      "bytes": 1550201,
-      "sha256": "cb3d0859f7c837bb4aa719cc2aaa3ca5e8ceec40fa593cd14ea55a286bab1274",
-      "export_sha256": "cb3d0859f7c837bb4aa719cc2aaa3ca5e8ceec40fa593cd14ea55a286bab1274",
-      "source_sha256": "cb3d0859f7c837bb4aa719cc2aaa3ca5e8ceec40fa593cd14ea55a286bab1274",
+      "bytes": 1549068,
+      "sha256": "8f2369ef89cadbc57379b5edc6fa093c98842f89e9f4c39b0f6530b02e312250",
+      "export_sha256": "8f2369ef89cadbc57379b5edc6fa093c98842f89e9f4c39b0f6530b02e312250",
+      "source_sha256": "8f2369ef89cadbc57379b5edc6fa093c98842f89e9f4c39b0f6530b02e312250",
       "release_modified": false
     },
     {
       "path": "assets/program_prior.json",
       "bytes": 42969,
-      "sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c",
-      "export_sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c",
-      "source_sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c",
-      "release_modified": false
+      "sha256": "78d5b30756a7bd664b48bcfb9a23f62c8fb29f10e5a504a4069014f35cae804c"
     },
     {
       "path": "assets/reference_profile.json",
       "bytes": 456,
-      "sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87",
-      "export_sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87",
-      "source_sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87",
-      "release_modified": false
+      "sha256": "c8e3e539858277bf5340e91fb36213379743eb2e0933f89aa91d67baa981be87"
     },
     {
       "path": "assets/reload_profile.json",
-      "bytes": 4002,
-      "sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2",
-      "export_sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2",
-      "source_sha256": "5238b9cc074cef7794c8665ca05f032ffbc236d8e24f499e8cf3ae62cab4b7d2",
-      "release_modified": false
+      "bytes": 3997,
+      "sha256": "c977b632fd1ea967560fea64a69a1eeaa0a5a6fa6c34840bd9dd63abcbd87500"
     },
     {
       "path": "configs/continuum.json",
-      "bytes": 3594,
-      "sha256": "f15663b67537d5cc167bc9de051afb00944bc23c549797435e1191999cb16746",
-      "export_sha256": "eb38fcf8094ab6d9f234c7e5bdf31b49b9597eea6d5fadace44ea87ba0e84caa",
-      "source_sha256": "01fc862ac8e37b8f507bd30e7a3acf84ab4f46c5c58b9c07abd180824b971068",
-      "release_modified": true
+      "bytes": 3635,
+      "sha256": "c221fa2edb5229e08c31da9022f6150897afc76eb0b674ac07fd18d3aa87af77"
     },
     {
       "path": "configs/kairos.json",
-      "bytes": 3672,
-      "sha256": "89c111b8aa842b3005c84627be5575c22e20d6e4e8c59043f141ca09c6953983",
-      "export_sha256": "3db4c729b2972210e3eb5646c8dbb7cdd0d5d0f47c34d42da4ff640b753257cf",
-      "source_sha256": "60414d1b58df7e54c9fca4f30ae68c3cf018961791a8aacffafe0f82d4b854a0",
-      "release_modified": true
+      "bytes": 3713,
+      "sha256": "ea6c5fefbf945c781c3bcc47c31ed06c60e6e2191d3c06a1b2534fe1138cb7d7"
     },
     {
       "path": "data/training/causal_states.json.gz",
       "bytes": 3840707,
-      "sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995",
-      "export_sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995",
-      "source_sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995",
-      "release_modified": false
+      "sha256": "9c04b4f5655269e4a76717b0c6efd6693b894736ab8612041c55d1ca1a955995"
+    },
+    {
+      "path": "data/workload/completed_actions.json",
+      "bytes": 37217,
+      "sha256": "2aad40f42261c1b6f0215201e30997e1aec411242a02351f95d2edaf33d76cb3"
+    },
+    {
+      "path": "data/workload/poisson_jps1.json",
+      "bytes": 2352418,
+      "sha256": "dd635799d87ebbe407ef1b10653430f5246a23afe9a38f27828d2a7416f4396d"
+    },
+    {
+      "path": "data/workload/poisson_jps2.json",
+      "bytes": 2352412,
+      "sha256": "6fa9c90cf022d1c58a24b9213e2d1a944f8d4166e3997688328eccdf14f31192"
     },
     {
       "path": "data/workload/trace.json",
       "bytes": 2352957,
-      "sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
-      "export_sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
-      "source_sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
-      "release_modified": false
+      "sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8"
     },
     {
       "path": "data/workload/visible_messages.json",
       "bytes": 3880488,
-      "sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a",
-      "export_sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a",
-      "source_sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a",
-      "release_modified": false
+      "sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a"
     },
     {
       "path": "data/workload/visible_protocol.json",
       "bytes": 36301,
-      "sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27",
-      "export_sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27",
-      "source_sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27",
-      "release_modified": false
+      "sha256": "22470611302f9e4d4cbf486c636a94cc6709a2e482507db7666ac36f86f48a27"
     },
     {
-      "path": "docs/ARCHITECTURE.md",
-      "bytes": 6250,
-      "sha256": "95edfbb891deb55c01c0bf1c9f94a92c716153a4d6196509050955099d555b53"
+      "path": "figures/data/analysis.json",
+      "bytes": 9586,
+      "sha256": "e6539af00c27b253a4992e4e00243aca463a5d8d1a6fc5982c00cabc2faf32f5"
     },
     {
-      "path": "docs/EXPERIMENTS.md",
-      "bytes": 10688,
-      "sha256": "be9f5bce016fb1f5cbf36408017de7c76774469a10592f3f7e8ba431d9c00bf1"
+      "path": "figures/data/predictor_predictions.json.gz",
+      "bytes": 4230851,
+      "sha256": "bdd28a576a67859c7730a2750bf7ff2db58ee8de9bc4c262bd4e30a95237ac1c"
     },
     {
-      "path": "docs/METHOD.md",
-      "bytes": 19981,
-      "sha256": "8eff7d84805269cd15497660de6dfa9bc35726bedb45dc175f95a1d3dc368cb2"
+      "path": "figures/data/sources.json",
+      "bytes": 1437,
+      "sha256": "2a2c6ed7c1ea46d302a0f3c75b6971f3ab96f601c9b1afe31435cb667fa117d8"
     },
     {
-      "path": "docs/REPRODUCE.md",
-      "bytes": 11051,
-      "sha256": "6437fa1d7943e079e2a8e7d1cf50c0ebe6c63078ba2f22bddf99a278d039e5fc"
+      "path": "figures/data/workload_observations.json.gz",
+      "bytes": 11835,
+      "sha256": "11ac7f80aec651d98e4c18bffd607dfa8bb99505c51e9fa62d7a28bed6448b1a"
+    },
+    {
+      "path": "figures/evaluation/mean_jct.pdf",
+      "bytes": 20628,
+      "sha256": "35e49f4ce1058e6d1bff41c5e8ea728ae17f467e4a34df5c3aa9fdead63515f1"
+    },
+    {
+      "path": "figures/evaluation/mean_jct.png",
+      "bytes": 124454,
+      "sha256": "5831d2250046cd92a1d7988e65255cd2a3ee5010de1766c5fc9bbfe58f2b5849"
+    },
+    {
+      "path": "figures/evaluation/mean_jct.svg",
+      "bytes": 60001,
+      "sha256": "88872fef4fea2da7e35b81cd4e556ecb18936f3cfa966b4e240369c4fd683065"
+    },
+    {
+      "path": "figures/method/Kairos_Method_Figures.pptx",
+      "bytes": 47344,
+      "sha256": "e7135fead08eed42e1b23807f922622de6a54d9d439c99f22d9b8b329aebcbd9"
+    },
+    {
+      "path": "figures/method/admission_retention.pdf",
+      "bytes": 35521,
+      "sha256": "23805ea82abd1adf042ebc1cb45846424151024d1c3b564f26b447fe746e8b69"
+    },
+    {
+      "path": "figures/method/admission_retention.png",
+      "bytes": 219003,
+      "sha256": "ee219e2f15263155aeed779d4ee7cefcd7b310fe191e921e173ecdd2bad91944"
+    },
+    {
+      "path": "figures/method/admission_retention.svg",
+      "bytes": 113472,
+      "sha256": "4ef8c3e8b9c21aab175bb343774c2bebbb64e9c27a284209ca838a1274419176"
+    },
+    {
+      "path": "figures/method/architecture.pdf",
+      "bytes": 37380,
+      "sha256": "c87801a0f00f8aa7fd0090233f62940963e5e30f3a737bf67d60acb3511ccec7"
+    },
+    {
+      "path": "figures/method/architecture.png",
+      "bytes": 321564,
+      "sha256": "d81e36a48eede3ac15525f5642a8c3276af7dc9fce02f0cbd01a2e6cf4c6fd58"
+    },
+    {
+      "path": "figures/method/architecture.svg",
+      "bytes": 144929,
+      "sha256": "af15dfea19114e7f4d2fcdf06434c4aa6ecfef3370e835b5405a065e4dbfc1bc"
+    },
+    {
+      "path": "figures/method/joint_restoration.pdf",
+      "bytes": 33960,
+      "sha256": "0858a37751a9707cb0ec0c620be26475291bbaf96a016c8b7303f8512a0cd6de"
+    },
+    {
+      "path": "figures/method/joint_restoration.png",
+      "bytes": 244596,
+      "sha256": "881188dbd63c589827ff01c21fde7e40fd818ea31a5e7e8e60b33450acf51bec"
+    },
+    {
+      "path": "figures/method/joint_restoration.svg",
+      "bytes": 125706,
+      "sha256": "01b1c46c0846a2cf5925b8cf271b18c6e8bb636b904a7842a67a3217e18b45fc"
+    },
+    {
+      "path": "figures/prediction/call_distribution_example.pdf",
+      "bytes": 24140,
+      "sha256": "2d79344386bf34e167094960056895a10491b00cabe708ef48655962b0158de9"
+    },
+    {
+      "path": "figures/prediction/call_distribution_example.png",
+      "bytes": 185494,
+      "sha256": "f255597132e802fb1c4c1c2ab2a2779a71b149f4dc814cdc235f7a7829a5ca6f"
+    },
+    {
+      "path": "figures/prediction/call_distribution_example.svg",
+      "bytes": 96900,
+      "sha256": "3a400d6d2aef51a38854f8174ed7e94b19a785a7b7af7d88215dfccb74783549"
+    },
+    {
+      "path": "figures/prediction/interval_calibration.pdf",
+      "bytes": 22971,
+      "sha256": "96927cc111ee234a2a3c517d5a8091c76e2513d44fe787438c35c5627804d4a1"
+    },
+    {
+      "path": "figures/prediction/interval_calibration.png",
+      "bytes": 205596,
+      "sha256": "4dd7d9f435560991ccfe417f424a4345a90ca701e2af2240c8d1752ddea2db51"
+    },
+    {
+      "path": "figures/prediction/interval_calibration.svg",
+      "bytes": 75342,
+      "sha256": "b9eecc03afdbfedcdfaa64a143de3810a3e08f4df0104549abc6f7383245a061"
+    },
+    {
+      "path": "figures/prediction/observed_vs_predicted.pdf",
+      "bytes": 79112,
+      "sha256": "43eb364d211a377948aec819ef0be0737a5931c1044ca9ab122ba5b8356eaf93"
+    },
+    {
+      "path": "figures/prediction/observed_vs_predicted.png",
+      "bytes": 278008,
+      "sha256": "fa9d5e59c1dee34515daa7cb923410aa7576e137d9336590e3cbfef25f371c79"
+    },
+    {
+      "path": "figures/prediction/observed_vs_predicted.svg",
+      "bytes": 181468,
+      "sha256": "fea905448c922eccdf91fd13932ee71e5212ed912e07521744dca96c716bba98"
+    },
+    {
+      "path": "figures/prediction/program_evolution.pdf",
+      "bytes": 14624,
+      "sha256": "02ee1bda51c16bdff889befce63f1f693a780c019747b29c5f02e178173fc4e3"
+    },
+    {
+      "path": "figures/prediction/program_evolution.png",
+      "bytes": 118062,
+      "sha256": "316970e82f5781dd99c31819bc0136694aa8f5a89fd6d6c0367961945b82e818"
+    },
+    {
+      "path": "figures/prediction/program_evolution.svg",
+      "bytes": 45321,
+      "sha256": "5753fb6034d9e330ae466677c142aefa847e0ad8fef176fa6e5f6cde6aedf930"
+    },
+    {
+      "path": "figures/workload/call_span.pdf",
+      "bytes": 18357,
+      "sha256": "a8c71ffe788446a7408f96a50d26323621aad1b605c5fc300c5c53e914037e62"
+    },
+    {
+      "path": "figures/workload/call_span.png",
+      "bytes": 84245,
+      "sha256": "e23e89f747291884c422e83b5ba37cfa6e049fd5d5c47369616c32a42d5171ca"
+    },
+    {
+      "path": "figures/workload/call_span.svg",
+      "bytes": 47237,
+      "sha256": "0e8957eab7003fbb8a10cdda42d145435daf01eb52c656b26dd75ed0a118e8fe"
+    },
+    {
+      "path": "figures/workload/context_reuse.pdf",
+      "bytes": 31391,
+      "sha256": "cffaa180b873edff9057b8cecf58ee8a95424ea86ebb898d501b5945e93c8288"
+    },
+    {
+      "path": "figures/workload/context_reuse.png",
+      "bytes": 173022,
+      "sha256": "f4e80e77fffefa6fc2579cfb2ea8f618b32456366aa6a164480b6564b7734b45"
+    },
+    {
+      "path": "figures/workload/context_reuse.svg",
+      "bytes": 83367,
+      "sha256": "019b18f16c66d70d3d181b8ee36ca8cf3e33dc754e80dd0e4d271f6e61eea83c"
+    },
+    {
+      "path": "figures/workload/residual_by_stage.pdf",
+      "bytes": 13977,
+      "sha256": "bf4f5ff1a4c486d6cbf74ca8363ace37af5fddb2ac60c5007e6dfe699efe7efa"
+    },
+    {
+      "path": "figures/workload/residual_by_stage.png",
+      "bytes": 101366,
+      "sha256": "e3e5f6d75372b49a9d9ac8a224e102ba16cb4363acdec6960f25e82500171b0e"
+    },
+    {
+      "path": "figures/workload/residual_by_stage.svg",
+      "bytes": 37515,
+      "sha256": "0b5561f62dc8de0434be291e1c548bea65523f1e58311ad4137ce4f9e1bd6185"
+    },
+    {
+      "path": "figures/workload/tool_wait_tail.pdf",
+      "bytes": 30391,
+      "sha256": "cad35d5cc27556e8888c1aedcc6a50cf6395f08c42064bc90963c55fe7a7be94"
+    },
+    {
+      "path": "figures/workload/tool_wait_tail.png",
+      "bytes": 153669,
+      "sha256": "663533485ab2fce21a68dd5aa6f6dfd3bb0c068ee44b0ba1b5dfb024e3ed115d"
+    },
+    {
+      "path": "figures/workload/tool_wait_tail.svg",
+      "bytes": 124349,
+      "sha256": "00db87179f793c57e8d07d05760cec35495c9fe8d2cc440ae4bf1673627a6bd7"
     },
     {
       "path": "kairos/__init__.py",
       "bytes": 37,
-      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "export_sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "source_sha256": null,
-      "release_modified": false
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1"
     },
     {
       "path": "kairos/_runtime/__init__.py",
       "bytes": 37,
-      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "export_sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "source_sha256": null,
-      "release_modified": false
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1"
     },
     {
       "path": "kairos/_runtime/activation.py",
-      "bytes": 910,
-      "sha256": "7838ec85866b4f96aaa874763998269ded9bc2bfa65e3f6d5c8dc35f033cb3e8"
+      "bytes": 753,
+      "sha256": "ebc593d0bd6ccdf84dc165ed2f61c5e997e352e78a77fea884f86c577fcd1749"
     },
     {
       "path": "kairos/_runtime/compat/__init__.py",
       "bytes": 37,
-      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "export_sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "source_sha256": null,
-      "release_modified": false
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1"
     },
     {
       "path": "kairos/_runtime/compat/adaptive_service_policy.py",
-      "bytes": 2370,
-      "sha256": "3521c9031549c51b2c4813de06feb0ea8859a1cdbe2bec3e17565a37b717ed89",
-      "export_sha256": "3521c9031549c51b2c4813de06feb0ea8859a1cdbe2bec3e17565a37b717ed89",
+      "bytes": 1553,
+      "sha256": "ea4526765313982d6ddd010ebce7385c241c0502cce3e8330a3a33843f3afcdc",
+      "export_sha256": "ea4526765313982d6ddd010ebce7385c241c0502cce3e8330a3a33843f3afcdc",
       "source_sha256": "64b08879a045133a672ba3f090fe04ea0030c04471097ec5e647fc8452179a29",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/baseline_runtime.py",
-      "bytes": 3165,
-      "sha256": "94495b2059c9b9bcc7060ca50c01d11f5fc8be8789ad8ad78dc3c6fd4919a6e4",
-      "export_sha256": "94495b2059c9b9bcc7060ca50c01d11f5fc8be8789ad8ad78dc3c6fd4919a6e4",
+      "bytes": 3705,
+      "sha256": "6eb9429095bf4a06bef561a36071062c70c4a140eb147d767dbaeca070b9a870",
+      "export_sha256": "6eb9429095bf4a06bef561a36071062c70c4a140eb147d767dbaeca070b9a870",
       "source_sha256": "04640d6ecb1ae82a8c2b1e2a1d4ea9631e9df500c7471677c79c6061de7be50b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/batch_opportunity.py",
-      "bytes": 2127,
-      "sha256": "fd5f936c16c0e5c303551f04392387842afe1410b5476f72fe330f5bb61747ec",
-      "export_sha256": "fd5f936c16c0e5c303551f04392387842afe1410b5476f72fe330f5bb61747ec",
+      "bytes": 1591,
+      "sha256": "2864ec1bf17bb9e22b9c00174a9608afbd441a7c62890119e0c243b7cd262471",
+      "export_sha256": "2864ec1bf17bb9e22b9c00174a9608afbd441a7c62890119e0c243b7cd262471",
       "source_sha256": "7155c58a9f20a75a76fbd6447e3a7ea803959b1f7b81aee4de968aedd8bc6ae7",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/cache_baselines.py",
-      "bytes": 10400,
-      "sha256": "13651f11ba4f8c4e2eed55126f26039525cf099a01e642494a84272ecc3d09e1",
-      "export_sha256": "13651f11ba4f8c4e2eed55126f26039525cf099a01e642494a84272ecc3d09e1",
+      "bytes": 11131,
+      "sha256": "f375cfac562c5a6cca2c5f2e34bb32be552ede5eb56386db287ede79deb96d4a",
+      "export_sha256": "f375cfac562c5a6cca2c5f2e34bb32be552ede5eb56386db287ede79deb96d4a",
       "source_sha256": "88a581ac7a7d98c8d49a9d9412d3c42003445a2a79c97f1ea9e0f4659a11e0cc",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/call_commitment.py",
-      "bytes": 5209,
-      "sha256": "a547d7d34591165fb091d89375eb3e7a1c917382373b452e77d9eefe8f31a473",
-      "export_sha256": "a547d7d34591165fb091d89375eb3e7a1c917382373b452e77d9eefe8f31a473",
-      "source_sha256": "3ad516919d4d6d51f43dd194809447e983a782348841997d5812908f33198e47",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/capacity_model.py",
-      "bytes": 5399,
-      "sha256": "274b87a0402b7ac6437f46f35723ffe11e9c34d346771243de296e655eecc6a4",
-      "export_sha256": "274b87a0402b7ac6437f46f35723ffe11e9c34d346771243de296e655eecc6a4",
+      "bytes": 5909,
+      "sha256": "f06018c6492373c26dbf6787193307c793bad89ea7be2dcb93a1eb6043d34a3e",
+      "export_sha256": "f06018c6492373c26dbf6787193307c793bad89ea7be2dcb93a1eb6043d34a3e",
       "source_sha256": "d7fd20a248e33af567210ee313e8493e57d740d8002e3bec44cf16ff238f29b3",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/causal_action_q.py",
-      "bytes": 5280,
-      "sha256": "a4385ae97d9c9df440694dac8cf5f60c80b15b169cae6814656092cd50b30178",
-      "export_sha256": "a4385ae97d9c9df440694dac8cf5f60c80b15b169cae6814656092cd50b30178",
-      "source_sha256": "23df825ebd70b4a5c23b7233efc9438fdea2a6dbfc44d952045f716ae2fcaa76",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/cold_admission.py",
-      "bytes": 3983,
-      "sha256": "c563e6803fd7efd927a7812c11e540f732adc34736af1b5776e5d04fba47e218",
-      "export_sha256": "c563e6803fd7efd927a7812c11e540f732adc34736af1b5776e5d04fba47e218",
+      "bytes": 4133,
+      "sha256": "208adba31f4b28246182b76a8f85a063a062c735fcdd53e7816859ce4d3fff67",
+      "export_sha256": "208adba31f4b28246182b76a8f85a063a062c735fcdd53e7816859ce4d3fff67",
       "source_sha256": "7b08f22fd2d4289b5fd6934abdb80556a18ecd4a85470367d3d8e3f07ba3dd6c",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/commitment_order.py",
-      "bytes": 1909,
-      "sha256": "8e47e9083432ceef65f53aea14458f1e1c57dd643201cb88f54776f5500e8e26",
-      "export_sha256": "8e47e9083432ceef65f53aea14458f1e1c57dd643201cb88f54776f5500e8e26",
-      "source_sha256": "55a365816e9d42a8c93cb31391936d775dd322b21c528d56ebe85bbce63d9287",
-      "release_modified": false
-    },
-    {
-      "path": "kairos/_runtime/compat/commitment_scheduler.py",
-      "bytes": 27132,
-      "sha256": "912aa855b39a12874cff6628eb27c7220d546dc456130a67872844d8992b11d6",
-      "export_sha256": "912aa855b39a12874cff6628eb27c7220d546dc456130a67872844d8992b11d6",
-      "source_sha256": "9b6959e758cb2da1bbd1fb71584ca70c83b95fdaaaf2aae9ef25e74d453f6d7d",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/component_ablation.py",
-      "bytes": 452,
-      "sha256": "9e64cee3c6c58658928225f6d31d621f1de8c35bde5fcf0529592c10e58287d2",
-      "export_sha256": "9e64cee3c6c58658928225f6d31d621f1de8c35bde5fcf0529592c10e58287d2",
+      "bytes": 525,
+      "sha256": "d4f213f5696a3f2c743b8690ec6ccb7b7483c519f0a820591961d78e4c70ae47",
+      "export_sha256": "d4f213f5696a3f2c743b8690ec6ccb7b7483c519f0a820591961d78e4c70ae47",
       "source_sha256": "c0b926e3e785b924f357838387776d220bab90c0efff7255ea6f0dc42716e2d4",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/continuation_demand.py",
-      "bytes": 3094,
-      "sha256": "576c12373fb33e2b5e473b98596da7dcc5046e42acfdeaafbf6bb7398984c114",
-      "export_sha256": "576c12373fb33e2b5e473b98596da7dcc5046e42acfdeaafbf6bb7398984c114",
+      "bytes": 2678,
+      "sha256": "e8fc26d1d1d55deee14259390a465178f755880e3ab45e47aef342bb60bf6758",
+      "export_sha256": "e8fc26d1d1d55deee14259390a465178f755880e3ab45e47aef342bb60bf6758",
       "source_sha256": "d69b9f4b030f0aae8c72b117364d57800730a3a2912de222c7f6bd480ceee95e",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/continuity_bridge.py",
-      "bytes": 35579,
-      "sha256": "f673c2eefd268f4486869779625a1b14474d1e8c2d3e924359c9c1ff2d591082",
-      "export_sha256": "f673c2eefd268f4486869779625a1b14474d1e8c2d3e924359c9c1ff2d591082",
+      "bytes": 40745,
+      "sha256": "001008c3b29663a720e2076d04380477e581b9fbb1df79856c662cef5815c5fe",
+      "export_sha256": "001008c3b29663a720e2076d04380477e581b9fbb1df79856c662cef5815c5fe",
       "source_sha256": "4808d7da6755bbc47e17eead2872272e6f1498bff46d430870dc948529ad25c0",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/continuity_bridge_model.py",
-      "bytes": 12974,
-      "sha256": "f3e3ac5aa5c0d0c7a01879168c4605cb61e3d5df85f77ac14a24d1927c080afe",
-      "export_sha256": "f3e3ac5aa5c0d0c7a01879168c4605cb61e3d5df85f77ac14a24d1927c080afe",
+      "bytes": 10615,
+      "sha256": "354ec9175b21432a95876e0c05d0a392e4390a69c8c10bef9bae6d03932b77ef",
+      "export_sha256": "354ec9175b21432a95876e0c05d0a392e4390a69c8c10bef9bae6d03932b77ef",
       "source_sha256": "42436f49d329195beef90cf0cfe7aea7b52a117df64582460e50961c75e119dd",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/copy_wait_schedule.py",
-      "bytes": 2851,
-      "sha256": "d7bcca7c9765ce6603d4a2edb08ee5d0e028fb88b3928efe6d05d92d9afef0ec",
-      "export_sha256": "d7bcca7c9765ce6603d4a2edb08ee5d0e028fb88b3928efe6d05d92d9afef0ec",
+      "bytes": 2702,
+      "sha256": "f4393a327ed9b6914844fab041a9f6687272fcac831d15a71d09b071b3b2e8a7",
+      "export_sha256": "f4393a327ed9b6914844fab041a9f6687272fcac831d15a71d09b071b3b2e8a7",
       "source_sha256": "043bc89b1d0bfe596effca996db79ea9634a241a085a6c513d27369e27a13844",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/cpu_service_lease.py",
-      "bytes": 3319,
-      "sha256": "d41de19123daa74c3d3237ef92d90779f7e2460f0950debe152c73ad9bdfc633",
-      "export_sha256": "d41de19123daa74c3d3237ef92d90779f7e2460f0950debe152c73ad9bdfc633",
+      "bytes": 2946,
+      "sha256": "739d8c28b85923e1eab8fec116d409321f1e32556c9e2082faf16940b57755ce",
+      "export_sha256": "739d8c28b85923e1eab8fec116d409321f1e32556c9e2082faf16940b57755ce",
       "source_sha256": "fbfc43097d12c7d65d6a90b56d0a9623e660ce3a2a470b3edd3dfa60c054d641",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/decode_graph_policy.py",
-      "bytes": 738,
-      "sha256": "3a0890f261bdcd115fffb8bcd213d4307c6979da09b3cc67b815f3a8b79fbd2c",
-      "export_sha256": "3a0890f261bdcd115fffb8bcd213d4307c6979da09b3cc67b815f3a8b79fbd2c",
+      "bytes": 806,
+      "sha256": "6ce9b6f17dd02af345e7d84bec410991094d08e79363ce41ab8d2efccaf54028",
+      "export_sha256": "6ce9b6f17dd02af345e7d84bec410991094d08e79363ce41ab8d2efccaf54028",
       "source_sha256": "c2202330f9e4b9fc3eebefefc8cf56caab8a10d4d991779b4cabfc8f1bb5b1ca",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/event_model.py",
-      "bytes": 18895,
-      "sha256": "577bec9ad3493f3f865ca40b30ed7c8a8b3da08ffdd3aff9c641c45696044833",
-      "export_sha256": "577bec9ad3493f3f865ca40b30ed7c8a8b3da08ffdd3aff9c641c45696044833",
+      "bytes": 17883,
+      "sha256": "ec038af1660b278bb2f5825ac879d10a45c94692098f491f3855bd178f5b6b16",
+      "export_sha256": "ec038af1660b278bb2f5825ac879d10a45c94692098f491f3855bd178f5b6b16",
       "source_sha256": "cde2b6fd63168628a236ecf677461751f0d1b36c8e7f03cecd4ed641ac5cc6b4",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/gpu_index.py",
-      "bytes": 6021,
-      "sha256": "65e97416b137610b14baea475890f82b94c1d79c9b69a92b52ed0eb12ee2edc3",
-      "export_sha256": "65e97416b137610b14baea475890f82b94c1d79c9b69a92b52ed0eb12ee2edc3",
+      "bytes": 5367,
+      "sha256": "da0109e281338e3ca0ed41d1264ccecb0eaf118c4d0360b5a06cbdb74de1d0cd",
+      "export_sha256": "da0109e281338e3ca0ed41d1264ccecb0eaf118c4d0360b5a06cbdb74de1d0cd",
       "source_sha256": "ddc5a07e69085eead4c8e876120073f68074476184e7ff09c4215ca7489185cc",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/grant_allocation_correctness.py",
-      "bytes": 4018,
-      "sha256": "c9bec336dad40d56c0d7bc06c103f96eb40f10f1a3ca5e89a2ac142915f73702",
-      "export_sha256": "c9bec336dad40d56c0d7bc06c103f96eb40f10f1a3ca5e89a2ac142915f73702",
-      "source_sha256": "c50e81c50ee117efcf04e4394ce943be7e3bc4a078ebb2c0ef6f8d757bf8c4af",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/grouped_eviction.py",
-      "bytes": 6112,
-      "sha256": "fd031bc7a20734118aec8c73afc3bd8d704a38b5ce02e66fbda10a14daae76be",
-      "export_sha256": "fd031bc7a20734118aec8c73afc3bd8d704a38b5ce02e66fbda10a14daae76be",
+      "bytes": 5659,
+      "sha256": "b164e9bb0262bebdc7bd042a41309897d4801a7a8246a7d3d4a45acd9b14be66",
+      "export_sha256": "b164e9bb0262bebdc7bd042a41309897d4801a7a8246a7d3d4a45acd9b14be66",
       "source_sha256": "2775a7315d8e86287e662465d76a45076646316cb5ae765a0e608cd252f4e43b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/hicache_baseline.py",
-      "bytes": 14936,
-      "sha256": "a13771337a0453a94edafbf266323acdb3b8d208444719597f58105d52ed33d2",
-      "export_sha256": "a13771337a0453a94edafbf266323acdb3b8d208444719597f58105d52ed33d2",
+      "bytes": 15976,
+      "sha256": "1b9da2946614c0f44b447d29eb53819684c36bdc29fa0200b96f94b8b9d067a4",
+      "export_sha256": "1b9da2946614c0f44b447d29eb53819684c36bdc29fa0200b96f94b8b9d067a4",
       "source_sha256": "44c0a89e83384e707fa0c6ddcd458a3c26cce9fbbfdf8a05dfc08fb05bf5d76b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/hicache_policy.py",
-      "bytes": 12260,
-      "sha256": "a57a08f6b4e4087227bc8c7a87d4a6d1eb44c989bb7052247aa4cdeb1aa55b50",
-      "export_sha256": "a57a08f6b4e4087227bc8c7a87d4a6d1eb44c989bb7052247aa4cdeb1aa55b50",
+      "bytes": 11822,
+      "sha256": "968ea517426520f70f7eb1e5cd2bf16a86439be42d895ae3929c766719f4cf9d",
+      "export_sha256": "968ea517426520f70f7eb1e5cd2bf16a86439be42d895ae3929c766719f4cf9d",
       "source_sha256": "463fea3882fc1609809dc7a926e017e1468111466f9e440a3b94ee9e928b3794",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/history_policy.py",
-      "bytes": 16113,
-      "sha256": "926bb556e948a3e34fb4a1e8592679ddbca585d9bfeb5be8ea9166042454e5ac",
-      "export_sha256": "926bb556e948a3e34fb4a1e8592679ddbca585d9bfeb5be8ea9166042454e5ac",
+      "bytes": 14571,
+      "sha256": "14bbb5f554d939037db7c99e610f32df6a01eadaef39fcf134d98df6ffce97e2",
+      "export_sha256": "14bbb5f554d939037db7c99e610f32df6a01eadaef39fcf134d98df6ffce97e2",
       "source_sha256": "6e9273bb87a26099b9e6e5b94a085f5eb72221dcd6fd47e456f7c278c48d8fc0",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/holding_economics.py",
-      "bytes": 2937,
-      "sha256": "546c2ce2239f2092e8ca21f3066216998daa3f1bcf926b5ab311b0da8dedadc1",
-      "export_sha256": "546c2ce2239f2092e8ca21f3066216998daa3f1bcf926b5ab311b0da8dedadc1",
+      "bytes": 3108,
+      "sha256": "2947b9bbb7b4f1d0de2b08eaa956bade02fd6c0ce08665e6c8d73c41896aebd4",
+      "export_sha256": "2947b9bbb7b4f1d0de2b08eaa956bade02fd6c0ce08665e6c8d73c41896aebd4",
       "source_sha256": "c85110e94e0c42e6d35e27399bdcf2843f82928ce0a6b413267b00d7421b515f",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/holding_scheduler.py",
-      "bytes": 6345,
-      "sha256": "b728e0526200179e28a7b2ef568e75a200bb1ebd122fdb87a5a0bc447bafa47b",
-      "export_sha256": "b728e0526200179e28a7b2ef568e75a200bb1ebd122fdb87a5a0bc447bafa47b",
+      "bytes": 6791,
+      "sha256": "1504198b80ea58a956e9f01bd7198f2a4d8ef734fcd2d6a45c35ca78e208e7ec",
+      "export_sha256": "1504198b80ea58a956e9f01bd7198f2a4d8ef734fcd2d6a45c35ca78e208e7ec",
       "source_sha256": "6930f5a36c6b0e38d64469e5232ec442a560b9aecb89baaed72fd780cc9b8623",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/joint_eviction.py",
-      "bytes": 9931,
-      "sha256": "66cd08560345ea67e914aee938f352369eb9f67ed70604b05c01ac0b2c97732f",
-      "export_sha256": "66cd08560345ea67e914aee938f352369eb9f67ed70604b05c01ac0b2c97732f",
+      "bytes": 8473,
+      "sha256": "83324dc0afcebf9706bef49ea6b85a6a5cf9eb31638872701cf91a3359a2ad57",
+      "export_sha256": "83324dc0afcebf9706bef49ea6b85a6a5cf9eb31638872701cf91a3359a2ad57",
       "source_sha256": "caf88820476f7b3b744dc0f74cdcbe2933b119b86714f142a89e1e6c3977e6ab",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/layered_baseline.py",
-      "bytes": 7397,
-      "sha256": "b2d4001237ed9b03dfeb9808a6b9d1fe11049fe94ed7a869d4b1225e103f5a43",
-      "export_sha256": "b2d4001237ed9b03dfeb9808a6b9d1fe11049fe94ed7a869d4b1225e103f5a43",
+      "bytes": 8104,
+      "sha256": "4dfc51ed2235e56226b2146e81803a6fd7fb9c003123da8853be836e22f02314",
+      "export_sha256": "4dfc51ed2235e56226b2146e81803a6fd7fb9c003123da8853be836e22f02314",
       "source_sha256": "32f495ef7343e026f20388b2096fd3b756840b614da35fd9294719ee5e056ba3",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/layered_policy.py",
-      "bytes": 7941,
-      "sha256": "cacd4f11fd8c2fe3538acb18acf29842f733311740a93ae668cc876d7922932f",
-      "export_sha256": "cacd4f11fd8c2fe3538acb18acf29842f733311740a93ae668cc876d7922932f",
+      "bytes": 7488,
+      "sha256": "311bd135dfe0a8b5344016cbd6de0107a66142efd9f18c8513c448fafe9e8c9f",
+      "export_sha256": "311bd135dfe0a8b5344016cbd6de0107a66142efd9f18c8513c448fafe9e8c9f",
       "source_sha256": "94efec01dffddf161258b9b2cbe81a1f0514c3cae5dbca367da36b637fffd4b8",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/lease_opportunity.py",
-      "bytes": 1460,
-      "sha256": "2837ec8503739121f9976213d3de4498b7f085eb6a0e55a4b582dd23abd9402a",
-      "export_sha256": "2837ec8503739121f9976213d3de4498b7f085eb6a0e55a4b582dd23abd9402a",
-      "source_sha256": "bab6c592b24bf9d1b0e918dfb0767422563628d164f0a53810b37917c6a46325",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/lmcache_replica.py",
-      "bytes": 52949,
-      "sha256": "919aa8712bebbf67c159c00b9f57bc142aac07e49606abe59d8304c69f8ec9a6",
-      "export_sha256": "919aa8712bebbf67c159c00b9f57bc142aac07e49606abe59d8304c69f8ec9a6",
-      "source_sha256": "d6d4d2c013dc1c97848af1aaccfd822a16d3f602a26b8f4c894a6d2027f0c0c5",
+      "bytes": 57507,
+      "sha256": "3e007ed554a3170b6b6d6a864e04503dbb2287973d951f9c5e17ae2067d85046",
+      "export_sha256": "3e007ed554a3170b6b6d6a864e04503dbb2287973d951f9c5e17ae2067d85046",
+      "source_sha256": "e10ebb1f8aff55266963fc39cb4906ef77c0ff0dbf3e028e8f1ec11fd788e4dc",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/lmcache_server.py",
-      "bytes": 2448,
-      "sha256": "a67800f9bd276d0f13ff890c12fb361bb572a30e5bfeb8351b3d20090dbedc98",
-      "export_sha256": "a67800f9bd276d0f13ff890c12fb361bb572a30e5bfeb8351b3d20090dbedc98",
-      "source_sha256": "f742964041810053064c908d4892a66c92d15a1fd0d0a83cec3d5dfd59a9fa99",
+      "bytes": 2687,
+      "sha256": "b5eff3f584454a9da41d7b99d061386c9db9a51563fd6e668610aac2ef2127a8",
+      "export_sha256": "b5eff3f584454a9da41d7b99d061386c9db9a51563fd6e668610aac2ef2127a8",
+      "source_sha256": "2989dbf816c235c9867c98286ae18380b3eae128c34cc4b2f94d5a71c62bb6bc",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/official_admission.py",
-      "bytes": 4049,
-      "sha256": "eef9bef5f36151abf966aef23bc25aab9fbb688fbc9a1831fe9c88036df00747",
-      "export_sha256": "eef9bef5f36151abf966aef23bc25aab9fbb688fbc9a1831fe9c88036df00747",
+      "bytes": 4139,
+      "sha256": "f7f588932d9e677be1beca4d459fd4ee4e62675db0b62342b234b8f21bc73762",
+      "export_sha256": "f7f588932d9e677be1beca4d459fd4ee4e62675db0b62342b234b8f21bc73762",
       "source_sha256": "cd0e5a7c1e01cf7d59b9452aff6a51a15efa3cbc81e014d70cb19fd122ba3498",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/official_lazy.py",
-      "bytes": 15574,
-      "sha256": "16c9a4588c8fc0455371cbc31d372543049e457b124c4e764fac9aa22ebeed19",
-      "export_sha256": "16c9a4588c8fc0455371cbc31d372543049e457b124c4e764fac9aa22ebeed19",
+      "bytes": 15839,
+      "sha256": "cbe944b2811f4e3e034d56e9901245e6d970e6a3aa2bffd84254e1390b7dad03",
+      "export_sha256": "cbe944b2811f4e3e034d56e9901245e6d970e6a3aa2bffd84254e1390b7dad03",
       "source_sha256": "4a6be63d1281276e25f3e54192bcb2297503ca9ab30f380c5919077d02e1a9d4",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/online_path.py",
-      "bytes": 17309,
-      "sha256": "8ebcfde8ff6fad6a421b15f5c0ff329ed2759fc7fd0f17ccbaaedc37941be9b3",
-      "export_sha256": "8ebcfde8ff6fad6a421b15f5c0ff329ed2759fc7fd0f17ccbaaedc37941be9b3",
-      "source_sha256": "ef51c06cb6a39108834f6bf0cad631a26bc5a9c246376ccb50fa0ab332a7e49a",
+      "bytes": 18161,
+      "sha256": "85444556435a50f054ef7d9f2190644ea36704adbeae71f346d62c222710d2c5",
+      "export_sha256": "85444556435a50f054ef7d9f2190644ea36704adbeae71f346d62c222710d2c5",
+      "source_sha256": "f7626ba1e228d6bb57ca07a43388b675838fde720db381a2cfa73fd4b0870b40",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/online_path_native.cpp",
       "bytes": 6203,
-      "sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d",
-      "export_sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d",
-      "source_sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d",
-      "release_modified": false
+      "sha256": "b22658efa38d83c5a1de69281938676010387a505fea1e5c043b9357bdd7d67d"
     },
     {
       "path": "kairos/_runtime/compat/online_path_native.py",
-      "bytes": 3762,
-      "sha256": "067427d60c731604e4bfd5fd2b3a9e7b2c51e8ba5d6e72206fd73ebf12d88a87",
-      "export_sha256": "067427d60c731604e4bfd5fd2b3a9e7b2c51e8ba5d6e72206fd73ebf12d88a87",
+      "bytes": 5076,
+      "sha256": "fb74a0833a04939e91dfa6470b39885feb965306e78ae24cd4f9087eb07f9b80",
+      "export_sha256": "fb74a0833a04939e91dfa6470b39885feb965306e78ae24cd4f9087eb07f9b80",
       "source_sha256": "f8ee08009fe6a9283718da073c6def76d9bfb530bab8cb0e258aa390544be12f",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/online_path_scheduler.py",
-      "bytes": 93007,
-      "sha256": "12053162f6e8392ae03ac0450cba1ccb6e5f10407717bf2f2985666c88eec64f",
-      "export_sha256": "12053162f6e8392ae03ac0450cba1ccb6e5f10407717bf2f2985666c88eec64f",
-      "source_sha256": "50184bbd8a5d24a1ed56188db07fad2c39800fbffe7f3432cf0059072822b25b",
+      "bytes": 95891,
+      "sha256": "48512ce060e6620ab93f8b61490fffe27caa8fe73ca90ab8779a69996b6c0681",
+      "export_sha256": "48512ce060e6620ab93f8b61490fffe27caa8fe73ca90ab8779a69996b6c0681",
+      "source_sha256": "cb54b86056c3107e050c80fc396811b6e4637da4b110e103090862f7256fae76",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/oracle_program_plan.py",
-      "bytes": 8840,
-      "sha256": "6daf53c862710e2fa8ccc8d81d4d8868bc59a07bad73fcfab9416c48d0be6945",
-      "export_sha256": "6daf53c862710e2fa8ccc8d81d4d8868bc59a07bad73fcfab9416c48d0be6945",
+      "bytes": 9456,
+      "sha256": "3427bc79f200ebcf186309d09883d0e40201ea66d63c4c2880adadda1248479b",
+      "export_sha256": "3427bc79f200ebcf186309d09883d0e40201ea66d63c4c2880adadda1248479b",
       "source_sha256": "59c35ea51558387eba323edf6d85780dd668fae051fe1b75538f1c606dfadb89",
       "release_modified": false
     },
     {
+      "path": "kairos/_runtime/compat/owner_order.py",
+      "bytes": 1890,
+      "sha256": "d89bbbf637f569c3b38c1be4ede7b907b418402f0d781e4e9051b1bd1f274c60",
+      "export_sha256": "d89bbbf637f569c3b38c1be4ede7b907b418402f0d781e4e9051b1bd1f274c60",
+      "source_sha256": "0f1ee9b20639d7fce4fefb405b0fb09fee7148521293b1ad890c60b75f7be460",
+      "release_modified": false
+    },
+    {
       "path": "kairos/_runtime/compat/path_calendar.py",
-      "bytes": 13342,
-      "sha256": "c9975c8cf30dd7cc72f3c623d36244943f1499f2771e37e842a07a3ed3b4966a",
-      "export_sha256": "c9975c8cf30dd7cc72f3c623d36244943f1499f2771e37e842a07a3ed3b4966a",
+      "bytes": 13362,
+      "sha256": "7f3c068fc56326de504b30982dcd875e60cf97d0fb695c02dee9856862c88bd0",
+      "export_sha256": "7f3c068fc56326de504b30982dcd875e60cf97d0fb695c02dee9856862c88bd0",
       "source_sha256": "31c4dfb088608aef12cb8a499614db94838cc67928ebe8b92b626b9b3f10ab2f",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/pipelined_prefix.py",
-      "bytes": 4713,
-      "sha256": "82b85d3b405ba4420de44691365bb90beafe279200a1786f1494aed5fd53fcdf",
-      "export_sha256": "82b85d3b405ba4420de44691365bb90beafe279200a1786f1494aed5fd53fcdf",
+      "bytes": 4775,
+      "sha256": "bbc9939530d7e281cd67a6e614b5aae55b771b048711d027eb459b531129a375",
+      "export_sha256": "bbc9939530d7e281cd67a6e614b5aae55b771b048711d027eb459b531129a375",
       "source_sha256": "91c5bc37cee596a584c83a5f65d3f7384092d07db800a422151317cc921d549d",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/policy.py",
-      "bytes": 7476,
-      "sha256": "7f7bb2d3ce6f53470119bac4ba9bb3eeeb5acadc423bbd2b3998c585b106c50e",
-      "export_sha256": "7f7bb2d3ce6f53470119bac4ba9bb3eeeb5acadc423bbd2b3998c585b106c50e",
-      "source_sha256": "3d8dd6f87549914db7fae9b85265900fb8446a020d846e29a027a2de390aba62",
-      "release_modified": false
-    },
-    {
-      "path": "kairos/_runtime/compat/probation_scheduler.py",
-      "bytes": 23051,
-      "sha256": "fac595c99c7c8088d200030a7bf1ec9f9df14cec42fe644a38a1c9ddc509bf8c",
-      "export_sha256": "fac595c99c7c8088d200030a7bf1ec9f9df14cec42fe644a38a1c9ddc509bf8c",
-      "source_sha256": "c7770609fdbae30030312e3129c4c5888ae75178afd2f6d562a2a08f4884ff5f",
+      "bytes": 8384,
+      "sha256": "7864ccb17a6bdc23d0d461f56d9eb8440f4658dd217b30bd56dbb86c64ec8525",
+      "export_sha256": "7864ccb17a6bdc23d0d461f56d9eb8440f4658dd217b30bd56dbb86c64ec8525",
+      "source_sha256": "b099f1c2cc13d8a1b07a71baa4fae6fe79150f153e0d86a4cf9f01fd59bf4d57",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/progressive_service_policy.py",
-      "bytes": 2523,
-      "sha256": "a68966821473660a6ffd5556474fe81872b68f429d90bd554edc6b466ca453f2",
-      "export_sha256": "a68966821473660a6ffd5556474fe81872b68f429d90bd554edc6b466ca453f2",
+      "bytes": 2643,
+      "sha256": "3bff550f61a8b410715ce2c7b0113d4a41713baa2d68625355fc021324d98754",
+      "export_sha256": "3bff550f61a8b410715ce2c7b0113d4a41713baa2d68625355fc021324d98754",
       "source_sha256": "b93b10510abdf0ff91dc11c98e3e0feb11a654214552ef45a20d0b865ddfe689",
       "release_modified": false
     },
     {
-      "path": "kairos/_runtime/compat/r83_plan.py",
-      "bytes": 2923,
-      "sha256": "9516c61250ce6abeba55f30cfe0b6ef42761c5be9e8c1c52c41911dd63d98f6c",
-      "export_sha256": "9516c61250ce6abeba55f30cfe0b6ef42761c5be9e8c1c52c41911dd63d98f6c",
-      "source_sha256": "43ce42282a70f19e0dab4badb40187728d391093b07a395053894cc313c811f2",
-      "release_modified": false
-    },
-    {
       "path": "kairos/_runtime/compat/range_helper.py",
-      "bytes": 2504,
-      "sha256": "644a70b4a0f7637f2e6c6ef417f5aee2e0f29485d976929d7eae3392d844e1c4",
-      "export_sha256": "644a70b4a0f7637f2e6c6ef417f5aee2e0f29485d976929d7eae3392d844e1c4",
+      "bytes": 2203,
+      "sha256": "65ac158afc1e20ea490903cce8366ccd765efd3b00c4c62a86937b0f59813d67",
+      "export_sha256": "65ac158afc1e20ea490903cce8366ccd765efd3b00c4c62a86937b0f59813d67",
       "source_sha256": "24606679223b517ab7b682e66154ddd8c4c95c8fd33729fd7a404a0b4eb67ef9",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/range_lookup.py",
-      "bytes": 3014,
-      "sha256": "19703cb0a036ac8ffe12de5e51d6dd9562520d93504ba527d60f5fb6ce59ff42",
-      "export_sha256": "19703cb0a036ac8ffe12de5e51d6dd9562520d93504ba527d60f5fb6ce59ff42",
+      "bytes": 2788,
+      "sha256": "fe581b11d19b8f780eb4680908e39a8d592eb43d88b4475fe2c2ac5ace73fab3",
+      "export_sha256": "fe581b11d19b8f780eb4680908e39a8d592eb43d88b4475fe2c2ac5ace73fab3",
       "source_sha256": "7ed266cef8f126863e23988b216b9a83698a22b462f100d4d54ef66b4ded610b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/rank_contract.py",
-      "bytes": 6310,
-      "sha256": "f93da376e4739e89bb8498e82402e3f3379155a60753c93d88878e45ae875986",
-      "export_sha256": "f93da376e4739e89bb8498e82402e3f3379155a60753c93d88878e45ae875986",
+      "bytes": 5680,
+      "sha256": "44b5bdba700e1e6684d0ebe12d69a40feb44324b58a044c890800a1924506f4c",
+      "export_sha256": "44b5bdba700e1e6684d0ebe12d69a40feb44324b58a044c890800a1924506f4c",
       "source_sha256": "b4faf45fd7dc740a8ca1743da12a24ddcd6190033ffd940e14fbe6c5192ae2b1",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/recovery_probe.py",
-      "bytes": 3028,
-      "sha256": "bd6405fe31d6e972082d53dbae6020e3eee249be7a5411c07abd298dd355b2a2",
-      "export_sha256": "bd6405fe31d6e972082d53dbae6020e3eee249be7a5411c07abd298dd355b2a2",
+      "bytes": 3266,
+      "sha256": "ea903b774b4f18bbed6d15392436a45f04e55eebe3abb6aa93f08d324e2eee51",
+      "export_sha256": "ea903b774b4f18bbed6d15392436a45f04e55eebe3abb6aa93f08d324e2eee51",
       "source_sha256": "8d2870bf9f2f10774a7ed29ea4b06c520aa14cc03cb8728ed85d1ed0370b9275",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/replica.py",
-      "bytes": 17649,
-      "sha256": "8fee9de219f9ddf228fc0906a42189686b0e07c56c617e78ba5dcdf46654bbb7",
-      "export_sha256": "845a2f65409412dce43eecaa3c86842c082dfb80b9e58e496a5151831d892c7c",
+      "bytes": 16424,
+      "sha256": "2185a99c2cdefe541325195355f06fc23c37117580b7cf6b18131e5b211b7645",
+      "export_sha256": "2185a99c2cdefe541325195355f06fc23c37117580b7cf6b18131e5b211b7645",
       "source_sha256": "c90ab1e0c0e5d003681531d4560eb6644df3bd5ba909bae274b76495ff5e322c",
-      "release_modified": true
+      "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/replica_connector.py",
-      "bytes": 21740,
-      "sha256": "a6c5d9e325570e745b8dcec1ac33066fe14608cb2d5db8dc60afb35369d1c0f2",
-      "export_sha256": "a6c5d9e325570e745b8dcec1ac33066fe14608cb2d5db8dc60afb35369d1c0f2",
+      "bytes": 21441,
+      "sha256": "1a5bacf91e758b0afd97dde4aef55df25dcb3a6b3f3c5359a6a852541b5356a4",
+      "export_sha256": "1a5bacf91e758b0afd97dde4aef55df25dcb3a6b3f3c5359a6a852541b5356a4",
       "source_sha256": "01b7e37d0e807d3006e4c1334538e3971ef7f383d22e00c05106b2a05b488b59",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/retention.py",
-      "bytes": 9623,
-      "sha256": "806aa857f0867727513a5878f68189d71d56875f24d78f2606334c7141a67e23",
-      "export_sha256": "806aa857f0867727513a5878f68189d71d56875f24d78f2606334c7141a67e23",
+      "bytes": 9533,
+      "sha256": "189f575f3a18895e7dc9c4ee67133741e75870d036e74233d49adc5769c5105e",
+      "export_sha256": "189f575f3a18895e7dc9c4ee67133741e75870d036e74233d49adc5769c5105e",
       "source_sha256": "4d8de6f0e717b307247f2ed17221f8dd155072dfb4c21847cb60f75daff2de9b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/scheduler.py",
-      "bytes": 103107,
-      "sha256": "28c6a1a0291c06c0703a2bc28ec5b25a62e793a3a5458ab8f1451c2f85fbb762",
-      "export_sha256": "28c6a1a0291c06c0703a2bc28ec5b25a62e793a3a5458ab8f1451c2f85fbb762",
-      "source_sha256": "6336dde8ec9c4eae1d9c9c3bbc624c051af74807e7efb3c6da038c748ad952e6",
+      "bytes": 103677,
+      "sha256": "e416ae109d11f90d83bdb464b5346ae8510b5381a651af5df6ebd861c6082e14",
+      "export_sha256": "e416ae109d11f90d83bdb464b5346ae8510b5381a651af5df6ebd861c6082e14",
+      "source_sha256": "b50c5149c52e410fb581ade06f4766bf736ff1f715f1dd5d0732d52dd526b7d3",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/versions.py",
-      "bytes": 434,
-      "sha256": "7367a14baab818d0ee6ecedb48b124d42dcf65938f19639f9ee460f2efa2b65d",
-      "export_sha256": "7367a14baab818d0ee6ecedb48b124d42dcf65938f19639f9ee460f2efa2b65d",
+      "bytes": 420,
+      "sha256": "84eab74741e4b23e662a94b7606e7447830907341632e8183ef7a657f55b7294",
+      "export_sha256": "84eab74741e4b23e662a94b7606e7447830907341632e8183ef7a657f55b7294",
       "source_sha256": "84b1eae6409b6b063c9db34f58a69239ed008899c48b77dd9db3df702f1520fb",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/compat/writeback_plan.py",
-      "bytes": 776,
-      "sha256": "7d4ac592bfe0360280e2b7f82e40ceb577d8c689f4c9aacf0fbbf4703a3bbdc9",
-      "export_sha256": "7d4ac592bfe0360280e2b7f82e40ceb577d8c689f4c9aacf0fbbf4703a3bbdc9",
+      "bytes": 847,
+      "sha256": "e352e9054eb6f59067aac526cb6e99018d5cf6254468c982beb1a05354e51bcb",
+      "export_sha256": "e352e9054eb6f59067aac526cb6e99018d5cf6254468c982beb1a05354e51bcb",
       "source_sha256": "f22343abd49c419945d5a04e6a533e0c3a69ac1e33327da634fa47ba2b6ad7fb",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/__init__.py",
       "bytes": 37,
-      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "export_sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1",
-      "source_sha256": null,
-      "release_modified": false
+      "sha256": "30bf24232975818b8eeadcdeba75512ce3d802c1aae5d20c8580388ad4b030a1"
     },
     {
       "path": "kairos/_runtime/layout/compact_recovery.py",
-      "bytes": 8176,
-      "sha256": "379ec0d12e46f931180e8a31190437c5f0917536d46ff490a13165fb7bee1b83",
-      "export_sha256": "379ec0d12e46f931180e8a31190437c5f0917536d46ff490a13165fb7bee1b83",
+      "bytes": 7503,
+      "sha256": "66bf567d0b127859abf42e44f3c9fd6a99f423fecc183fd425636895d5627eaa",
+      "export_sha256": "66bf567d0b127859abf42e44f3c9fd6a99f423fecc183fd425636895d5627eaa",
       "source_sha256": "f6d118c16c45996ba2e90792f9809c2f39926899abd85392d5f0b10ced3d1db6",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/connector.py",
-      "bytes": 22981,
-      "sha256": "e847983a50d9bfda5f4245ad8bc547259713dc32bf38fedfb7503f20c77039d0",
-      "export_sha256": "e847983a50d9bfda5f4245ad8bc547259713dc32bf38fedfb7503f20c77039d0",
+      "bytes": 21795,
+      "sha256": "fe8570377595d7f96473c7c2f6c91e72898016b2209ad74ef96378b6f4a440ca",
+      "export_sha256": "fe8570377595d7f96473c7c2f6c91e72898016b2209ad74ef96378b6f4a440ca",
       "source_sha256": "a7e3cbb9d8937424eb590725062d73c45858c4ac2cdf094ddb921e27e10bc5db",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/correctness.py",
-      "bytes": 7895,
-      "sha256": "0e0b5d5ac9ece69eef0d15b81852fb9efb12039a2c9aead1a4d5ee6d9140c24e",
-      "export_sha256": "0e0b5d5ac9ece69eef0d15b81852fb9efb12039a2c9aead1a4d5ee6d9140c24e",
+      "bytes": 8824,
+      "sha256": "1428d47867531cb8f27589b8ed0fcda2028c406a01867a190231878b3c563bd2",
+      "export_sha256": "1428d47867531cb8f27589b8ed0fcda2028c406a01867a190231878b3c563bd2",
       "source_sha256": "c02fa59d3b1e23f047857ec1b1a0dcd98e06296d6bf06129e28467b23b033198",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/executable_cpu.py",
-      "bytes": 5878,
-      "sha256": "9de72fa0272d3d7072666f580565dea9e41527af992c2d3dfea655e4764ede1e",
-      "export_sha256": "9de72fa0272d3d7072666f580565dea9e41527af992c2d3dfea655e4764ede1e",
+      "bytes": 6412,
+      "sha256": "586dd7a88e59aadd69660fb8d8279756059bf32aea5121e2f9debb664a4bd860",
+      "export_sha256": "586dd7a88e59aadd69660fb8d8279756059bf32aea5121e2f9debb664a4bd860",
       "source_sha256": "4a361dd89616fb749351fba01f14be1dce76820b935a0634efc8e0a43489e5ef",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/executable_recovery.py",
-      "bytes": 8337,
-      "sha256": "290175df56de2bb0a8f2d336ac3f15162e45ed42c54977489c8ed18cfc019588",
-      "export_sha256": "290175df56de2bb0a8f2d336ac3f15162e45ed42c54977489c8ed18cfc019588",
+      "bytes": 8412,
+      "sha256": "35e16274e21a42a87e0d2f31537ba00f1e84e730eb03fdf0803adbb455ecdce7",
+      "export_sha256": "35e16274e21a42a87e0d2f31537ba00f1e84e730eb03fdf0803adbb455ecdce7",
       "source_sha256": "2d5c265225b8c214637715ae0cff36a404043b843df348bfff09e3cda19e0869",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/execution_capacity.py",
-      "bytes": 4286,
-      "sha256": "11de9d7d35f1d59c3f30096c979218d502894eebed6cb44ed3d1b99ae74e04e1",
-      "export_sha256": "11de9d7d35f1d59c3f30096c979218d502894eebed6cb44ed3d1b99ae74e04e1",
+      "bytes": 4057,
+      "sha256": "2528da2f658fdfc6d599dfa2f04fc763b463ac3160bfc6dba900c16b1a01f420",
+      "export_sha256": "2528da2f658fdfc6d599dfa2f04fc763b463ac3160bfc6dba900c16b1a01f420",
       "source_sha256": "0f620f983e3981cb8b932e35c7a6436586a0c766d4a0b8d0c9cc09bff6a312b4",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/execution_route.py",
-      "bytes": 2019,
-      "sha256": "fdf8c152dc759a654b40c869b7aa35b4c8f06c171ff8779da9c5b47787c294b2",
-      "export_sha256": "fdf8c152dc759a654b40c869b7aa35b4c8f06c171ff8779da9c5b47787c294b2",
+      "bytes": 1869,
+      "sha256": "5c23a8770fe12ea813394d21c9758a493609742721f8f83e52b411c1f96acb4d",
+      "export_sha256": "5c23a8770fe12ea813394d21c9758a493609742721f8f83e52b411c1f96acb4d",
       "source_sha256": "542d63959103c757a8a8b549e3478e399c5c7aee551b7b2503371ef24f222492",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/gpu.py",
-      "bytes": 4994,
-      "sha256": "371bbefd83b73326746647023aa0487d60d4d982a6b18602c0786f6709cec949",
-      "export_sha256": "371bbefd83b73326746647023aa0487d60d4d982a6b18602c0786f6709cec949",
+      "bytes": 4021,
+      "sha256": "f82d1d1f93ad68669b7267eba7b9377c1c7ee4c1cf6054e5baf2a8f01022ac04",
+      "export_sha256": "f82d1d1f93ad68669b7267eba7b9377c1c7ee4c1cf6054e5baf2a8f01022ac04",
       "source_sha256": "17e639c00435f58566e06835a123b03e510638d9c036e5e7ebe0288dd1dff588",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/next_use.py",
-      "bytes": 9771,
-      "sha256": "92a82f97dbefe349fc713273c0effba43574875803c80a07237807d24a12a3ad",
-      "export_sha256": "92a82f97dbefe349fc713273c0effba43574875803c80a07237807d24a12a3ad",
+      "bytes": 8598,
+      "sha256": "a9e374842f96bce2731a15b84c8f7d1555ab1a2cf1d5cd68ad4340b0abf44b11",
+      "export_sha256": "a9e374842f96bce2731a15b84c8f7d1555ab1a2cf1d5cd68ad4340b0abf44b11",
       "source_sha256": "5f9693df0113559a3beeb16ec2b44eaf71f0ac08b9fb459f8b759fd1cb84ccb5",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/pcv.py",
-      "bytes": 14860,
-      "sha256": "3243f0b1c3df4db890ab81485e0ee0cb2e40f37b69055d33cfe2d1086ee7d452",
-      "export_sha256": "3243f0b1c3df4db890ab81485e0ee0cb2e40f37b69055d33cfe2d1086ee7d452",
+      "bytes": 16119,
+      "sha256": "691a6139db508b6d3a909e6e983ca1283c938532d45ed1dc39799dacfc2b037e",
+      "export_sha256": "691a6139db508b6d3a909e6e983ca1283c938532d45ed1dc39799dacfc2b037e",
       "source_sha256": "92068a2eaf810f8ccc4e86abb30619eafd540bd13e62269e8b94a76e1f5de878",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/pcv_runtime.py",
-      "bytes": 35684,
-      "sha256": "22ee2bc6c9e9993c5bdbec1771f05f4e40a1988392d62e16ec180c127171d945",
-      "export_sha256": "22ee2bc6c9e9993c5bdbec1771f05f4e40a1988392d62e16ec180c127171d945",
+      "bytes": 41868,
+      "sha256": "b4a0b06a93eb8525f01803a47efcfd36a789a65c1df444eb74dff48c1f4cf2a9",
+      "export_sha256": "b4a0b06a93eb8525f01803a47efcfd36a789a65c1df444eb74dff48c1f4cf2a9",
       "source_sha256": "40eb597c9d643cf7a55a84fa6250dcf50229ea7e57249fbe13e7fc9edd8bef9a",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/pcv_scheduler.py",
-      "bytes": 24821,
-      "sha256": "1f45087757c625cd3ff9870de34d13433dda6b6166ed3038c75baaed6bbe18a9",
-      "export_sha256": "1f45087757c625cd3ff9870de34d13433dda6b6166ed3038c75baaed6bbe18a9",
+      "bytes": 29013,
+      "sha256": "35b68aa50aa8ff815becd35e3dbd65004e2081a93dfd660b2bf7d7662eee6935",
+      "export_sha256": "35b68aa50aa8ff815becd35e3dbd65004e2081a93dfd660b2bf7d7662eee6935",
       "source_sha256": "3f49f69b3c60b192020767efc4150fafd9255ec3e492029b2681a952f6c90d4c",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/pcvu_control.py",
-      "bytes": 13367,
-      "sha256": "278ff8c7bf468e01d78d34c58d3d61ad3a864871be72cda3b955d00c44b3f99c",
-      "export_sha256": "278ff8c7bf468e01d78d34c58d3d61ad3a864871be72cda3b955d00c44b3f99c",
+      "bytes": 13796,
+      "sha256": "fcf363d6bc464079e353815e8aa34dfdc496253684468ba15a7fd17ef6583a83",
+      "export_sha256": "fcf363d6bc464079e353815e8aa34dfdc496253684468ba15a7fd17ef6583a83",
       "source_sha256": "35be8291a29d72128c29faac1e1c6ca827d7e293cd08f7115d1afb8d5a4fee7e",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/plan.py",
-      "bytes": 6054,
-      "sha256": "d53b6866c52a8e4699b45743d25dc6798a0f50401762cd219712babfd7ec888b",
-      "export_sha256": "d53b6866c52a8e4699b45743d25dc6798a0f50401762cd219712babfd7ec888b",
+      "bytes": 5609,
+      "sha256": "bf90ed81c9e3e8e4b440b787b59f3da65fef0022267929bb4c9d39491deea131",
+      "export_sha256": "bf90ed81c9e3e8e4b440b787b59f3da65fef0022267929bb4c9d39491deea131",
       "source_sha256": "266bed34d7463a739cd66faabe651cb3ffcd0bcd369087af4bf574d9cb87242a",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/query_budget.py",
-      "bytes": 12552,
-      "sha256": "82c38327dd1f0132d80c1c83954cbfd218c87fecb7f69d546ad2f2deecd4ea84",
-      "export_sha256": "82c38327dd1f0132d80c1c83954cbfd218c87fecb7f69d546ad2f2deecd4ea84",
+      "bytes": 13213,
+      "sha256": "768da1151dd9d931c10ae20cb792968fad75d797c1c3dbb54cdbf99f2964f796",
+      "export_sha256": "768da1151dd9d931c10ae20cb792968fad75d797c1c3dbb54cdbf99f2964f796",
       "source_sha256": "ae5db43605d588ecb5f901a2c52c04c1540c1e86d93746f15f253f591df13f25",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/recovery.py",
-      "bytes": 5586,
-      "sha256": "31aad54047277fdb1c21999d9ff865c7a29bc9617d026f4c4c9233e96c4a0d1d",
-      "export_sha256": "31aad54047277fdb1c21999d9ff865c7a29bc9617d026f4c4c9233e96c4a0d1d",
+      "bytes": 4948,
+      "sha256": "4d7c8ef8426b517c7b09b127f4b4b3175b0e4681dfabb54d293002127b75e574",
+      "export_sha256": "4d7c8ef8426b517c7b09b127f4b4b3175b0e4681dfabb54d293002127b75e574",
       "source_sha256": "6c0d8c39f0f5c023ebbf6814517279cd9b32bea0e4e00883cc12747eef09c11b",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/recovery_runtime.py",
-      "bytes": 3653,
-      "sha256": "1a07af6e8b920c18e246b98eddf7263d42913642d95194793f1c9bf0718aeacc",
-      "export_sha256": "1a07af6e8b920c18e246b98eddf7263d42913642d95194793f1c9bf0718aeacc",
+      "bytes": 3892,
+      "sha256": "550267bf82139c52bde5dd97116c92c061f29d4b4bcdec3843d799749ae3c371",
+      "export_sha256": "550267bf82139c52bde5dd97116c92c061f29d4b4bcdec3843d799749ae3c371",
       "source_sha256": "d44dcd95ad448b50d52c90d283ca2ceec880e3e03a76bb3ed132d55175351250",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/recovery_scheduler.py",
-      "bytes": 22661,
-      "sha256": "cf733639363aa2c6bffcded193df40760692bbe857389227c1433924c1b3095f",
-      "export_sha256": "cf733639363aa2c6bffcded193df40760692bbe857389227c1433924c1b3095f",
+      "bytes": 23745,
+      "sha256": "ccca4037bc542dcc476c34ba5313ea5f51820e71afb60a397c3155308bc40ec5",
+      "export_sha256": "ccca4037bc542dcc476c34ba5313ea5f51820e71afb60a397c3155308bc40ec5",
       "source_sha256": "b9e846bb4f01562c99ec21ae7e955323597da3d55791ae8432f81110247cc45d",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/runtime.py",
-      "bytes": 6225,
-      "sha256": "004868c23b8d35dad3b778fa5d4af2ad02e40f4b8ebb5c8d0f2d3fc0d395f799",
-      "export_sha256": "004868c23b8d35dad3b778fa5d4af2ad02e40f4b8ebb5c8d0f2d3fc0d395f799",
+      "bytes": 7502,
+      "sha256": "c6c7b22d3d1376ac71dc14589d77f708e7275db7f6dadd33d505c5ee5dd264ba",
+      "export_sha256": "c6c7b22d3d1376ac71dc14589d77f708e7275db7f6dadd33d505c5ee5dd264ba",
       "source_sha256": "0e427d32b4c5bbd5c91f79d04af3bdbb6e0d95c29cffb67370d47d2f5ccbc6a5",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/scheduler.py",
-      "bytes": 30079,
-      "sha256": "43a77b024b9b8d1f16affbd4a2ea1de16b241ddf0764a0561204d68196edfd3f",
-      "export_sha256": "43a77b024b9b8d1f16affbd4a2ea1de16b241ddf0764a0561204d68196edfd3f",
+      "bytes": 31918,
+      "sha256": "c6147eda9b8eea6c60870633404f687308ae8398c0a9dd6f19760ceb4d888870",
+      "export_sha256": "c6147eda9b8eea6c60870633404f687308ae8398c0a9dd6f19760ceb4d888870",
       "source_sha256": "a185ddaadb7a85e09118e73a67c5c91f54d45665e7ef407815a97a792f82ca99",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/segment_capacity.py",
-      "bytes": 583,
-      "sha256": "f70cd7681f4d83979b7a4f6ad7d198924913c16a55d36a87946929a200436a0c",
-      "export_sha256": "f70cd7681f4d83979b7a4f6ad7d198924913c16a55d36a87946929a200436a0c",
+      "bytes": 550,
+      "sha256": "5ebcfcbeb60275bd611907a93921ac61dd8c15b418eb0d12c98153715a60f5ab",
+      "export_sha256": "5ebcfcbeb60275bd611907a93921ac61dd8c15b418eb0d12c98153715a60f5ab",
       "source_sha256": "be19db3cb03c3798fc0e6f60c0a2c34958ca09b9c0831eae2e05b8983f77133e",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/use_scheduler.py",
-      "bytes": 8461,
-      "sha256": "9a8c053a2a5583b1a9ec62b883cc7c57a1db509278146888438accc33c5c45da",
-      "export_sha256": "9a8c053a2a5583b1a9ec62b883cc7c57a1db509278146888438accc33c5c45da",
+      "bytes": 9619,
+      "sha256": "0b0b764763484b83fc2b569abb6451429f7ba1d348d96da9e6425e3da65a11ac",
+      "export_sha256": "0b0b764763484b83fc2b569abb6451429f7ba1d348d96da9e6425e3da65a11ac",
       "source_sha256": "b2d193a5701c17e742e9074607afe9da0b1bdd62361149d16ae60162e83792ff",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/layout/worker.py",
-      "bytes": 4554,
-      "sha256": "a42c884b55685ee792db2243ec47851300d414c05c196bed7d9b1b51efae528a",
-      "export_sha256": "a42c884b55685ee792db2243ec47851300d414c05c196bed7d9b1b51efae528a",
+      "bytes": 5224,
+      "sha256": "33e48e37409a997a1adc5c0fe57baa645521c37bb782e6100a955da7e2e33ced",
+      "export_sha256": "33e48e37409a997a1adc5c0fe57baa645521c37bb782e6100a955da7e2e33ced",
       "source_sha256": "7995ecafac19976d16c8e5f368e6b335d6e8183fbed5bc81d2ceca4e7c513445",
       "release_modified": false
     },
     {
       "path": "kairos/_runtime/replay.py",
-      "bytes": 7355,
-      "sha256": "99d0dcef5ae8131ededf28b01ad1928e7877d385ba6d738a16bcdd72d0847ddd",
-      "export_sha256": "b468239b898c483451b03035f29c9b1a2db451be0e60db7549de7bac624711b7",
-      "source_sha256": "f16304c2dbbdf78630263b1f6f1d2fb07e136f19b735de278d69b4e0d2de5d09",
-      "release_modified": true
-    },
-    {
-      "path": "kairos/_runtime/teacher_replay.py",
-      "bytes": 8207,
-      "sha256": "8f4e25a58bd438a24337e8412eca30bdd08e2e6c141f6f53254b47a17567205e"
+      "bytes": 21424,
+      "sha256": "409f02fdc2ae9bcdcc88f8f934ce161f93f54566a2450a5c43f43fe6eff50ab5",
+      "export_sha256": "409f02fdc2ae9bcdcc88f8f934ce161f93f54566a2450a5c43f43fe6eff50ab5",
+      "source_sha256": "143610f227ed665769fc558644e2638062e9808dde815cb8d20c8cb25c9cb8ee",
+      "release_modified": false
     },
     {
       "path": "kairos/_runtime/unsupported.py",
       "bytes": 284,
-      "sha256": "8c12499cf0b4be247e7ab82c5815746b09906e70f4fb6c0986f1ca42145753ef"
+      "sha256": "3ce1a1a2adef9163f15d36bba5cc4fa26e6e1c2772c47ba4ca6576e7e6c62d01"
     },
     {
       "path": "kairos/_runtime/vendor/efficientagent-b21b12a/LICENSE",
       "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "export_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "release_modified": false
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     {
       "path": "kairos/_runtime/vendor/efficientagent-b21b12a/PROVENANCE.md",
       "bytes": 1618,
-      "sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623",
-      "export_sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623",
-      "source_sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623",
-      "release_modified": false
+      "sha256": "133c8919efd3f41deb5a685208963604e4f6295ad50c3b5fd033f4cb4c707623"
     },
     {
       "path": "kairos/_runtime/vendor/efficientagent-b21b12a/connector.py",
       "bytes": 15503,
-      "sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268",
-      "export_sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268",
-      "source_sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268",
-      "release_modified": false
+      "sha256": "c4c7eea4dd16b227548cf04330a69baa686ea1cdb7c9f9a82bc7da4595320268"
     },
     {
       "path": "kairos/_runtime/vendor/hicache-3dc9136/PROVENANCE.md",
       "bytes": 2384,
-      "sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b",
-      "export_sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b",
-      "source_sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b",
-      "release_modified": false
+      "sha256": "c9f57699a822fb80bfebc5d1167d99619a956824057594777958addafc9cfa4b"
     },
     {
       "path": "kairos/_runtime/vendor/hicache-3dc9136/full_component.py",
       "bytes": 16340,
-      "sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66",
-      "export_sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66",
-      "source_sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66",
-      "release_modified": false
+      "sha256": "edf7ff730f81db8d2d322d54329f74953175cba5745ed55ab6e5d24115706d66"
     },
     {
       "path": "kairos/_runtime/vendor/hicache-3dc9136/unified_tree_core.py",
       "bytes": 100763,
-      "sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a",
-      "export_sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a",
-      "source_sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a",
-      "release_modified": false
+      "sha256": "3be754101e2b35f76f30ff444acbd0a3ecc3f4f553b2f0cfa5d720de10a25c8a"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/PROVENANCE.md",
       "bytes": 1213,
-      "sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2",
-      "export_sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2",
-      "source_sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2",
-      "release_modified": false
+      "sha256": "8817103e943f3cc5138639b5962650bf994066416602dbe8674e55f7585505d2"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_manager.py",
       "bytes": 23577,
-      "sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd",
-      "export_sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd",
-      "source_sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd",
-      "release_modified": false
+      "sha256": "e611da21991cd29757e553acfaeabbdd1332d4743f036f6b35ed0e85c80c5bcd"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/__init__.py",
       "bytes": 2403,
-      "sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103",
-      "export_sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103",
-      "source_sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103",
-      "release_modified": false
+      "sha256": "be8b034b8aa1c6c954a4a1ec65964f31f1ee076ff1ac8d1f5742f4bb7b4b9103"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/base.py",
       "bytes": 9325,
-      "sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2",
-      "export_sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2",
-      "source_sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2",
-      "release_modified": false
+      "sha256": "3e73f2b7329269718f0b3f9d72f506d7a6baff33aedf1e16935d72e53b6f57e2"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/eviction_aware.py",
       "bytes": 25401,
-      "sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33",
-      "export_sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33",
-      "source_sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33",
-      "release_modified": false
+      "sha256": "f75df38b9f3bf3eaa364b7ec3dbcb4fc1229eec54ad3db35509591a19a150f33"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_policy/fifo.py",
       "bytes": 5731,
-      "sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6",
-      "export_sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6",
-      "source_sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6",
-      "release_modified": false
+      "sha256": "d4a4a951c840241f2eeac10df69ec2f574434fb7afec3d219509c0ceb58122a6"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lazy_offload_state.py",
       "bytes": 9218,
-      "sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289",
-      "export_sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289",
-      "source_sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289",
-      "release_modified": false
+      "sha256": "1785139617dde03861341dba16528be252bba60d41aa998eee0c8a05717d3289"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lmcache_mp_connector.py",
       "bytes": 75466,
-      "sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b",
-      "export_sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b",
-      "source_sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b",
-      "release_modified": false
+      "sha256": "e741e621ecaa7e70ad701f07d2a2dccaf04e2b7690760931096e73865daa652b"
     },
     {
       "path": "kairos/_runtime/vendor/lmcache-lazy-68a9c6b/lmcache_mp_metadata.py",
       "bytes": 19144,
-      "sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f",
-      "export_sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f",
-      "source_sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f",
-      "release_modified": false
-    },
-    {
-      "path": "kairos/arrival.py",
-      "bytes": 2692,
-      "sha256": "4fe0ebe82a0de07c6de9586b98569b010364ca4dde6751983ce7b5e171b15488",
-      "export_sha256": "4fe0ebe82a0de07c6de9586b98569b010364ca4dde6751983ce7b5e171b15488",
-      "source_sha256": "99512255297f44196bf2b84dd1caee2934443335b41156f9acd3bf7188cd5e35",
-      "release_modified": false
+      "sha256": "8a30041694a692b6a6032856f9db069280b0d78c36eba5b920b5f6ff9686865f"
     },
     {
       "path": "kairos/audit.py",
-      "bytes": 6103,
-      "sha256": "91c630e2ac473573f465c018b6dc5624500e64b620f1d6687e3717a8616e93fa"
+      "bytes": 5761,
+      "sha256": "e253ef24b5937d7ba0dde82837e08e8a38b9c8cb8298e7efbee5f7855e1db776"
     },
     {
-      "path": "kairos/causal.py",
-      "bytes": 4977,
-      "sha256": "5ce8b482fe2cfd018a97f3752c10b197304e59946e4c0198cd963578cc74f434",
-      "export_sha256": "5ce8b482fe2cfd018a97f3752c10b197304e59946e4c0198cd963578cc74f434",
-      "source_sha256": "42bcab66be8f49292d3de2813f3281a738b3d24b48dca8a111ee9f5bed4bf56e",
+      "path": "kairos/backend/__init__.py",
+      "bytes": 56,
+      "sha256": "a7b651461808ba490fbcb9c4ada14399ebcb8f79935f1d5709296ef673cf5519"
+    },
+    {
+      "path": "kairos/backend/coverage.py",
+      "bytes": 6977,
+      "sha256": "a9304c772d30cf8f914673597ba5c2b34e311a0635b9070820ccbadcd9b0a38f",
+      "export_sha256": "a9304c772d30cf8f914673597ba5c2b34e311a0635b9070820ccbadcd9b0a38f",
+      "source_sha256": "12d48b33832154130add0dff31a1e0e0f31b03843ec638027224f0369c0785da",
       "release_modified": false
     },
     {
-      "path": "kairos/cost.py",
-      "bytes": 3076,
-      "sha256": "8551da97436e2ce0087c1ff7d3b2fa1c05c65ee876fc9fdeb55e3cc11c30dc06",
-      "export_sha256": "a8d7402ba8827c5c8016bb21af252f557ea3d678cbf8e80b770fee32cf4e8bd9",
-      "source_sha256": "f2ac06f613f2d18165ebe5ff5248dccab14c54fd46dfd6a3f6f313256419ce1a",
-      "release_modified": true
+      "path": "kairos/backend/runtime.py",
+      "bytes": 2272,
+      "sha256": "b3282e2957671ca556a293eaf2981118bbf3fe7fa100b35716862b6441e449a1",
+      "export_sha256": "b3282e2957671ca556a293eaf2981118bbf3fe7fa100b35716862b6441e449a1",
+      "source_sha256": "92d6988264034dd01011c6f255d38c25cf98780f4961ea443a2516b6d818363e",
+      "release_modified": false
     },
     {
-      "path": "kairos/dispatch.py",
-      "bytes": 7709,
-      "sha256": "7b08987ed73ce907d5f7a86eb3ae7401c4f59626e8ed297b0fc7adbb6409ad76",
-      "export_sha256": "7b08987ed73ce907d5f7a86eb3ae7401c4f59626e8ed297b0fc7adbb6409ad76",
-      "source_sha256": "dc2ceabe21678dc048b9fb234df22c12204de6578d34e79d7a6ccf4226bb497e",
+      "path": "kairos/backend/transfer.py",
+      "bytes": 12496,
+      "sha256": "8229d3b241b50e2ef91853367f6188495f948a96b9a10effb549825bc9d92deb",
+      "export_sha256": "8229d3b241b50e2ef91853367f6188495f948a96b9a10effb549825bc9d92deb",
+      "source_sha256": "b8e2dea220d552b327dbc92f5daf6f300889fe0cd4e05823412ff9d4a060ee72",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/causal.py",
+      "bytes": 5432,
+      "sha256": "0575de64dc369d5de9c2f8f3a734a0e9f5e08ecbb399613a3feb1f7e972e0189"
+    },
+    {
+      "path": "kairos/continuity/__init__.py",
+      "bytes": 68,
+      "sha256": "4e018948e2532cfc4372339f2cda5524bbd25a1a66d456b106e5fc72178ea844"
+    },
+    {
+      "path": "kairos/continuity/economics.py",
+      "bytes": 6248,
+      "sha256": "c94ace462e38704460d90ac7b8e401c9f5afac0e45143979c054285b06a34197",
+      "export_sha256": "c94ace462e38704460d90ac7b8e401c9f5afac0e45143979c054285b06a34197",
+      "source_sha256": "ba48c8132e1c08754b796ccd69d6376b91bff89d3f8ebcae08fae397132700b4",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/continuity/holding.py",
+      "bytes": 12334,
+      "sha256": "b34a72f23d3e2b45db4325bbb9ffd80bca4a6fe75a52aef6f2d6a3f169bfd404",
+      "export_sha256": "b34a72f23d3e2b45db4325bbb9ffd80bca4a6fe75a52aef6f2d6a3f169bfd404",
+      "source_sha256": "0a705f4a381a669b9c9f677f05d9a60d70ad80d32268b01301b11965dd99ca04",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/continuity/returns.py",
+      "bytes": 9660,
+      "sha256": "9035b08a370072925daeb5e286134d92d6ce7435ce5bf136c291f7d46c01bf7c",
+      "export_sha256": "9035b08a370072925daeb5e286134d92d6ce7435ce5bf136c291f7d46c01bf7c",
+      "source_sha256": "7aaaa11e3474a207ebabca365605e7da4bbdb0cb9c64fe409ad603dd776fef7d",
       "release_modified": false
     },
     {
       "path": "kairos/evaluate.py",
-      "bytes": 2210,
-      "sha256": "089b492b2f7022f455444dd46c4a58040b04c7b4c71eb3ab9b9d669b9c63435e"
-    },
-    {
-      "path": "kairos/features.py",
-      "bytes": 2019,
-      "sha256": "007f1912bb0b770cd023408b559670bd54140178536734c04605ac20fcc15084",
-      "export_sha256": "007f1912bb0b770cd023408b559670bd54140178536734c04605ac20fcc15084",
-      "source_sha256": "3144aef99fdca2080e49c576ab0bba9e1e4f5fb5accb9ee1a7dbd099d8eb2ba4",
-      "release_modified": false
-    },
-    {
-      "path": "kairos/forest.py",
-      "bytes": 3443,
-      "sha256": "b449cf83ae77cc073ccbf7994f407985368bacc0ed8ba187ed21595ab9985747",
-      "export_sha256": "b449cf83ae77cc073ccbf7994f407985368bacc0ed8ba187ed21595ab9985747",
-      "source_sha256": "8918d3fb3c665b2808de781e49d5736bca53c28f23fd7408ff5e8e4f33e61c35",
-      "release_modified": false
+      "bytes": 2407,
+      "sha256": "7c50256ad3c69fdf7bb4c3f894e106fd400b380e8578e33ba194dbbde443b45c"
     },
     {
       "path": "kairos/messages.py",
-      "bytes": 3669,
-      "sha256": "5411c630e91fb67141d937fba87d1578ac3e77f6b5e4c68af8b5959cdb556406",
-      "export_sha256": "5411c630e91fb67141d937fba87d1578ac3e77f6b5e4c68af8b5959cdb556406",
+      "bytes": 4237,
+      "sha256": "232e40b51d550e4330e70527e2590d55fda91e160df8c65e3c1a721536aa76c1",
+      "export_sha256": "232e40b51d550e4330e70527e2590d55fda91e160df8c65e3c1a721536aa76c1",
       "source_sha256": "c8a65e3bbd69083879f20fefd562ae906699f1ccad74e641fe623f561aa18b37",
       "release_modified": false
     },
     {
       "path": "kairos/metrics.py",
-      "bytes": 2368,
-      "sha256": "97f9bbd6c5cee3e2e63707111603a72ec5c4f2bf88389e9cb09701e9b955d3b6"
+      "bytes": 2505,
+      "sha256": "15725e10863b991a7dfb00f57876cde85522f507289a899e8cef242ad71d631e"
     },
     {
-      "path": "kairos/protection.py",
-      "bytes": 10854,
-      "sha256": "42c0be0b492e3145b96449685ddf4816e46973979138498488c8d9e0411f81e7",
-      "export_sha256": "046e676cb9cbe9b20c056db014597fa28aa9d1e31dc3a569ca9d55a14aacc926",
-      "source_sha256": "11ee73b758d9a63f14fb288af0f3db60811643fd00e2620aee40c2aef618f786",
-      "release_modified": true
+      "path": "kairos/observability/__init__.py",
+      "bytes": 50,
+      "sha256": "355c70ffacb6a10ebc631a8ceaa5849611ce5b54bca644b7a6cadd47941cf68e"
     },
     {
-      "path": "kairos/resources.py",
-      "bytes": 2634,
-      "sha256": "05d4d8ccf3a6c1b8a63058c36d15f39b546b19a929d9a70b92136a69fa6cc9d7",
-      "export_sha256": "94be4e5e2e6987d502175ed230d7c326d3e06a143dd413df7a052c5dea69062f",
-      "source_sha256": "5e05c970de10b299fd77bdb48966b3c4d3b2125aa944946fce02d47ef5832f62",
-      "release_modified": true
-    },
-    {
-      "path": "kairos/run.py",
-      "bytes": 12567,
-      "sha256": "baa269202f8bae73677282a4f8c7573d3fd856c304c3feee4f3286f1bcfb984f"
-    },
-    {
-      "path": "kairos/scheduler.py",
-      "bytes": 2558,
-      "sha256": "edff7a4a7fdfd7515c0f20f63c11f065862e2980eb4c3d89bacfa4f2fea2486d",
-      "export_sha256": "edff7a4a7fdfd7515c0f20f63c11f065862e2980eb4c3d89bacfa4f2fea2486d",
-      "source_sha256": "a926bdaab6b184a2f76271677c52bda24e99ebe347cea4c5a162b7a49b0c62fa",
+      "path": "kairos/observability/compact.py",
+      "bytes": 2131,
+      "sha256": "c6de704268b137b383cb2295d12de89cbd9848bb0b5a39dff7bdc4ea680f2c83",
+      "export_sha256": "c6de704268b137b383cb2295d12de89cbd9848bb0b5a39dff7bdc4ea680f2c83",
+      "source_sha256": "340e6489d79fc08ab936a922ee5b088a6e3340b2cc6e6de0f0c2f987c600e4fc",
       "release_modified": false
     },
     {
-      "path": "kairos/score.py",
-      "bytes": 2048,
-      "sha256": "e975d09f176db524ebd87ec4e9801a2b483f3b7142fb1ecea17a6c60315e9250",
-      "export_sha256": "e975d09f176db524ebd87ec4e9801a2b483f3b7142fb1ecea17a6c60315e9250",
+      "path": "kairos/observability/distributions.py",
+      "bytes": 2722,
+      "sha256": "8e8f8d7d04325bae70ed6e8a9d3a4e7be1b25ff1f532894efc14f045bd6c9fb3"
+    },
+    {
+      "path": "kairos/prediction/__init__.py",
+      "bytes": 68,
+      "sha256": "699eec5b4b381b0d0bacb6d79db33cec8033f66264866c57d0ae87b2e3b89692"
+    },
+    {
+      "path": "kairos/prediction/arrival.py",
+      "bytes": 2831,
+      "sha256": "9ddf79d3b35a3d78833d9b4445c3d90a3d08c0f388ca4af3d453434d43a97c52",
+      "export_sha256": "9ddf79d3b35a3d78833d9b4445c3d90a3d08c0f388ca4af3d453434d43a97c52",
+      "source_sha256": "2a27866928b97dbb2cf219cced61275fd10e55c1da23520a0c4a336b6257e626",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/current.py",
+      "bytes": 3826,
+      "sha256": "da544d939e3b38ee07acc3af90bab1d831832eb65d137532650e254e48f82df2",
+      "export_sha256": "da544d939e3b38ee07acc3af90bab1d831832eb65d137532650e254e48f82df2",
+      "source_sha256": "6de043e2da6a3014bca63f7bd7899a72038c5fd443706037ee276ae788ab36ad",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/features.py",
+      "bytes": 1962,
+      "sha256": "f61498005f6cf207003287ced43f71eaebaf5e42f6de5fee0a9d9f1a4f5bfb88",
+      "export_sha256": "f61498005f6cf207003287ced43f71eaebaf5e42f6de5fee0a9d9f1a4f5bfb88",
+      "source_sha256": "3144aef99fdca2080e49c576ab0bba9e1e4f5fb5accb9ee1a7dbd099d8eb2ba4",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/metadata.py",
+      "bytes": 1997,
+      "sha256": "0eb924d5d269c670a4de7db65de0120b9103e9fb0dc955f8c26e9f62f9b1754a",
+      "export_sha256": "0eb924d5d269c670a4de7db65de0120b9103e9fb0dc955f8c26e9f62f9b1754a",
+      "source_sha256": "9065be792e903ccc8922ee84df6f3ccc766920cedc84765e755364a3ce1d33b5",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/output_tree.py",
+      "bytes": 341,
+      "sha256": "36b3c61e460b6c88c78e37c7c9707dbaecb0226849928f92e8eddd634a41ec85",
+      "export_sha256": "36b3c61e460b6c88c78e37c7c9707dbaecb0226849928f92e8eddd634a41ec85",
+      "source_sha256": "46edab991c674ac21ef872cc4074e1feb2802893c1f6507494feb5a4943bab79",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/prior.py",
+      "bytes": 4816,
+      "sha256": "d5ee63135bec2a4a34b0d041dd3b42d94ba237f5ba12a6fc4e07c6932da2e211",
+      "export_sha256": "d5ee63135bec2a4a34b0d041dd3b42d94ba237f5ba12a6fc4e07c6932da2e211",
+      "source_sha256": "b57458cc3e435f27861165a5d185a5d19b90304e683706f780d2186e24612f16",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/suffix.py",
+      "bytes": 3148,
+      "sha256": "46c7e78f21b80c8bcb8b4c950db5b3b2d8415e807bfd14e3a75e09651107244f",
+      "export_sha256": "46c7e78f21b80c8bcb8b4c950db5b3b2d8415e807bfd14e3a75e09651107244f",
+      "source_sha256": "8918d3fb3c665b2808de781e49d5736bca53c28f23fd7408ff5e8e4f33e61c35",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/prediction/survival.py",
+      "bytes": 2867,
+      "sha256": "4b51144c63971a04116d6cdd2a95e12d931aa9cef3bba3a3669e3775bb672846",
+      "export_sha256": "4b51144c63971a04116d6cdd2a95e12d931aa9cef3bba3a3669e3775bb672846",
+      "source_sha256": "268a63a9886d24db305de0925d7363f29df2929ace4571953c96ef0b115c606e",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/replay/__init__.py",
+      "bytes": 78,
+      "sha256": "2bb73c6d107ec381505c8b8dab2fa6de251a689ff3fe26f72ba077422f6e9fc8"
+    },
+    {
+      "path": "kairos/replay/boundary.py",
+      "bytes": 2314,
+      "sha256": "afda55675c27ab8157047621dd3ffe451941162b542d57b362fb63b49955fa83",
+      "export_sha256": "afda55675c27ab8157047621dd3ffe451941162b542d57b362fb63b49955fa83",
+      "source_sha256": "978e7c9d09c32b0d600584dd85c7cf45496547adcae19375def355ae56626293",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/replay/completion.py",
+      "bytes": 9708,
+      "sha256": "7795583453e44b786ea8d4350b492deadccbf50adebe5ead69488346bfe23fdd",
+      "export_sha256": "7795583453e44b786ea8d4350b492deadccbf50adebe5ead69488346bfe23fdd",
+      "source_sha256": "e36811d9e825ebaea399d53d15a9e121f19d8080d712fdaf5a7d8543f0dbe5f3",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/replay/execution.py",
+      "bytes": 3566,
+      "sha256": "9f1da578fff08529b913a41bbe450776d7cf0c4ea73b47e72f5616d180e9696e",
+      "export_sha256": "9f1da578fff08529b913a41bbe450776d7cf0c4ea73b47e72f5616d180e9696e",
+      "source_sha256": "ee5172f3f757e224f7ba31aac8f5848018cbf2b3d3da6e7294bbedea9357871a",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/run.py",
+      "bytes": 16569,
+      "sha256": "ceefc895a0132be86eb068436c84d10ee9aa18f844b5dcdc9af8714e7938fb5a"
+    },
+    {
+      "path": "kairos/scheduler.py",
+      "bytes": 1154,
+      "sha256": "78d5792461abe67edf20f559a8b286817bc92eaacf4ff2e1abf09ece92bd4208"
+    },
+    {
+      "path": "kairos/scheduling/__init__.py",
+      "bytes": 73,
+      "sha256": "8774330180fe57a518dc889c123cc590681300f2f12b0da92752b7c242f3cb8e"
+    },
+    {
+      "path": "kairos/scheduling/admission.py",
+      "bytes": 12705,
+      "sha256": "a745dc27f061eff22d080def6aaba63ca4c9ff7203f203cf92df0d8f13a91f25",
+      "export_sha256": "a745dc27f061eff22d080def6aaba63ca4c9ff7203f203cf92df0d8f13a91f25",
+      "source_sha256": "dd600f96ac8d65b02e80c3aec0ad66537d5bcef962114082a29fedc4e5e1fb69",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/cache.py",
+      "bytes": 5954,
+      "sha256": "fd1cc1a706b30ec24d8ca8e340b2ceab2d024bcc6297de5c2fec1c9c886705da",
+      "export_sha256": "fd1cc1a706b30ec24d8ca8e340b2ceab2d024bcc6297de5c2fec1c9c886705da",
+      "source_sha256": "61bbf83dba347d482168bb8c1521ad04314c89160f4837c6b2744f6ec264eb7d",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/capacity.py",
+      "bytes": 822,
+      "sha256": "aa1c7c6aaf9c92319537b5b4fd37c6516fbefd108da6f1187f38d1fb8434647d",
+      "export_sha256": "aa1c7c6aaf9c92319537b5b4fd37c6516fbefd108da6f1187f38d1fb8434647d",
+      "source_sha256": "87f7f30575679d5f92d1af76b941aa7016ca9da2924885293f0c73440ff4cc9e",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/continuity_quotes.py",
+      "bytes": 2544,
+      "sha256": "cce9b1257355da8ba8ecb3a588ba55f8b5b7a08bd7344cc5523cff8802e79fec",
+      "export_sha256": "cce9b1257355da8ba8ecb3a588ba55f8b5b7a08bd7344cc5523cff8802e79fec",
+      "source_sha256": "a2d2cd6841e138064b4b8cf6c9addb665142acd686b12b8d395e6274fc9ce5fd",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/contracts.py",
+      "bytes": 2916,
+      "sha256": "f52d486e9a9373e69276d5535269168875a18d0096f8572ccc44c3419e5b7671",
+      "export_sha256": "f52d486e9a9373e69276d5535269168875a18d0096f8572ccc44c3419e5b7671",
+      "source_sha256": "6f4c09d1cadb7b070861ae37610f4067540d5e86918e79fc8d07488b0ed43ebc",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/cost.py",
+      "bytes": 2329,
+      "sha256": "450aad32e2e50d9e6af198d1ce7a0313e465c31f08d287b4ccf73bce35baac16",
+      "export_sha256": "450aad32e2e50d9e6af198d1ce7a0313e465c31f08d287b4ccf73bce35baac16",
+      "source_sha256": "f2ac06f613f2d18165ebe5ff5248dccab14c54fd46dfd6a3f6f313256419ce1a",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/forecast.py",
+      "bytes": 11812,
+      "sha256": "ab9bb8d0756ce6d00ca2e72ec9f286e1e34fcbc0cb6eac12473e467c62a856b5",
+      "export_sha256": "ab9bb8d0756ce6d00ca2e72ec9f286e1e34fcbc0cb6eac12473e467c62a856b5",
+      "source_sha256": "ebceb15626946756322cc685d793941a06a28a8bf82414f7199ab829cb712127",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/integral.py",
+      "bytes": 3049,
+      "sha256": "9197776e09209dd2692480ad7a3c49924edb2c88589b31b73281f1c230f316dc",
+      "export_sha256": "9197776e09209dd2692480ad7a3c49924edb2c88589b31b73281f1c230f316dc",
+      "source_sha256": "847f854649ec2e9af95d04cc9e82877565d081e74fd284c37cb00c84ad6e6720",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/priority.py",
+      "bytes": 3215,
+      "sha256": "16e6bdab3c138c2cab2873c2071c8faa742b3d6e7862220f869632b90d7f3155",
+      "export_sha256": "16e6bdab3c138c2cab2873c2071c8faa742b3d6e7862220f869632b90d7f3155",
+      "source_sha256": "fc6debd186339bfdcfd420995d14d8656e3b7e08ca4693de1373929d1d3cf6f1",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/program.py",
+      "bytes": 16523,
+      "sha256": "2d8b1c6f92457d3de2d422a0d7201a3cd851ca74aea69a5ae868f65dd8197f2e",
+      "export_sha256": "2d8b1c6f92457d3de2d422a0d7201a3cd851ca74aea69a5ae868f65dd8197f2e",
+      "source_sha256": "e46f635882ebdf677e9b994f0412551ef2b3f4ca106fc98b5d8461aa50b20954",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/retention.py",
+      "bytes": 5432,
+      "sha256": "0db1261a0722df9ebceffd4c688cd16b2e1cde50f13d2bc8c3e3401aebbd331e",
+      "export_sha256": "0db1261a0722df9ebceffd4c688cd16b2e1cde50f13d2bc8c3e3401aebbd331e",
+      "source_sha256": "a228883188230daa79514f8344bc9c562d1ec91a523c5d0aba13e3e641f15a02",
+      "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/score.py",
+      "bytes": 1380,
+      "sha256": "eb53b0f977b01cf863f10bc9fcb4b1e2a4387041b082d13bda501ca4a71d6efb",
+      "export_sha256": "eb53b0f977b01cf863f10bc9fcb4b1e2a4387041b082d13bda501ca4a71d6efb",
       "source_sha256": "1f8ffe08c541c2612eabc681dfb68fab153bd72a5b5be0a32df00e864707f092",
       "release_modified": false
     },
     {
+      "path": "kairos/scheduling/snapshot.py",
+      "bytes": 6053,
+      "sha256": "4a6d25b6e61d08008751c58f36da264434a0ff2ab8bb24d2300b871795996cc5",
+      "export_sha256": "4a6d25b6e61d08008751c58f36da264434a0ff2ab8bb24d2300b871795996cc5",
+      "source_sha256": "d931055a0dcd6f097f712b1963e77567ffda649a6d8f8680253d10f588dd6a4b",
+      "release_modified": false
+    },
+    {
       "path": "kairos/train.py",
-      "bytes": 2688,
-      "sha256": "31f61e3ffc4c971108b6ba5dac69d93fa25f152d2f241988dd79a3e8fd110806"
+      "bytes": 3326,
+      "sha256": "ced89533f6062a809e3097fcf47e31ee330be825b4b7f1240a23908aa654c676"
     },
     {
       "path": "kairos/training_algorithm.py",
-      "bytes": 4172,
-      "sha256": "862bb8df002543115e6e377394e5be3fbe6a16e678c841e8e4a46a9f29460fc6",
-      "export_sha256": "862bb8df002543115e6e377394e5be3fbe6a16e678c841e8e4a46a9f29460fc6",
-      "source_sha256": "4947b728cd3c17eadf2ba5b4212ab7d9cb0d9b8728cf2e324037d2d246dde7dd",
-      "release_modified": false
+      "bytes": 6585,
+      "sha256": "aae8cfb20869ed30b1d1c1b880812feef8b134313402b5ee785f81ebb0a9ca81"
     },
     {
       "path": "kairos/verify.py",
-      "bytes": 3556,
-      "sha256": "771c5de862f122d7b8fa543c54b903e76ba008fa407a07e092dd69e36886aed6"
+      "bytes": 3896,
+      "sha256": "6a5500c9560c30b9a209d2222e281c8068892b2fe6197eb3354cc4ee6d2888cb"
+    },
+    {
+      "path": "provenance/checkpoint.json",
+      "bytes": 3095,
+      "sha256": "cf6cc3d32a55b70768bff38f8da3c6e3abae6715ef99c5be3d0dbff03267626c"
     },
     {
       "path": "provenance/export_manifest.json",
-      "bytes": 48904,
-      "sha256": "98e437c85314946e34de62b3a07a95f55141c9340d48720c345e0ded8f42c262"
+      "bytes": 42219,
+      "sha256": "86182a20848308fb72e77e018aa676e7f03463002c3a58dd5ac59c4ec382108a"
     },
     {
       "path": "provenance/measured_source_hashes.json",
-      "bytes": 38939,
-      "sha256": "1e3c32052d0a83b590f73796e2d6ddd1be19b3f978b880f4a68eaf8bb1114801",
-      "export_sha256": "1e3c32052d0a83b590f73796e2d6ddd1be19b3f978b880f4a68eaf8bb1114801",
-      "source_sha256": null,
-      "release_modified": false
+      "bytes": 496,
+      "sha256": "2edb9783c921343db3bc89dcbee7aeac4ec4937af590f0c2ac1e55838fd82d56"
+    },
+    {
+      "path": "provenance/release_validation.json",
+      "bytes": 456,
+      "sha256": "9bd8c4c0e1862a2e139ce4ef85b266f99fc4373db28a3324557e6f06609e4ae8"
     },
     {
       "path": "provenance/runtime-lock.txt",
       "bytes": 5110,
-      "sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f",
-      "export_sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f",
-      "source_sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f",
-      "release_modified": false
+      "sha256": "4b070a9bfbaa880ce112ffd60083e8ea3a8c8ede1443091c67031bb2da64969f"
     },
     {
       "path": "provenance/tokenizer-verification.json",
       "bytes": 88,
-      "sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5",
-      "export_sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5",
-      "source_sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5",
-      "release_modified": false
+      "sha256": "3658dd3d98e0ef4de2ac98ceaa067fd94c38532cc9a66ecea7b748f9424882d5"
     },
     {
       "path": "pyproject.toml",
-      "bytes": 605,
-      "sha256": "e7e0ca8353641478bf701cefc341a32b701a254e63d86ed6b15fdcfb9d97bbc1"
+      "bytes": 693,
+      "sha256": "aecdcc44480276c482cdd81b349acd26ee6628b8b705063cde66eb1da3382d65"
     },
     {
       "path": "requirements-server.txt",
-      "bytes": 240,
-      "sha256": "d00157564e47f14ceaeb8d6dbf6d85c356c3369b1f55c850438d328f0c5cc591"
+      "bytes": 226,
+      "sha256": "312b605557be8d33715af5a507c2c11603b4358f833d8dbe472f5be2e0b36462"
     },
     {
       "path": "requirements-train.txt",
@@ -1094,266 +1370,194 @@
       "sha256": "0a3a30268cb377524365d52f8fa9929fb3dd5647bd98b469defd020a42d8ed8a"
     },
     {
-      "path": "results/README.md",
-      "bytes": 547,
-      "sha256": "19cfd26c523edc51419db3f9f35b5b571b2ad4575f1a55a00023aba8c1047444"
+      "path": "results/benchmark/dense/continuum/jobs.json",
+      "bytes": 8376,
+      "sha256": "cd7fc77dd082905fa9286b01b92cd2a26caf084eceb81da1e5377295e92129b0"
     },
     {
-      "path": "results/comparison.json",
-      "bytes": 5785,
-      "sha256": "81f71ff84eb43135ec04848d977730dda1a8e02b354c26c94e50740a88410185",
-      "export_sha256": "81f71ff84eb43135ec04848d977730dda1a8e02b354c26c94e50740a88410185",
-      "source_sha256": null,
-      "release_modified": false
+      "path": "results/benchmark/dense/continuum/requests.jsonl",
+      "bytes": 93005,
+      "sha256": "95e9cd7844c183326008825d0a9d797bb23091475724f024aee71d92c00782c0"
     },
     {
-      "path": "results/continuum/cleanup.json",
-      "bytes": 311,
-      "sha256": "9bf5916b8529a40a13739f5446be3fef859f18a9a2b80a758a91de3eb261bc57",
-      "export_sha256": "9bf5916b8529a40a13739f5446be3fef859f18a9a2b80a758a91de3eb261bc57",
-      "source_sha256": "9bf5916b8529a40a13739f5446be3fef859f18a9a2b80a758a91de3eb261bc57",
-      "release_modified": false
+      "path": "results/benchmark/dense/continuum/summary.json",
+      "bytes": 985,
+      "sha256": "410382a0575be6a96789dcfb23d0482e18154e626278f75fa2e61502c2085669"
     },
     {
-      "path": "results/continuum/gapped-correctness.json",
-      "bytes": 1111365,
-      "sha256": "67c4bb3cd9d86e8e2bf747047f2b6c9597614627538fcf78b686548868467e86",
-      "export_sha256": "67c4bb3cd9d86e8e2bf747047f2b6c9597614627538fcf78b686548868467e86",
-      "source_sha256": "209f1c4dd459588721fa0dc232e42552f38f4b8470fc73de82ab5e7874de4226",
-      "release_modified": false
+      "path": "results/benchmark/dense/kairos/jobs.json",
+      "bytes": 8381,
+      "sha256": "8eb47adbe16a50e59cc2d1ca8ab314ff276fdcdf3e225b5225f6564521ea6ea4"
     },
     {
-      "path": "results/continuum/gapped-worker.jsonl.gz",
-      "bytes": 4748,
-      "sha256": "80f3c16264849dec4aa964bd0bd99e961a313c22401a2890cc0e0b5dbe79407d",
-      "export_sha256": "80f3c16264849dec4aa964bd0bd99e961a313c22401a2890cc0e0b5dbe79407d",
-      "source_sha256": "047525e743fc575a9c6df60f1b479883aa58834ccceab819f6e8b3c160d495ae",
-      "release_modified": false
+      "path": "results/benchmark/dense/kairos/requests.jsonl",
+      "bytes": 92988,
+      "sha256": "b82f901a50c1cf0844819cfce44fd1f7d690e244f157196fe8f9d15961ebd74b"
     },
     {
-      "path": "results/continuum/jobs.json",
-      "bytes": 8370,
-      "sha256": "2380c4fa7dec4129fe415ab0c9d0cf4bcd265a4370272356604abe13b5670631",
-      "export_sha256": "2380c4fa7dec4129fe415ab0c9d0cf4bcd265a4370272356604abe13b5670631",
-      "source_sha256": "2380c4fa7dec4129fe415ab0c9d0cf4bcd265a4370272356604abe13b5670631",
-      "release_modified": false
+      "path": "results/benchmark/dense/kairos/summary.json",
+      "bytes": 983,
+      "sha256": "4e89cc7a7ff3345196336f5259d5fd2d5e1995bd669cf7e34024e0428889802f"
     },
     {
-      "path": "results/continuum/lmcache.log.gz",
-      "bytes": 8085,
-      "sha256": "93e458476a4cc8cbb97f4a54cf157e66e5cf3cba1eb0a97d0853d0968e81b454",
-      "export_sha256": "93e458476a4cc8cbb97f4a54cf157e66e5cf3cba1eb0a97d0853d0968e81b454",
-      "source_sha256": "47b4aa8b29ba3f930dafc85b41e773e71db301b66142df8a6556b0f00adf54de",
-      "release_modified": false
+      "path": "results/benchmark/dense/native/jobs.json",
+      "bytes": 8389,
+      "sha256": "1a3fc6328ab7abcfd6b278ef0badb9c4fdb88bae530a59a3e73b72e9560d8ccf"
     },
     {
-      "path": "results/continuum/replicas.jsonl.gz",
-      "bytes": 214084,
-      "sha256": "f91117e8b4c98215a51e87b1cfb423478c8cc13cc12e39ad1193dca8bff2959a",
-      "export_sha256": "f91117e8b4c98215a51e87b1cfb423478c8cc13cc12e39ad1193dca8bff2959a",
-      "source_sha256": "3ea32a95879d12d7f56445306a4b4688e56ca5c0d31933962b176b8e09ec1a8e",
-      "release_modified": false
+      "path": "results/benchmark/dense/native/requests.jsonl",
+      "bytes": 92915,
+      "sha256": "d424ac610b363c91b72dc92c29b6494f290be969af515f444cec15196e63b80c"
     },
     {
-      "path": "results/continuum/requests.jsonl",
-      "bytes": 928572,
-      "sha256": "31024af0181882cc2f3c1eb8e5fa167df6719545e8755080a415355fe4d7cb2c",
-      "export_sha256": "31024af0181882cc2f3c1eb8e5fa167df6719545e8755080a415355fe4d7cb2c",
-      "source_sha256": "31024af0181882cc2f3c1eb8e5fa167df6719545e8755080a415355fe4d7cb2c",
-      "release_modified": false
+      "path": "results/benchmark/dense/native/summary.json",
+      "bytes": 982,
+      "sha256": "5cca680b6be1759d944f6ecc910b010dcbb48fe65c721d927a235ca8de5bb9b2"
     },
     {
-      "path": "results/continuum/resources.json",
-      "bytes": 54115,
-      "sha256": "b706176be070e8febee685ae1c7126eb8f79977b99ade5ad73241464fee61b7c",
-      "export_sha256": "b706176be070e8febee685ae1c7126eb8f79977b99ade5ad73241464fee61b7c",
-      "source_sha256": "b706176be070e8febee685ae1c7126eb8f79977b99ade5ad73241464fee61b7c",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/continuum/jobs.json",
+      "bytes": 8372,
+      "sha256": "f3e0836093aca12f7b64e3b6eec3cfea3f31f9abffe3f9dbe5171a84023cc220"
     },
     {
-      "path": "results/continuum/scheduler.jsonl.gz",
-      "bytes": 2667289,
-      "sha256": "3c475ede20ca18179cf63b65aa81baf287efcfa5dc64abb172161fdc7ca5cacb",
-      "export_sha256": "3c475ede20ca18179cf63b65aa81baf287efcfa5dc64abb172161fdc7ca5cacb",
-      "source_sha256": "a3744ba2393b7371f25070d89584fb2d12beb9722e0520a22cb183574b2b9f24",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/continuum/requests.jsonl",
+      "bytes": 93066,
+      "sha256": "7c7e15be8db656027e3d782f4537aef1a0fdb813254411bc1d4c6d90adcbcbea"
     },
     {
-      "path": "results/continuum/server.log.gz",
-      "bytes": 9025,
-      "sha256": "9ed67cdafc2f54d634d031a18cab93f9683f2843a41701b80f347d80deb7bfca",
-      "export_sha256": "9ed67cdafc2f54d634d031a18cab93f9683f2843a41701b80f347d80deb7bfca",
-      "source_sha256": "9e8056ada9d473eab6393550f5df6014139000332b9124e91ec0335b6093546b",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/continuum/summary.json",
+      "bytes": 990,
+      "sha256": "8b781adc6dd93eb29ad6d9db945c23e1d8d5954ac8065267c0f97230ed17f4ad"
     },
     {
-      "path": "results/continuum/summary.json",
-      "bytes": 851,
-      "sha256": "74be9b425a900bb84447195ce4c13f7c46f10f2d43c39e922fbed3cbf28ef38d",
-      "export_sha256": "74be9b425a900bb84447195ce4c13f7c46f10f2d43c39e922fbed3cbf28ef38d",
-      "source_sha256": "91b4a572d8e00d4602576c4d04a335d32b10bc2c1ece8e54e3419964cb87da72",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/kairos/jobs.json",
+      "bytes": 8375,
+      "sha256": "77b6e942e8bb1696454e8efffd4538bea4180d3d0f79a474113b2e6e6989cfa0"
     },
     {
-      "path": "results/continuum/transfers.jsonl.gz",
-      "bytes": 11216,
-      "sha256": "beaae16935b197fcde141c6da79054f158130fa81d37a01610a52a011ab2350c",
-      "export_sha256": "beaae16935b197fcde141c6da79054f158130fa81d37a01610a52a011ab2350c",
-      "source_sha256": "e3002e8fcc86a5efa0b603373aad36336d812a9fdaada321b64b81d4766cf11c",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/kairos/requests.jsonl",
+      "bytes": 93001,
+      "sha256": "ff7652ceb120da281f842293a3e0826643bc1be41f02fadc16c18a7b9bfc5bd5"
     },
     {
-      "path": "results/environment.json",
-      "bytes": 3095,
-      "sha256": "cf6cc3d32a55b70768bff38f8da3c6e3abae6715ef99c5be3d0dbff03267626c",
-      "export_sha256": "cf6cc3d32a55b70768bff38f8da3c6e3abae6715ef99c5be3d0dbff03267626c",
-      "source_sha256": null,
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/kairos/summary.json",
+      "bytes": 983,
+      "sha256": "e5c093e53837507e46adb2df942f476f8ad61f977657fe82e735a7cc90a98b14"
     },
     {
-      "path": "results/kairos/cleanup.json",
-      "bytes": 313,
-      "sha256": "36ca2d47593948fd348c3822ef1ba7d9c4389c64849bc71909cb8931c4fa407e",
-      "export_sha256": "36ca2d47593948fd348c3822ef1ba7d9c4389c64849bc71909cb8931c4fa407e",
-      "source_sha256": "36ca2d47593948fd348c3822ef1ba7d9c4389c64849bc71909cb8931c4fa407e",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/native/jobs.json",
+      "bytes": 8381,
+      "sha256": "65a5014ddd57d0a6ed1e1318c6a5f2733fa8cd164a9802d5247c78e1cb0dfcfd"
     },
     {
-      "path": "results/kairos/gapped-correctness.json",
-      "bytes": 1111364,
-      "sha256": "5b754d38773318e2f707ca448d55de97f8162110e99f13c36c799758ca8d465a",
-      "export_sha256": "5b754d38773318e2f707ca448d55de97f8162110e99f13c36c799758ca8d465a",
-      "source_sha256": "8b81614835f4e186b16117d792f211bc13cbe52e1eaea141f653bb23a24c3f3f",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/native/requests.jsonl",
+      "bytes": 92932,
+      "sha256": "1362f7808b1953ce496947a6c8858f703dae99faab0ad1464859fcd775612adc"
     },
     {
-      "path": "results/kairos/gapped-worker.jsonl.gz",
-      "bytes": 4837,
-      "sha256": "324341566b59ee5c69b85c51474301f91d5035cdaa6f29bff5b5aa9f8f3ff1da",
-      "export_sha256": "324341566b59ee5c69b85c51474301f91d5035cdaa6f29bff5b5aa9f8f3ff1da",
-      "source_sha256": "e1d9e26a67340d5e6f0b68bbe4e46b53c35b320cba1c6a9f7145a7e3367d6e1a",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps1/native/summary.json",
+      "bytes": 983,
+      "sha256": "58ef88ec95eb48ea1416cc29d8babd2f43642ab68cff56093765960ea725a969"
     },
     {
-      "path": "results/kairos/jobs.json",
-      "bytes": 8383,
-      "sha256": "082d1152c85cca1adfc995f1e697c064f786e7c6797e1c7697263985054b28a9",
-      "export_sha256": "082d1152c85cca1adfc995f1e697c064f786e7c6797e1c7697263985054b28a9",
-      "source_sha256": "082d1152c85cca1adfc995f1e697c064f786e7c6797e1c7697263985054b28a9",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/continuum/jobs.json",
+      "bytes": 8368,
+      "sha256": "cc7b2dc25f4f775757dd78d3c84116bec09499dd68f40b23d28eee4648211c74"
     },
     {
-      "path": "results/kairos/lmcache.log.gz",
-      "bytes": 9189,
-      "sha256": "f6192f3e882a5eaaa482eecf9c0785b7e68f43334d24619876c2cd496364eee2",
-      "export_sha256": "f6192f3e882a5eaaa482eecf9c0785b7e68f43334d24619876c2cd496364eee2",
-      "source_sha256": "d8f57d77fe26edb182f5b20264c961fcd2e8beb928fea54b851be7b88fda774e",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/continuum/requests.jsonl",
+      "bytes": 93003,
+      "sha256": "ce5fe0c615c675a5aace120f67da15bf770fc9e3c32db0a391f5b5ec03aa2c58"
     },
     {
-      "path": "results/kairos/replicas.jsonl.gz",
-      "bytes": 223718,
-      "sha256": "4b6d6e903f63aa57dec02c1f2f56f26e30479a8341cae6111532b2e5e274ba76",
-      "export_sha256": "4b6d6e903f63aa57dec02c1f2f56f26e30479a8341cae6111532b2e5e274ba76",
-      "source_sha256": "55d19e907ca10095a5cd70eeef058415413488cd44f02cdab9e5573ef416c434",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/continuum/summary.json",
+      "bytes": 984,
+      "sha256": "a50f4debcf0f9de6227b6d1530ab8c93bce171de4d579466881ea98e2fb93559"
     },
     {
-      "path": "results/kairos/requests.jsonl",
-      "bytes": 927630,
-      "sha256": "19f7046bd35b599ceb7cdb2b6d2d9ccf1269903f187b02545f4ba2603b7cb740",
-      "export_sha256": "19f7046bd35b599ceb7cdb2b6d2d9ccf1269903f187b02545f4ba2603b7cb740",
-      "source_sha256": "19f7046bd35b599ceb7cdb2b6d2d9ccf1269903f187b02545f4ba2603b7cb740",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/kairos/jobs.json",
+      "bytes": 8360,
+      "sha256": "d8435a6c8ac804ae82a1336c1f0d1e1aee1da6c0d0a5552826409828bb480905"
     },
     {
-      "path": "results/kairos/resources.json",
-      "bytes": 50974,
-      "sha256": "9ec2385be9a08cdd5e9f16a16f9a365b5c77231168e032eb8b54d59ec9dda6a5",
-      "export_sha256": "9ec2385be9a08cdd5e9f16a16f9a365b5c77231168e032eb8b54d59ec9dda6a5",
-      "source_sha256": "9ec2385be9a08cdd5e9f16a16f9a365b5c77231168e032eb8b54d59ec9dda6a5",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/kairos/requests.jsonl",
+      "bytes": 92973,
+      "sha256": "1beb49233dcce96556dc75fbbe8d8579d508070ded9df1f0aff9fd57203be5e1"
     },
     {
-      "path": "results/kairos/scheduler.jsonl.gz",
-      "bytes": 4542782,
-      "sha256": "7cc77c88eb5ce23f50a45e79e01844996e26e39b0cda935cc8469aa3d0a4b416",
-      "export_sha256": "7cc77c88eb5ce23f50a45e79e01844996e26e39b0cda935cc8469aa3d0a4b416",
-      "source_sha256": "33927d8a26033d890e59c276c7457d586c0eb35e6d3df3b0edc89f2bc5164fa9",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/kairos/summary.json",
+      "bytes": 980,
+      "sha256": "fd8c2f3236dd42cd3a815255b473cf1c24683f54b2b4afaaaf9d4ff7a2f0e975"
     },
     {
-      "path": "results/kairos/server.log.gz",
-      "bytes": 8496,
-      "sha256": "d8244853bb93800d39dee16a6a85a56f2435dc2fd94e05b03702dcbb2245e3f4",
-      "export_sha256": "d8244853bb93800d39dee16a6a85a56f2435dc2fd94e05b03702dcbb2245e3f4",
-      "source_sha256": "9ec734846325603e83043e55cb19e15f129e6d3c9e001663e246b5009856fe23",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/native/jobs.json",
+      "bytes": 8362,
+      "sha256": "ae65253c40dfc87a7ccea3714e8a61db780776404dbf4b9b9ae95575a012332d"
     },
     {
-      "path": "results/kairos/summary.json",
-      "bytes": 847,
-      "sha256": "89a85902db7f78d930e5c6bc849c98ddebfe228b8c8b8ce5cf0e14e5da93c0ae",
-      "export_sha256": "89a85902db7f78d930e5c6bc849c98ddebfe228b8c8b8ce5cf0e14e5da93c0ae",
-      "source_sha256": "ad191d8fb08abff96b7992d7bc45f5796ad9df1f8c833ea53ad598723b52d0f9",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/native/requests.jsonl",
+      "bytes": 92892,
+      "sha256": "2d1e5a81816a7482b67567d8c465ac80661f89eed608649eb786a2c479600c69"
     },
     {
-      "path": "results/kairos/transfers.jsonl.gz",
-      "bytes": 11495,
-      "sha256": "2412ecfaaccd37a7733c0ce2c48a9f442f15f68676e23013e9e98d68f609836d",
-      "export_sha256": "2412ecfaaccd37a7733c0ce2c48a9f442f15f68676e23013e9e98d68f609836d",
-      "source_sha256": "9cfd0cc709ca12314ee3279f7db359b098593702b275ee544a9f85cb1a86d5df",
-      "release_modified": false
+      "path": "results/benchmark/poisson_jps2/native/summary.json",
+      "bytes": 979,
+      "sha256": "59d684605171857ea99e21a79ee68c398580df4df81117af871a2dfbe98aea6e"
     },
     {
-      "path": "results/mechanism.json",
-      "bytes": 5304,
-      "sha256": "560f3ceabb92af9378b021fc30285847ad975afe8beee350fff34e862e859e3d",
-      "export_sha256": "560f3ceabb92af9378b021fc30285847ad975afe8beee350fff34e862e859e3d",
-      "source_sha256": null,
-      "release_modified": false
+      "path": "results/benchmark/summary.json",
+      "bytes": 12872,
+      "sha256": "e06b3c6d174b7ab3ebe52e52ec44a78a7e9f41154e4d7b8f72ed32cc25feac2d"
     },
     {
-      "path": "results/predictor.json",
-      "bytes": 12083,
-      "sha256": "d19f2893fe56b579cacb092cb614a33558e434d9608d722b2aa9060005f3279b",
-      "export_sha256": "d19f2893fe56b579cacb092cb614a33558e434d9608d722b2aa9060005f3279b",
-      "source_sha256": "92e6a61ac7c6f7dde6715ee6936b03f9bfca4c44248ec9f6aaf8b607505996a1",
-      "release_modified": false
+      "path": "scripts/build_figures.py",
+      "bytes": 30326,
+      "sha256": "ba234be3d0f3bb7538d2fa10e601b9ca56c67589dcf181d69c0ff3d24c6a7b29"
     },
     {
-      "path": "results/program_jct.csv",
-      "bytes": 1311,
-      "sha256": "52040d6d96dc8a601d504b119279d10d69e10678d2085abddb6285316f1329e9"
-    },
-    {
-      "path": "scripts/report.py",
-      "bytes": 1713,
-      "sha256": "c515d6cdd5930b8cafa73c42fd64d3077d8663f3445cf5e4a355a3b1cfa742c5"
+      "path": "scripts/draw_method.py",
+      "bytes": 21729,
+      "sha256": "0148fcdef749b04bec33a21b449d5cb4760c16c79b55bfc8478c61325bbed9ac"
     },
     {
       "path": "scripts/seal_release.py",
-      "bytes": 1845,
-      "sha256": "a6431721981a15242e36b434b198f9c343d82f5ad27de2667c0f7a0be05bb963"
+      "bytes": 2094,
+      "sha256": "a54c56009b20f161f7234128d2bfaa2687e8a298c911b97b03b815df613bacc3"
+    },
+    {
+      "path": "tests/fixtures/controller.json",
+      "bytes": 506048,
+      "sha256": "ac7599577d8b931bb2b89e185384e912474eeb636c6d2e586d22064939b25acd"
     },
     {
       "path": "tests/fixtures/forest_predictions.json",
       "bytes": 384007,
-      "sha256": "17252ce068babb7da14d692d15622a24ff511ccca2f68b43fea0776b1c2d6e81",
-      "export_sha256": "17252ce068babb7da14d692d15622a24ff511ccca2f68b43fea0776b1c2d6e81",
-      "source_sha256": null,
-      "release_modified": false
+      "sha256": "17252ce068babb7da14d692d15622a24ff511ccca2f68b43fea0776b1c2d6e81"
     },
     {
-      "path": "tests/test_core.py",
-      "bytes": 11007,
-      "sha256": "ea188b75699cff18cf3b31e4e714f0f6a2ea38dac90485f00aef868a548b9770"
+      "path": "tests/support.py",
+      "bytes": 10350,
+      "sha256": "d7aca82c5b5db6f3b251b73c899c290eb05160b26a519958fd91ddfd299da69c"
     },
     {
-      "path": "tests/test_release.py",
-      "bytes": 7518,
-      "sha256": "01f6dc11978a253d8f5af7c316529c52453b9b59cdb9616d0ed54695fc9b9f84"
+      "path": "tests/test_backend.py",
+      "bytes": 12243,
+      "sha256": "9de8c220e2e9f2c7442794ac864bd511dedf872d7235ae4a6b5821865734e88b"
+    },
+    {
+      "path": "tests/test_controller.py",
+      "bytes": 9178,
+      "sha256": "cae2eebdd5a1051c6ca9ed9e180e9ca3da38c2ee0079110835c3cdc8f7c31f55"
+    },
+    {
+      "path": "tests/test_package.py",
+      "bytes": 5002,
+      "sha256": "96ed06944c049a67c2c9594582f624354492a3988871e69f262a07d603c07da8"
+    },
+    {
+      "path": "tests/test_replay.py",
+      "bytes": 7525,
+      "sha256": "a3c09a0b7567885f44a3aa90f56617de9c0a5aea15d39466b45933a2bdaef05b"
     }
   ],
   "note": "Packaging integrity, not proof of GPU execution. Excludes only the manifest itself and local build/run/cache directories."

@@ -46,7 +46,9 @@
     "priority",
     "--kv-transfer-config",
     "{\"kv_connector\": \"GappedConnector\", \"kv_role\": \"kv_both\", \"kv_connector_extra_config\": {\"lmcache.mp.host\": \"tcp://127.0.0.1\", \"lmcache.mp.port\": 18766, \"lmcache.mp.lazy_offload\": true}, \"kv_connector_module_path\": \"kairos._runtime.layout.connector\"}",
-    "--disable-hybrid-kv-cache-manager"
+    "--disable-hybrid-kv-cache-manager",
+    "--kv-cache-memory-bytes",
+    "5935988736"
   ],
   "environment": {
     "HF_HUB_OFFLINE": "1",
@@ -78,7 +80,7 @@
     "VLLM_USE_FLASHINFER_SAMPLER": "0",
     "VLLM_SERVER_DEV_MODE": "1",
     "LMCACHE_LOCAL_CPU": "True",
-    "LMCACHE_MAX_LOCAL_CPU_SIZE": "8.0",
+    "LMCACHE_MAX_LOCAL_CPU_SIZE": "10.0",
     "LMCACHE_CHUNK_SIZE": "256",
     "LMCACHE_SAVE_DECODE_CACHE": "False",
     "LMCACHE_ENABLE_ASYNC_LOADING": "False",
@@ -86,7 +88,7 @@
     "CONTINUUM_DECODE_PROFILE_PATH": "${OUT}/inactive_decode_profile.json",
     "CONTINUUM_GAPPED_REUSE": "1",
     "CONTINUUM_GAPPED_MODEL_ID": "${MODEL}",
-    "CONTINUUM_LMCACHE_CPU_GB": "8.0",
+    "CONTINUUM_LMCACHE_CPU_GB": "10.0",
     "CONTINUUM_GAPPED_FIXTURE": "1",
     "CONTINUUM_GAPPED_WORKER_LOG": "${OUT}/gapped-worker.jsonl",
     "CONTINUUM_PCV_CONTROL": "1",
@@ -96,9 +98,9 @@
     "CONTINUUM_REPLICA_LOG": "${OUT}/replicas.jsonl",
     "CONTINUUM_REPLICA_MODE": "observe"
   },
-  "engine_affinity": "4-5,68-69",
-  "helper_affinity": "6-7,70-71",
-  "cpu_kv_gib": 8,
+  "engine_affinity": "0-3",
+  "helper_affinity": "4-7",
+  "cpu_kv_gib": 10,
   "prewarm_trace": false,
-  "gpu_auto_kv": true
+  "gpu_auto_kv": false
 }

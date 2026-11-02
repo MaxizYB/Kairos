@@ -1,4 +1,4 @@
-"""Kairos writeback plan implementation."""
+"""runtime.compat.writeback plan."""
 
 
 def plan_writebacks(free_ids, layouts, count, attempted, limit=8):
@@ -13,8 +13,13 @@ def plan_writebacks(free_ids, layouts, count, attempted, limit=8):
             if remaining == 0:
                 break
             key = (row["salt"], index, tuple(group))
-            if (None in group or len(group) != 16 or index in row["cpu_chunks"]
-                    or not victims.intersection(group) or key in attempted):
+            if (
+                None in group
+                or len(group) != 16
+                or index in row["cpu_chunks"]
+                or (not victims.intersection(group))
+                or (key in attempted)
+            ):
                 continue
             indices.append(index)
             remaining -= 1
