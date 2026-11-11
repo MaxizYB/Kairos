@@ -14,6 +14,9 @@ RUNTIME_ENVIRONMENT = {
         "CONTINUUM_CURRENT_OUTPUT_FOREST": "${ROOT}/assets/current_output.json",
         "CONTINUUM_CURRENT_OUTPUT_FALLBACK": "${ROOT}/assets/current_output_metadata.json",
         "KAIROS_FORECAST_BACKEND": "1",
+        "KAIROS_STARVATION_GUARD": "1",
+        "KAIROS_STARVATION_THRESHOLD_S": "4.0",
+        "KAIROS_STARVATION_QUANTUM_S": "1.0",
     },
     "continuum": {},
 }

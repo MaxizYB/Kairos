@@ -8,13 +8,13 @@
     },
     {
       "path": "Kairos_Method_Design_Section_2_ZH.md",
-      "bytes": 54976,
-      "sha256": "5f696557c48b02589c12a30e5ce6002c7a968bef42c3dfcc33d51884f7b8f11a"
+      "bytes": 71919,
+      "sha256": "4023fd62dcdcdf8dc86bc42a131e7481ebf09aea5943ea0712b30f8adfe22244"
     },
     {
       "path": "README.md",
-      "bytes": 7707,
-      "sha256": "82f604f6019b2a9d88312ea546c736eb5879c1801d66124b9142acc80ad801f6"
+      "bytes": 8454,
+      "sha256": "73f490859415984b2fd6ded79d5369c4b323e939fc18993e1aa8c122d8ce173e"
     },
     {
       "path": "assets/current_output.json",
@@ -67,8 +67,8 @@
     },
     {
       "path": "configs/kairos.json",
-      "bytes": 3713,
-      "sha256": "ea6c5fefbf945c781c3bcc47c31ed06c60e6e2191d3c06a1b2534fe1138cb7d7"
+      "bytes": 3835,
+      "sha256": "564114588314dbf5c0cfe44c348a390403b1fb3e6b62fe37e4bd85840d27ce85"
     },
     {
       "path": "data/training/causal_states.json.gz",
@@ -251,6 +251,26 @@
       "sha256": "5753fb6034d9e330ae466677c142aefa847e0ad8fef176fa6e5f6cde6aedf930"
     },
     {
+      "path": "figures/prediction/qj_example_distribution.pdf",
+      "bytes": 38995,
+      "sha256": "a3c6e6e4b9d9d5b85daa060e2bdbef4065488066b78c09e663260e97b1c4dfa1"
+    },
+    {
+      "path": "figures/prediction/qj_example_distribution.png",
+      "bytes": 218373,
+      "sha256": "7a9aa0b39b13ddc347fab92823173f9973afef3363d1e72f7b8a27ccb24f46d4"
+    },
+    {
+      "path": "figures/prediction/qj_q_curve.pdf",
+      "bytes": 15915,
+      "sha256": "500b38459bd761644de70e9f75d74ce89e07c52ac257818692da9351705a03de"
+    },
+    {
+      "path": "figures/prediction/qj_q_curve.png",
+      "bytes": 151502,
+      "sha256": "627dbc464715a3eae7ab0518360bd0e29b377559a40de6ca96cd42a348401109"
+    },
+    {
       "path": "figures/workload/call_span.pdf",
       "bytes": 18357,
       "sha256": "a8c71ffe788446a7408f96a50d26323621aad1b605c5fc300c5c53e914037e62"
@@ -322,8 +342,8 @@
     },
     {
       "path": "kairos/_runtime/activation.py",
-      "bytes": 753,
-      "sha256": "ebc593d0bd6ccdf84dc165ed2f61c5e997e352e78a77fea884f86c577fcd1749"
+      "bytes": 887,
+      "sha256": "1c64f7745e93a4af8bb185dcfe958401cc1396cadb81899081f8280fdae7f08d"
     },
     {
       "path": "kairos/_runtime/compat/__init__.py",
@@ -1279,11 +1299,11 @@
     },
     {
       "path": "kairos/scheduling/program.py",
-      "bytes": 16523,
-      "sha256": "2d8b1c6f92457d3de2d422a0d7201a3cd851ca74aea69a5ae868f65dd8197f2e",
+      "bytes": 19820,
+      "sha256": "ea84d49f76bddf02083f29d1df0edce14fcfb4b5fcf4b9c65839fceac9d6ba6a",
       "export_sha256": "2d8b1c6f92457d3de2d422a0d7201a3cd851ca74aea69a5ae868f65dd8197f2e",
       "source_sha256": "e46f635882ebdf677e9b994f0412551ef2b3f4ca106fc98b5d8461aa50b20954",
-      "release_modified": false
+      "release_modified": true
     },
     {
       "path": "kairos/scheduling/retention.py",
@@ -1308,6 +1328,11 @@
       "export_sha256": "4a6d25b6e61d08008751c58f36da264434a0ff2ab8bb24d2300b871795996cc5",
       "source_sha256": "d931055a0dcd6f097f712b1963e77567ffda649a6d8f8680253d10f588dd6a4b",
       "release_modified": false
+    },
+    {
+      "path": "kairos/scheduling/starvation.py",
+      "bytes": 1183,
+      "sha256": "717ffaf1f464cc0823fe1bfe8b17573d0e3645708e4b20a0765f700ffbb8693d"
     },
     {
       "path": "kairos/train.py",
@@ -1505,6 +1530,16 @@
       "sha256": "59d684605171857ea99e21a79ee68c398580df4df81117af871a2dfbe98aea6e"
     },
     {
+      "path": "results/benchmark/starvation_guard_8b/README.md",
+      "bytes": 1392,
+      "sha256": "b74b656b16a288c4aa5aef9046d6d5eeb12aa9a38eb5bf289355bde74d835096"
+    },
+    {
+      "path": "results/benchmark/starvation_guard_8b/summary.json",
+      "bytes": 3401,
+      "sha256": "e93c390921f38fc153377fb421d87766362d85b3b0417577193176aa23ea369c"
+    },
+    {
       "path": "results/benchmark/summary.json",
       "bytes": 12872,
       "sha256": "e06b3c6d174b7ab3ebe52e52ec44a78a7e9f41154e4d7b8f72ed32cc25feac2d"
@@ -1558,6 +1593,11 @@
       "path": "tests/test_replay.py",
       "bytes": 7525,
       "sha256": "a3c09a0b7567885f44a3aa90f56617de9c0a5aea15d39466b45933a2bdaef05b"
+    },
+    {
+      "path": "tests/test_starvation.py",
+      "bytes": 884,
+      "sha256": "69b780c397d252bf134e7aed48f3cb299d87ae55b3c85c18af8facc058c57f00"
     }
   ],
   "note": "Packaging integrity, not proof of GPU execution. Excludes only the manifest itself and local build/run/cache directories."

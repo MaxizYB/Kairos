@@ -17,6 +17,7 @@ from kairos._runtime.compat.online_path_scheduler import (
 from kairos.prediction.suffix import SuffixForest
 from kairos.prediction.prior import ServicePrior, ToolMarginal
 from kairos.scheduling.contracts import NATIVE_HEADROOM_PAGES
+from kairos.scheduling.starvation import aged_priority
 from kairos.prediction.arrival import CausalPredictor
 
 VERSION = "kairos"
@@ -33,6 +34,18 @@ class ProgramControl(OnlinePathScheduler):
         self.program_enabled = False
         self.program_executor = None
         self.program_resources = None
+        self.starvation_guard_enabled = os.environ.get(
+            "KAIROS_STARVATION_GUARD", "1"
+        ) == "1"
+        self.starvation_guard_threshold_s = float(
+            os.environ.get("KAIROS_STARVATION_THRESHOLD_S", "4.0")
+        )
+        self.starvation_guard_quantum_s = float(
+            os.environ.get("KAIROS_STARVATION_QUANTUM_S", "1.0")
+        )
+        self._starvation_guard_seen = set()
+        if self.starvation_guard_threshold_s < 0 or self.starvation_guard_quantum_s <= 0:
+            raise ValueError("Invalid starvation guard parameters")
         super().__init__(*args, **kwargs)
         if os.environ.get("KAIROS_PREDICTION_PRELOAD") == "1":
             self._prepare_resources()
@@ -105,6 +118,20 @@ class ProgramControl(OnlinePathScheduler):
         self.program_enabled = enabled
         if not enabled:
             return
+        self._starvation_guard_seen.clear()
+        if self.starvation_guard_enabled:
+            self._emit(
+                "starvation_guard_registry",
+                policy="bounded-j-rank-aging",
+                threshold_s=self.starvation_guard_threshold_s,
+                quantum_s=self.starvation_guard_quantum_s,
+                scope="native waiting and skipped-waiting queues only",
+                changes_score=False,
+                changes_admission=False,
+                changes_ttl=False,
+                changes_eviction=False,
+                future_information=False,
+            )
         self.reference_profile, self.forest, reference_sha = self._prepare_resources()
         if self.forest.training_ids & set(self.online_prior["evaluation_ids"]):
             raise ValueError("Forest training/evaluation identity overlap")
@@ -323,6 +350,53 @@ class ProgramControl(OnlinePathScheduler):
         for request in self.running:
             p = self.program(request)
             request.priority = self.program_priorities.get(p, self.order[p])
+
+        if not self.starvation_guard_enabled:
+            return
+        for name in ("waiting", "skipped_waiting"):
+            old = getattr(self, name)
+            queue = create_request_queue(self.policy)
+            for request in list(old):
+                waited = self._starvation_waited_s(request)
+                aged = aged_priority(
+                    int(request.priority),
+                    waited,
+                    self.starvation_guard_threshold_s,
+                    self.starvation_guard_quantum_s,
+                )
+                request.priority = int(aged["priority"])
+                if aged["aged"] and request.request_id not in self._starvation_guard_seen:
+                    self._starvation_guard_seen.add(request.request_id)
+                    self._emit(
+                        "starvation_guard",
+                        request=request.request_id,
+                        program=self.program(request),
+                        waited_s=aged["waited_s"],
+                        base_priority=aged["base_priority"],
+                        effective_priority=aged["priority"],
+                        credit=aged["credit"],
+                        threshold_s=self.starvation_guard_threshold_s,
+                        quantum_s=self.starvation_guard_quantum_s,
+                        future_information=False,
+                    )
+                queue.add_request(request)
+            setattr(self, name, queue)
+
+    @staticmethod
+    def _starvation_waited_s(request):
+        """Return queue age without assuming one particular vLLM clock.
+
+        Current vLLM records epoch seconds in arrival_time. A small
+        compatibility fallback handles runtimes that use monotonic seconds,
+        avoiding a negative age while keeping the decision causal.
+        """
+
+        try:
+            arrival = float(request.arrival_time)
+        except (AttributeError, TypeError, ValueError):
+            return 0.0
+        now = time.time() if arrival > 100_000_000 else time.monotonic()
+        return max(0.0, now - arrival)
 
     def _continuum_complete_policy(self, request):
         if self.program_enabled:

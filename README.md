@@ -14,6 +14,8 @@ $$
 
 独立的容量事务按此顺序检查原生执行前沿与执行名额，维护容量 claim，并仅撤销更低优先级的安全 optional pin。部分保留只作用于本次计划原本需要撤销的 victim，受 claim 和每一步提交余量约束。工具期间，有限 TTL 权衡可观测恢复收益与当前容量机会成本；后端按 GPU/CPU 联合可恢复前缀管理状态，并通过页边界恢复减少重复搬运。
 
+为改善长期等待请求的用户体验，Kairos 在原有 J 排序之后提供一个队列局部的有界 aging guard：请求等待超过 4 秒后每秒获得一个优先级 credit，credit 最多把请求提升到队首。该 guard 只重排 waiting/skipped-waiting 队列，不修改 J、claim、TTL、victim 选择或容量账本；默认通过 KAIROS_STARVATION_GUARD=1 开启，阈值和量子可由 KAIROS_STARVATION_THRESHOLD_S、KAIROS_STARVATION_QUANTUM_S 配置。
+
 ## 代码导读
 
 ```text
@@ -28,6 +30,7 @@ kairos/
     retention.py           只读容量计划与保留预算
     forecast.py            当前输出预测与原生 KV 前沿账本
     program.py             Program 历史、异步后缀预测与生命周期
+    starvation.py          等待队列的有界 aging guard
     cache.py               请求级分布与服务报价缓存
     integral.py            running 推进积分的精确复用
   continuity/              工具返回分布与经济 TTL
@@ -101,6 +104,8 @@ python -m kairos.run --method kairos \
 
 固定 Replay 的输出标签仅由私有执行停止适配器使用。调度器在请求到达时接收独立公开上限、当前 prompt 和已完成历史；工具类别及显式结束意图在本轮输出完成后进入观测。训练和事后评价可使用标签。此次仓库整理完成了 CPU 回归与命令检查，整理后的入口尚未重新做 GPU 端到端测量。
 
+运行时 activation 和 configs/kairos.json 同时声明有界 aging guard 的默认参数；未显式设置环境变量时，guard 默认开启。
+
 ## 归档实验
 
 同一张 RTX 4090、Qwen3-8B、16 个 SWE Program、178 次调用。每个方法与负载组合运行一次；下表为平均 Program JCT，单位秒。
@@ -112,5 +117,7 @@ python -m kairos.run --method kairos \
 | Poisson，JPS=2 | 122.52 | 97.50 | **83.44** |
 
 Poisson JPS=2 下，Kairos/Continuum 的 P95 JCT 为 141.57/141.34 秒，尾部并非全面领先。以上是集成系统的单次观测；Native 使用同步路径，研究方法使用异步路径。逐组数据见 [results/benchmark/summary.json](results/benchmark/summary.json)，完整解释见方法文档。
+
+有界 aging 的 8B 安装对比与逐组审计见 [results/benchmark/starvation_guard_8b/](results/benchmark/starvation_guard_8b/)。归档包含 16 与 32 Program 的 CG1 原版和 CG1+guard 单次顺向回放；两组均为固定工作量、零失败。两次回放都没有请求超过 4 秒阈值，因此这组结果用于检查接入、信息边界和无回归，不宣称已经证明 starvation 改善。
 
 

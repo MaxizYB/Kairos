@@ -286,6 +286,17 @@ $u_i$ 只限制合法终点；实际申请随原生前沿增长，预测的输�
 
 claim 是有界准入事务中的容量信用，不是未来时间预测，不承诺具体启动时刻，也不模拟未来调用队列。它只防止一个已受阻的高优先级调用所需容量，在当前快照内被后续低优先级调用继续占用。
 
+**队列局部的有界 aging guard。** J 排序和 claim 解决的是“当前应优先检查谁”以及“容量信用不能被后续请求侵蚀”；它们本身不承诺一个低优先级请求在持续竞争下最终获得执行机会。为改善这一用户体验边界，Kairos 在原有 J 排序完成后，对仍处于 waiting 或 skipped-waiting 的请求施加一个独立、因果且有界的等待补偿。设请求的原始 J-rank 为 $r_i$、已等待时间为 $w_i$，阈值和 aging quantum 分别为 $\tau$ 与 $\delta$，则：
+
+$$
+\mathrm{credit}_i=\min\!\left(r_i,\ 1+\left\lfloor\frac{\max(0,w_i-\tau)}{\delta}\right\rfloor\right),
+\qquad
+\mathrm{effective\_rank}_i=r_i-\mathrm{credit}_i.
+\tag{6b}
+$$
+
+默认 $\tau=4\,\mathrm{s}$、$\delta=1\,\mathrm{s}$。补偿只在等待队列内改变局部队列键，最多把请求提升到队首；它不改写原始 J、不改变 program_priorities，也不参与 claim、TTL、victim 选择或容量页数计算。因而 aging 是一个用户体验保护层，而不是第二个经济调度器：原方法负责价值排序和容量兑现，guard 只为长期未被服务的请求提供有限的机会。请求离开等待队列后补偿不累积为未来信息，也不会使用真实未来输出、未来工具或最终轮标签。
+
 **只对原计划 victim 做安全部分保留。** 得到原始准入计划后，Kairos 不重排 grant 集合、不创建额外 victim，也不对所有 pin 预先裁剪。它只在原计划确实要撤销的 victim 中，检查是否能留下安全前缀。设原计划结束后的空闲页为 $F$，未被 claim 占用的空闲预算为 $F-Q$，其中 $Q$ 是该 claim 实际信用；设按原顺序撤销 victim 并提交原 grant 集合时的最小瞬时余量为 $H$。可用于部分保留的预算为：
 
 $$
@@ -375,6 +386,8 @@ On a decision-relevant event:
   2. Obtain current-output and post-current residual-service distributions;
      use the causal stage prior if an individual forest result is not ready.
   3. Compute J for every ready call; sort one ready queue by increasing J.
+  3a. For requests still waiting after the J refresh, apply queue-local bounded aging
+      (default threshold 4 s, quantum 1 s); do not alter J, claims, or victim order.
   4. Add running/idle continuity positions for optional-victim ordering only.
   5. In ready order, check execution slots and the native-frontier page contract.
      Revoke only lower-priority eligible optional pins if necessary;
@@ -388,6 +401,15 @@ On a decision-relevant event:
 ~~~
 
 **九组端到端回放。** 下表汇总同一批 SWE Program 在三种首次到达模式下，对原生 vLLM+LMCache、Continuum 与 Kairos 的单次顺向运行。平均/P95 JCT 均按 Program 计算；TTFT 和 Makespan 为秒。九组均完成 178/178 次调用，失败为零，逐组审计通过。
+
+**有界 aging 的安装对比。** 为检查这一小型用户体验保护层没有破坏既有控制路径，另在 Qwen3-8B 上对原始 Kairos 与 Kairos+guard 各做一次固定 Replay。16-program 负载包含 178 次调用；32-program 负载包含 420 次调用。后者是 32 个 Program 的回放，不是 36-program trace。表中 wall 是整组回放墙钟时间，括号为 guard 相对原始 Kairos 的变化；两组都零失败且固定工作审计通过。
+
+| 负载 | Kairos 平均 JCT / P95 | Kairos+guard 平均 JCT / P95 | wall（原始 → guard） | guard 相对变化 |
+|---|---:|---:|---:|---:|
+| 16 programs | 91.43 / 142.53 s | **88.77 / 137.93 s** | 145.13 → 145.56 s | JCT −2.92% / −3.23%，wall +0.30% |
+| 32 programs | 120.52 / 219.14 s | 122.43 / 226.47 s | 247.57 → 254.93 s | JCT +1.58% / +3.35%，wall +2.97% |
+
+两次回放的审计中 guard registry 均正确写入，但实际激活次数均为 0：没有请求在该负载下超过默认 4 秒等待阈值。因此这组结果证明的是接入、配置和信息边界保持正确，以及在当前负载上的有限开销；它不能作为 starvation 已被端到端消除的证据。若要评估公平性收益，还需要专门制造持续等待的高竞争负载，并单独报告最大等待时间和激活次数。
 
 ![Dense 与 Poisson 到达下的平均 Program JCT](./figures/evaluation/mean_jct.png)
 
@@ -430,6 +452,7 @@ Kairos 的公开实现按决策职责组织。完整调度入口为 `kairos/sche
 
 | 方法环节 | 主要实现位置 | 决策或观测边界 |
 |---|---|---|
+| 等待公平性保护 | kairos/scheduling/starvation.py、program.py | 仅等待队列的因果 aging；不改 J、claim、TTL、victim 或容量账本 |
 | 当前输出与后缀服务预测 | `kairos/prediction/` | 已到达 prompt、已完成输出和累计已观测服务 |
 | 统一 J 排序与连续性位置 | `kairos/scheduling/snapshot.py`、`priority.py`、`score.py` | 同一控制快照中的 ready、running 与 idle 状态 |
 | 容量 claim、grant 与安全部分撤销 | `kairos/scheduling/admission.py`、`retention.py` | 原生前沿、真实引用、执行名额及逐步提交余量 |
