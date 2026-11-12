@@ -149,6 +149,13 @@ class ForecastControl(ProgramControl):
                 capacity_refresh="admission and reference lifecycle boundaries",
                 decode_growth_triggers_control=False,
             )
+            if getattr(self, "uses_joint_forecasts", False):
+                fields.update(
+                    score="exp(E[log(t(O) / g(O,R)) | arrived history, O>n])",
+                    primary_predictor="continuous joint p(O|H) p(R|O,H)",
+                    suffix_predictor="auxiliary forest for idle continuity and TTL",
+                    current_output="joint survival posterior for J; forest for auxiliary bookkeeping",
+                )
         return super()._emit(event, **fields)
 
     def _switch_experiment(self, name):

@@ -90,5 +90,5 @@
       "source_audit_sha256": "5dfc96963e53e2bcf2c793f0de3f059e5e068edcd35419ff3c09b23d6deeb930"
     }
   ],
-  "interpretation": "Both arms passed the fixed-work audit with zero failures. The guard was registered but never activated in either workload, so these runs establish integration and no-regression observations rather than starvation-relief evidence."
+  "interpretation": "Both arms passed the fixed-work audit with zero failures. Historical guard code subtracted epoch arrival timestamps from a monotonic clock and clamped negative ages to zero. The release corrects this mismatch. Zero activations cannot establish waits below four seconds; these are not corrected-guard performance or starvation-relief evidence."
 }

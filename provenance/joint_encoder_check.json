@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "device": "cpu",
+  "strict_state_dict": true,
+  "cases": 3,
+  "reference_compared": true,
+  "public_serving_entrypoint_imported_on_server": true,
+  "public_entrypoint": "kairos.scheduler.KairosScheduler",
+  "public_entrypoint_mro_prefix": ["KairosScheduler", "JointForecasts", "ReservationSettlement", "_SchedulingCore", "CapacityControl"],
+  "max_absolute_error": 0.0,
+  "seconds": 0.9595219888724387,
+  "training_programs": 1646,
+  "full_inference_gpu_test": false
+}

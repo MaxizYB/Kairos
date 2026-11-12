@@ -1,0 +1,48 @@
+{
+  "valid": true,
+  "calls": 420,
+  "programs": 32,
+  "output_tokens": 43928,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 20577,
+  "running_quotes": 6352,
+  "native_ledger": {
+    "snapshots": 1097,
+    "transactions": 1097,
+    "grants": 420,
+    "bounded_releases": 38
+  },
+  "transformer_calls": 420,
+  "transformer_total_s": 10.162060376256704,
+  "transformer_p50_ms": 12.631099438294768,
+  "transformer_p95_ms": 128.3868483500554,
+  "admission_controller_s": 14.695493125356734,
+  "signature": "1f16ffa2f0a697c7dff5fd7a053166a50d2052d3aa2471fb35ae64359f8c20c9",
+  "reservation_lifecycle_audit": {
+    "settlements": 121,
+    "released_logical_pages": 36989,
+    "snapshots": 1097,
+    "transactions": 1097,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 420,
+  "rank_snapshots": 1097,
+  "original_density_cases": 511,
+  "original_density_max_relative_error": 1.6464671573457323e-05,
+  "original_density_mean_relative_error": 4.863250024119351e-07,
+  "continuous_function_compile_once": true,
+  "completion_boundary": {
+    "valid": true,
+    "observations": 420,
+    "logical_completions": 420,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 32,
+    "observed_terminal_actions": 32,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  }
+}

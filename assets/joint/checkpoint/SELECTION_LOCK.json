@@ -1,0 +1,8 @@
+{
+  "primary": "distribution",
+  "purpose": "joint adapted encoder; legacy head unused",
+  "checkpoints": {
+    "expanded": "90805122a58c01b8b4d8b17671972b618a1d9987a5d4e7875555debabcc40283",
+    "distribution": "727d0a5db84b77181aa3a3ec2c28a7da3411e0375aa6546f0a39ecc58820a273"
+  }
+}

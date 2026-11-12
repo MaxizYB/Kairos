@@ -269,6 +269,12 @@ class Scene:
             fig.savefig(
                 OUT / f"{name}.{ext}", dpi=200, facecolor="white", bbox_inches=None
             )
+            if ext == "svg":
+                path = OUT / f"{name}.{ext}"
+                path.write_text(
+                    "\n".join(line.rstrip() for line in path.read_text().splitlines())
+                    + "\n"
+                )
         plt.close(fig)
         slide.notes_slide.notes_text_frame.text = "Original Kairos schematic. Conceptual example, not a measured trace. All objects are native editable PowerPoint shapes. Visual grouping references: Continuum Fig. 7 and CacheBlend Fig. 1."
 
@@ -288,24 +294,26 @@ def overview():
     ]:
         s.text(x, 1.26, 2.4, 0.3, label, 11)
     s.module(0.4, 2.25, 3.65, 3.65, "Information", BLUE, "1")
-    for x in [0.82, 1.35, 1.88]:
-        s.tree(x, 3.03, BLUE)
-    s.text(2.43, 2.98, 1.4, 0.5, "Two forests\n48 trees each", 11)
+    s.box(0.74, 3.03, 1.55, 0.42, "white", BLUE)
+    s.text(0.74, 3.03, 1.55, 0.42, "Text + history", 11, align="center")
+    s.line([(2.31, 3.24), (2.50, 3.24)], BLUE, True)
+    s.box(2.52, 3.03, 1.25, 0.42, "white", BLUE)
+    s.text(2.52, 3.03, 1.25, 0.42, "Encoder", 11, align="center")
     s.distribution(0.75, 3.73, BLUE, 1.1, 0.4)
     s.text(2.03, 3.68, 1.8, 0.5, "Current output\nP(O | history)", 11)
     s.distribution(0.75, 4.52, GREEN, 1.1, 0.4)
-    s.text(2.03, 4.47, 1.8, 0.5, "Post-current service\nP(R+ | history)", 11)
+    s.text(2.03, 4.47, 1.8, 0.5, "Conditional service\nP(R+ | O, history)", 11)
     s.text(
         0.74,
         5.2,
         3,
         0.45,
-        "Predict on arrival; update after completion.\nUse a suffix stage prior while pending.",
+        "Infer once per arrived call.\nCondition on observed output survival.",
         10.2,
     )
 
     s.module(4.5, 2.25, 4.7, 3.65, "Program scheduling", GREEN, "2")
-    s.text(4.78, 2.94, 4.1, 0.35, "J = physical cost / expected progress", 13, True)
+    s.text(4.78, 2.94, 4.1, 0.35, "Geometric J = exp(E[log(t / g)])", 13, True)
     s.text(4.78, 3.39, 1.25, 0.4, "Ready order", 11)
     for i, label in enumerate(["A", "B", "C", "D"]):
         s.box(6.05 + i * 0.65, 3.39, 0.53, 0.4, "white", GREEN)

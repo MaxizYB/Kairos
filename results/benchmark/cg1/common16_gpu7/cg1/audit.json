@@ -1,0 +1,82 @@
+{
+  "valid": true,
+  "calls": 178,
+  "programs": 16,
+  "output_tokens": 26164,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 4829,
+  "running_quotes": 2475,
+  "native_ledger": {
+    "snapshots": 481,
+    "transactions": 481,
+    "grants": 178,
+    "bounded_releases": 12
+  },
+  "transformer_calls": 178,
+  "transformer_total_s": 3.078395530115813,
+  "transformer_p50_ms": 12.180916965007782,
+  "transformer_p95_ms": 46.2818688945845,
+  "admission_controller_s": 5.998746664263308,
+  "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+  "reservation_lifecycle_audit": {
+    "settlements": 3,
+    "released_logical_pages": 994,
+    "snapshots": 481,
+    "transactions": 481,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 178,
+  "rank_snapshots": 481,
+  "original_density_cases": 217,
+  "original_density_max_relative_error": 4.702815113111214e-06,
+  "original_density_mean_relative_error": 2.744381058525996e-07,
+  "continuous_function_compile_once": true,
+  "exact_reuse": {
+    "quotes": 4829,
+    "quote_hits": 1983,
+    "survival_updates": 2623,
+    "survival_hits": 223
+  },
+  "completed_call_reuse_verified": 178,
+  "reuse_fraction": 0.41064402567819425,
+  "unchanged_geometric_rule": true,
+  "unused_prediction_heads_loaded": 0,
+  "packed_input_copies": 2,
+  "independent_workload_boundary": {
+    "valid": true,
+    "calls": 178,
+    "programs": 16,
+    "output_tokens": 26164,
+    "fixed_work": true,
+    "scheduler_truth": false,
+    "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+    "completion_boundary": {
+      "valid": true,
+      "observations": 178,
+      "logical_completions": 178,
+      "current_action_only": true,
+      "arrived_metadata_unchanged": true,
+      "trajectory_end_inferred": false,
+      "all_at_actual_output_boundary": true,
+      "expected_terminal_actions": 14,
+      "observed_terminal_actions": 14
+    },
+    "transformer_calls": 0,
+    "policy": "kairos",
+    "method_experiment": "continuity-eager-a~provenanceprior~onlinefitresidual~finishlogical~kairos~heterogeneous"
+  },
+  "completion_boundary": {
+    "valid": true,
+    "observations": 178,
+    "logical_completions": 178,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 14,
+    "observed_terminal_actions": 14,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  }
+}

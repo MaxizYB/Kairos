@@ -11,7 +11,7 @@ def aged_priority(
     threshold_s: float = 4.0,
     quantum_s: float = 1.0,
 ) -> dict[str, float | int | bool]:
-    """Return a bounded, eventually-fair queue priority."""
+    """Return queue priority with bounded waiting-time credit."""
     if isinstance(base_priority, bool) or int(base_priority) != base_priority:
         raise ValueError("base_priority must be an integer")
     base = int(base_priority)
@@ -23,7 +23,14 @@ def aged_priority(
         raise ValueError("invalid aging parameters")
     waited = max(0.0, float(waited_s))
     if waited < threshold_s or base == 0:
-        return dict(priority=base, base_priority=base, credit=0, waited_s=waited, aged=False)
+        return dict(
+            priority=base, base_priority=base, credit=0, waited_s=waited, aged=False
+        )
     credit = min(base, 1 + int((waited - threshold_s) // quantum_s))
-    return dict(priority=base - credit, base_priority=base, credit=credit,
-                waited_s=waited, aged=credit > 0)
+    return dict(
+        priority=base - credit,
+        base_priority=base,
+        credit=credit,
+        waited_s=waited,
+        aged=credit > 0,
+    )

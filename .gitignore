@@ -10,3 +10,6 @@ models/
 .ruff_cache/
 .pytest_cache/
 *.so
+# Joint predictor weights are provisioned separately.
+assets/joint/**/*.pt
+assets/joint/*.npz

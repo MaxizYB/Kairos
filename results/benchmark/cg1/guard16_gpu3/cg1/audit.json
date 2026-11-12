@@ -1,0 +1,66 @@
+{
+  "valid": true,
+  "calls": 178,
+  "programs": 16,
+  "output_tokens": 26164,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 4742,
+  "running_quotes": 2411,
+  "native_ledger": {
+    "snapshots": 480,
+    "transactions": 480,
+    "grants": 178,
+    "bounded_releases": 14
+  },
+  "transformer_calls": 178,
+  "transformer_total_s": 3.3873486830852926,
+  "transformer_p50_ms": 11.691773543134332,
+  "transformer_p95_ms": 47.42233639117345,
+  "admission_controller_s": 6.133696263190359,
+  "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+  "reservation_lifecycle_audit": {
+    "settlements": 2,
+    "released_logical_pages": 467,
+    "snapshots": 480,
+    "transactions": 480,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 178,
+  "rank_snapshots": 480,
+  "original_density_cases": 210,
+  "original_density_max_relative_error": 4.702815113111214e-06,
+  "original_density_mean_relative_error": 2.7745411660158e-07,
+  "continuous_function_compile_once": true,
+  "exact_reuse": {
+    "quotes": 4742,
+    "quote_hits": 1936,
+    "survival_updates": 2548,
+    "survival_hits": 258
+  },
+  "completed_call_reuse_verified": 178,
+  "reuse_fraction": 0.40826655419654156,
+  "unchanged_geometric_rule": true,
+  "unused_prediction_heads_loaded": 0,
+  "packed_input_copies": 2,
+  "completion_boundary": {
+    "valid": true,
+    "observations": 178,
+    "logical_completions": 178,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 14,
+    "observed_terminal_actions": 14,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  },
+  "starvation_guard": {
+    "registry": 0,
+    "activations": 0,
+    "max_credit": 0,
+    "max_wait_s": 0.0,
+    "events": []
+  }
+}

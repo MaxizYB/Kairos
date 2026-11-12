@@ -83,6 +83,27 @@ class PackageTests(unittest.TestCase):
             "CONTINUUM_CURRENT_OUTPUT_FALLBACK",
         ):
             self.assertTrue(Path(env[key]).is_file())
+        self.assertEqual(
+            Path(env["KAIROS_DENSITY_MODEL"]), ROOT / "assets/joint/density.npz"
+        )
+        for key in (
+            "KAIROS_PROGRESS_ENCODER",
+            "KAIROS_PROGRESS_CHECKPOINT",
+            "KAIROS_COUPLED_STUDY",
+        ):
+            self.assertTrue(Path(env[key]).is_dir())
+        self.assertEqual(env["KAIROS_STARVATION_GUARD"], "1")
+        self.assertEqual(env["TOKENIZERS_PARALLELISM"], "false")
+        args.joint_assets = Path("/external/joint")
+        _, _, _, external_env = prepare(
+            args, ROOT / "runs/test", "/tmp/kairos-test.sock"
+        )
+        self.assertEqual(
+            external_env["KAIROS_DENSITY_MODEL"], "/external/joint/density.npz"
+        )
+        self.assertEqual(
+            external_env["KAIROS_PROGRESS_CHECKPOINT"], "/external/joint/checkpoint"
+        )
         self.assertEqual(helper[helper.index("--l1-size-gb") + 1], "10.0")
         self.assertEqual(
             engine[engine.index("--kv-cache-memory-bytes") + 1], "5935988736"

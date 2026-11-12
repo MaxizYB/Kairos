@@ -62,6 +62,26 @@ def verify_workload(trace_path=None):
     return len(seen)
 
 
+def verify_joint_assets(directory=None):
+    """Verify separately provisioned CG1 weights without importing torch."""
+    directory = Path(directory) if directory is not None else ROOT / "assets/joint"
+    record = json.loads((ROOT / "provenance/joint_release.json").read_bytes())
+    checked = []
+    for row in record["files"]:
+        if not row["path"].startswith("assets/joint/"):
+            continue
+        relative = Path(row["path"]).relative_to("assets/joint")
+        path = directory / relative
+        if not path.is_file() or digest(path) != row["sha256"]:
+            raise ValueError(
+                "Missing or different external CG1 asset: "
+                + str(path)
+                + ". See assets/joint/README.md; pass --joint-assets for another directory."
+            )
+        checked.append(str(relative))
+    return dict(files_verified=checked, directory=str(directory))
+
+
 def verify_model(model, *, include_weights=True):
     """Check recorded bytes, not merely an HF directory name. No downloads."""
     root = Path(model).resolve()
@@ -90,6 +110,7 @@ def verify_model(model, *, include_weights=True):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", type=Path)
+    parser.add_argument("--joint-assets", type=Path)
     parser.add_argument(
         "--metadata-only",
         action="store_true",
@@ -103,6 +124,8 @@ def main():
         result["checkpoint"] = verify_model(
             args.model, include_weights=not args.metadata_only
         )
+    if args.joint_assets:
+        result["joint_predictor"] = verify_joint_assets(args.joint_assets)
     print(json.dumps(result, indent=2))
 
 

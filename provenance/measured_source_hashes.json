@@ -1,11 +1,18 @@
 {
-  "selected_method": "E10-BU",
+  "selected_method": "Kairos-CG1 with bounded queue aging",
+  "historical_nine_cell_method": "E10-BU forest baseline",
+  "current_method_evidence": "../results/benchmark/cg1/summary.json",
+  "joint_quote_replay": "joint_quote_replay.json",
+  "joint_encoder_check": "joint_encoder_check.json",
+  "joint_weights_external": true,
   "generation_protocol": "fixed-work-private-stop-v1",
   "benchmark_archive_sha256": "5eee66d71e7ee9aa3c9c12a05796637cae0dd47a5785ac874a50d55a3b87b8f8",
   "compute_sha256": "c778351305463befca77bbfa3948507b448e9e218fe4ad32e33d5e8287ed3409",
   "reload_sha256": "c977b632fd1ea967560fea64a69a1eeaa0a5a6fa6c34840bd9dd63abcbd87500",
   "source_mapping": "export_manifest.json",
   "observed_cells": 9,
+  "cg1_archived_cells": 14,
+  "cg1_archive_distinct_measured_runs": 13,
   "repetitions": 1,
   "packaged_entrypoint_gpu_remeasured": false
 }

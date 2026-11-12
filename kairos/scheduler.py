@@ -14,9 +14,11 @@ from kairos.scheduling.continuity_quotes import ContinuityQuotes
 from kairos.scheduling.forecast import ForecastControl
 from kairos.scheduling.integral import RunningIntegral
 from kairos.scheduling.snapshot import UnifiedSnapshot
+from kairos.scheduling.joint import JointForecasts
+from kairos.scheduling.ownership import ReservationSettlement
 
 
-class KairosScheduler(
+class _SchedulingCore(
     CapacityControl,
     UnifiedSnapshot,
     EconomicRetention,
@@ -27,6 +29,10 @@ class KairosScheduler(
     ServiceCache,
     ForecastControl,
 ):
-    """The complete Kairos policy and its native reference lifecycle."""
+    """Auxiliary forests, capacity transactions, TTL and native lifecycle."""
 
     _forecast_compact_log_installed = True
+
+
+class KairosScheduler(JointForecasts, ReservationSettlement, _SchedulingCore):
+    """Continuous joint prediction, geometric J, and bounded queue aging."""

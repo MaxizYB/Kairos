@@ -1,0 +1,30 @@
+{
+  "valid": true,
+  "calls": 420,
+  "programs": 32,
+  "output_tokens": 43928,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 20902,
+  "running_quotes": 6235,
+  "native_ledger": {
+    "snapshots": 1117,
+    "transactions": 1117,
+    "grants": 420,
+    "bounded_releases": 26
+  },
+  "transformer_calls": 0,
+  "transformer_total_s": 0,
+  "transformer_p50_ms": null,
+  "transformer_p95_ms": null,
+  "admission_controller_s": 13.05476717511192,
+  "signature": "1f16ffa2f0a697c7dff5fd7a053166a50d2052d3aa2471fb35ae64359f8c20c9",
+  "reservation_lifecycle_audit": {
+    "settlements": 86,
+    "released_logical_pages": 24164,
+    "snapshots": 1117,
+    "transactions": 1117,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "method": "Kairos-CG1",
+  "entrypoint": "kairos.scheduler.KairosScheduler",
+  "joint_predictor": "p(O|H) p(R|O,H), continuous mixtures with residual zero mass",
+  "score": "exp(E[log(t(O) / (s(O)/(s(O)+R))) | H, O>generated])",
+  "guard": "bounded queue aging, epoch/monotonic clock correction",
+  "code_changes": "Responsibility-based relocation and formatting. Encoder constructs from packaged config and strictly loads the complete trained state instead of loading redundant base weights; CPU equivalence checked.",
+  "assets_identical": true,
+  "weights_tracked_in_git": false,
+  "external_weight_files": ["checkpoint/expanded.pt", "checkpoint/distribution.pt", "study/coupled.pt", "density.npz"],
+  "files": [
+    {
+      "path": "assets/joint/checkpoint/SELECTION_LOCK.json",
+      "sha256": "90862aee6c446830dc4c185f4041ed996bb9e4121f129410cb293360f64a3da6",
+      "source": "Phase_continuum/coupled_service_20261110/results/encoder-joint-r1/encoder/SELECTION_LOCK.json",
+      "source_sha256": "90862aee6c446830dc4c185f4041ed996bb9e4121f129410cb293360f64a3da6"
+    },
+    {
+      "path": "assets/joint/checkpoint/distribution.pt",
+      "sha256": "727d0a5db84b77181aa3a3ec2c28a7da3411e0375aa6546f0a39ecc58820a273",
+      "source": "Phase_continuum/coupled_service_20261110/results/encoder-joint-r1/encoder/distribution.pt",
+      "source_sha256": "727d0a5db84b77181aa3a3ec2c28a7da3411e0375aa6546f0a39ecc58820a273"
+    },
+    {
+      "path": "assets/joint/checkpoint/expanded.pt",
+      "sha256": "90805122a58c01b8b4d8b17671972b618a1d9987a5d4e7875555debabcc40283",
+      "source": "Phase_continuum/coupled_service_20261110/results/encoder-joint-r1/encoder/expanded.pt",
+      "source_sha256": "90805122a58c01b8b4d8b17671972b618a1d9987a5d4e7875555debabcc40283"
+    },
+    {
+      "path": "assets/joint/density.npz",
+      "sha256": "a51c05b696b409af90f7c75cae223b828b487bd006d06a4e4a2e434d74129e49",
+      "source": "Phase_continuum/continuous_joint_20261111/results/selected-test-r1/density-head.npz",
+      "source_sha256": "a51c05b696b409af90f7c75cae223b828b487bd006d06a4e4a2e434d74129e49"
+    },
+    {
+      "path": "assets/joint/encoder/config.json",
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "source": "Phase_continuum/transformer_progress_20261110/encoder_stage/config.json",
+      "source_sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+    },
+    {
+      "path": "assets/joint/encoder/special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "source": "Phase_continuum/transformer_progress_20261110/encoder_stage/special_tokens_map.json",
+      "source_sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    {
+      "path": "assets/joint/encoder/tokenizer.json",
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "source": "Phase_continuum/transformer_progress_20261110/encoder_stage/tokenizer.json",
+      "source_sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+    },
+    {
+      "path": "assets/joint/encoder/tokenizer_config.json",
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "source": "Phase_continuum/transformer_progress_20261110/encoder_stage/tokenizer_config.json",
+      "source_sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+    },
+    {
+      "path": "assets/joint/encoder/vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "source": "Phase_continuum/transformer_progress_20261110/encoder_stage/vocab.txt",
+      "source_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    {
+      "path": "assets/joint/study/SELECTION_LOCK.json",
+      "sha256": "b10528f5e4995bce88cdf2889db7c1346e9248691c28ba2b70d562a0d2c5f40d",
+      "source": "Phase_continuum/coupled_service_20261110/results/encoder-joint-r1/SELECTION_LOCK.json",
+      "source_sha256": "b10528f5e4995bce88cdf2889db7c1346e9248691c28ba2b70d562a0d2c5f40d"
+    },
+    {
+      "path": "assets/joint/study/coupled.pt",
+      "sha256": "178abebc35c4e75865f2479ccc572bc43ecb6625778f59acd8768598f4a2226a",
+      "source": "Phase_continuum/coupled_service_20261110/results/encoder-joint-r1/coupled.pt",
+      "source_sha256": "178abebc35c4e75865f2479ccc572bc43ecb6625778f59acd8768598f4a2226a"
+    },
+    {
+      "path": "kairos/prediction/encoder.py",
+      "sha256": "58e4730e43d881046bb466c5153e2bbe00f7cb55b97681b5cb80a1aa88cbf81d",
+      "source": "Phase_continuum/continuous_geometric_20261111/runtime.py",
+      "source_sha256": "3f5d8858f544464fa7cdc4c604f98efdba09e33be9ed543192a98583658f655e"
+    },
+    {
+      "path": "kairos/prediction/joint.py",
+      "sha256": "e7172c429af8528216284e4ff6e225198b330285c0bc8d6e6ff59759079aec23",
+      "source": "Phase_continuum/continuous_geometric_20261111/posterior.py",
+      "source_sha256": "5c39f13c4baed0d0919e812cfc55194c3945bc60e79c2009513d2a2389481a20"
+    },
+    {
+      "path": "kairos/prediction/visible.py",
+      "sha256": "c8ab4ad88fa581bd8a36e2dc684ca248661cbd7de36a49aa9cff557ae0ea7bb6",
+      "source": "Phase_continuum/consistent_prediction_20261111/visible.py",
+      "source_sha256": "a70b9fcd0eeaad607f3e4f952988739c942f1d47d71d61957c6b8b42109f3d07"
+    },
+    {
+      "path": "kairos/scheduling/joint.py",
+      "sha256": "ce687a8494cc4dd116064fef57a885cb76b6a7a57ff7a68f0c6d2af1e8237d4c",
+      "source": "Phase_continuum/continuous_geometric_20261111/scheduler.py",
+      "source_sha256": "d84733a9e5a1de0f94be29858902e2afcc95affb9d3cd669f0616c04b0acc755"
+    },
+    {
+      "path": "kairos/scheduling/ownership.py",
+      "sha256": "da38b445f5e7740d4820c53e1f386b64c5e1c02718b826834022e63f9e5388ac",
+      "source": "Phase_continuum/reservation_lifecycle_20261111/settlement.py",
+      "source_sha256": "7b0ec834daa17e8f7c3bd12eb80abbb3ef1de0b24e381549b3833b24d1777aaa"
+    }
+  ],
+  "training_programs": 1646,
+  "training_states": 21114,
+  "validation_programs": 169,
+  "validation_states": 2023,
+  "evaluation_programs": 198,
+  "evaluation_states": 2566,
+  "evaluation_previously_observed": true,
+  "inference_requires_research_tree": false,
+  "packaged_entrypoint_gpu_remeasured": false
+}

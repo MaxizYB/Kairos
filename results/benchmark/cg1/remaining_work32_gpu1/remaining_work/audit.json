@@ -1,0 +1,51 @@
+{
+  "valid": true,
+  "calls": 420,
+  "programs": 32,
+  "output_tokens": 43928,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 21109,
+  "running_quotes": 6463,
+  "native_ledger": {
+    "snapshots": 1121,
+    "transactions": 1121,
+    "grants": 420,
+    "bounded_releases": 70
+  },
+  "transformer_calls": 420,
+  "transformer_total_s": 10.950335777364671,
+  "transformer_p50_ms": 12.600223766639829,
+  "transformer_p95_ms": 146.96763751562682,
+  "admission_controller_s": 17.689377865288407,
+  "signature": "1f16ffa2f0a697c7dff5fd7a053166a50d2052d3aa2471fb35ae64359f8c20c9",
+  "reservation_lifecycle_audit": {
+    "settlements": 81,
+    "released_logical_pages": 28650,
+    "snapshots": 1121,
+    "transactions": 1121,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 420,
+  "rank_snapshots": 1121,
+  "changed_ready_snapshots": 830,
+  "conditional_mean_crosschecks": 14914,
+  "conditional_mean_max_relative_error": 1.0861689969665633e-06,
+  "remaining_work_compile_s": 0.37130583077669144,
+  "runtime_hardware_profile_in_rank": false,
+  "current_call_work_included": true,
+  "native_preemption_policy_changed": false,
+  "completion_boundary": {
+    "valid": true,
+    "observations": 420,
+    "logical_completions": 420,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 32,
+    "observed_terminal_actions": 32,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "valid": true,
+  "workload": {
+    "programs": 16,
+    "calls": 178,
+    "output_tokens": 26164,
+    "trace_sha256": "4c896b93b14eff39bcc6e2fd0700ba59a1bfcfd785bd15e645d5e1a2ffeee2e8",
+    "visible_messages_sha256": "59deb05bfffb29825ee474f17376e4b6c9a23056b473cec061fc3b7123e81a1a"
+  },
+  "continuum": {
+    "mean_jct_s": 103.76671422584332,
+    "p95_jct_s": 158.68049112090375,
+    "makespan_s": 165.41478219814599,
+    "mean_ttft_s": 4.348822235940757,
+    "p95_ttft_s": 20.003610725351653,
+    "replay_wall_s": 165.67973392177373,
+    "completed": 178,
+    "failed": 0,
+    "gpu": "GPU-29485f4a-5715-cd00-4727-0c2231693a17"
+  },
+  "references": {
+    "forest": {
+      "mean_jct_s": 87.17949960607802,
+      "p95_jct_s": 140.5252270855708,
+      "makespan_s": 143.4804291180335
+    },
+    "kairos_cg1": {
+      "mean_jct_s": 88.00974301705719,
+      "p95_jct_s": 136.00738573435228,
+      "makespan_s": 139.55604169517756
+    }
+  },
+  "change_percent_vs_forest": {
+    "mean_jct_s": 19.02650817533351,
+    "p95_jct_s": 12.919576372061336,
+    "makespan_s": 15.273934447926285
+  },
+  "change_percent_vs_kairos_cg1": {
+    "mean_jct_s": 17.903666876668712,
+    "p95_jct_s": 16.670495697076525,
+    "makespan_s": 18.515496569032173
+  },
+  "protocol_audit": {
+    "generation_protocol": "fixed-work-private-stop-v1",
+    "completion_protocol": "completed-current-action-v1",
+    "completion_observations": 178,
+    "future_information_false": 178,
+    "arrived_metadata_unchanged": 178,
+    "terminal_actions": 14,
+    "actual_arrivals_cont_tool_unknown": 178,
+    "warmup_arrivals": 3,
+    "public_context_limit": 16384,
+    "public_max_tokens_plus_prompt_tokens_constant": true,
+    "gpu_released": true
+  }
+}

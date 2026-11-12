@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "calls": 420,
+  "quotes": 20529,
+  "max_relative_error": 1.3322676295501878e-15,
+  "labels_used": false,
+  "replay": "recorded causal quotation only; no new oracle decisions"
+}

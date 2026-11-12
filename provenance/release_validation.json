@@ -1,5 +1,12 @@
 {
-  "cpu_unit_tests": 36,
+  "cpu_unit_tests": 54,
+  "continuous_joint_public_entrypoint_checked": true,
+  "cpu_tests_require_joint_weights": false,
+  "joint_measured_quotes_verified": 20529,
+  "joint_encoder_server_cpu_exact": true,
+  "cg1_archived_cells_verified": 14,
+  "guard_clock_and_wait_queue_checked": true,
+  "guard_gpu_remeasured_after_clock_fix": false,
   "original_controller_equal_snapshots": 120,
   "original_controller_equal_transactions": 120,
   "restore_boundary_alignments": 47,

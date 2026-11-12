@@ -1,0 +1,290 @@
+[
+  {
+    "program": "ateliedocodigo__py-healthcheck-35",
+    "jct_s": 17.752129707019776,
+    "arrival_s": 0.29321698704734445,
+    "turns": 5,
+    "first_turn_end_s": 4.450752656906843,
+    "post_initial_jct_s": 13.594594037160277,
+    "primed_jct_s": null
+  },
+  {
+    "program": "roboflow__supervision-219",
+    "jct_s": 24.45630747405812,
+    "arrival_s": 0.28480406710878015,
+    "turns": 8,
+    "first_turn_end_s": 6.965830984059721,
+    "post_initial_jct_s": 17.77528055710718,
+    "primed_jct_s": null
+  },
+  {
+    "program": "scikit-hep__cabinetry-396",
+    "jct_s": 28.07409286685288,
+    "arrival_s": 0.2939591780304909,
+    "turns": 8,
+    "first_turn_end_s": 6.357260065153241,
+    "post_initial_jct_s": 22.01079197973013,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pypa__wheel-529",
+    "jct_s": 29.848525781650096,
+    "arrival_s": 0.29448004020377994,
+    "turns": 11,
+    "first_turn_end_s": 3.5797408050857484,
+    "post_initial_jct_s": 26.563265016768128,
+    "primed_jct_s": null
+  },
+  {
+    "program": "hgrecco__pint-527",
+    "jct_s": 37.033834860660136,
+    "arrival_s": 0.2894955622032285,
+    "turns": 12,
+    "first_turn_end_s": 4.1785128568299115,
+    "post_initial_jct_s": 33.14481756603345,
+    "primed_jct_s": null
+  },
+  {
+    "program": "oasis-open__cti-python-stix2-185",
+    "jct_s": 39.60373289696872,
+    "arrival_s": 0.29196571419015527,
+    "turns": 12,
+    "first_turn_end_s": 7.922170354984701,
+    "post_initial_jct_s": 31.973528256174177,
+    "primed_jct_s": null
+  },
+  {
+    "program": "uncscode__particula-208",
+    "jct_s": 50.87178983911872,
+    "arrival_s": 0.2934586969204247,
+    "turns": 10,
+    "first_turn_end_s": 4.919522204902023,
+    "post_initial_jct_s": 46.24572633113712,
+    "primed_jct_s": null
+  },
+  {
+    "program": "chimpler__pyhocon-195",
+    "jct_s": 57.80645398097113,
+    "arrival_s": 0.2950780992396176,
+    "turns": 9,
+    "first_turn_end_s": 7.58965002419427,
+    "post_initial_jct_s": 50.511882056016475,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pvlib__pvlib-python-1782",
+    "jct_s": 60.069254090078175,
+    "arrival_s": 0.28744853381067514,
+    "turns": 11,
+    "first_turn_end_s": 30.541111146099865,
+    "post_initial_jct_s": 29.815591477788985,
+    "primed_jct_s": null
+  },
+  {
+    "program": "ASPP__pelita-601",
+    "jct_s": 62.85436947643757,
+    "arrival_s": 0.2842951947823167,
+    "turns": 11,
+    "first_turn_end_s": 9.852824174799025,
+    "post_initial_jct_s": 53.28584049642086,
+    "primed_jct_s": null
+  },
+  {
+    "program": "kytos__python-openflow-225",
+    "jct_s": 85.16973160160705,
+    "arrival_s": 0.28845944721251726,
+    "turns": 30,
+    "first_turn_end_s": 9.469049949198961,
+    "post_initial_jct_s": 75.98914109962061,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pypa__setuptools_scm-277",
+    "jct_s": 87.98805120121688,
+    "arrival_s": 0.28204050101339817,
+    "turns": 14,
+    "first_turn_end_s": 16.815781803801656,
+    "post_initial_jct_s": 71.45430989842862,
+    "primed_jct_s": null
+  },
+  {
+    "program": "ilevkivskyi__com2ann-35",
+    "jct_s": 93.94756510993466,
+    "arrival_s": 0.29370193695649505,
+    "turns": 23,
+    "first_turn_end_s": 8.879584820009768,
+    "post_initial_jct_s": 85.36168222688138,
+    "primed_jct_s": null
+  },
+  {
+    "program": "influxdata__influxdb-client-python-93",
+    "jct_s": 97.44262413308024,
+    "arrival_s": 0.29266514210030437,
+    "turns": 13,
+    "first_turn_end_s": 4.228237830102444,
+    "post_initial_jct_s": 93.5070514450781,
+    "primed_jct_s": null
+  },
+  {
+    "program": "dropbox__pyannotate-83",
+    "jct_s": 100.44791397731751,
+    "arrival_s": 0.29140173783525825,
+    "turns": 15,
+    "first_turn_end_s": 6.605443246196955,
+    "post_initial_jct_s": 94.13387246895581,
+    "primed_jct_s": null
+  },
+  {
+    "program": "nipy__nipype-2065",
+    "jct_s": 120.03542973985896,
+    "arrival_s": 0.28704502107575536,
+    "turns": 11,
+    "first_turn_end_s": 91.98227047780529,
+    "post_initial_jct_s": 28.340204283129424,
+    "primed_jct_s": null
+  },
+  {
+    "program": "Picterra__picterra-python-61",
+    "jct_s": 123.77875410486013,
+    "arrival_s": 0.28620597207918763,
+    "turns": 7,
+    "first_turn_end_s": 63.9099096218124,
+    "post_initial_jct_s": 60.15505045512691,
+    "primed_jct_s": null
+  },
+  {
+    "program": "agronholm__anyio-647",
+    "jct_s": 128.27219508914277,
+    "arrival_s": 0.2911445968784392,
+    "turns": 8,
+    "first_turn_end_s": 93.0533672501333,
+    "post_initial_jct_s": 35.5099724358879,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pydantic__pydantic-2434",
+    "jct_s": 132.27007614867762,
+    "arrival_s": 0.289052605163306,
+    "turns": 23,
+    "first_turn_end_s": 5.719495741184801,
+    "post_initial_jct_s": 126.83963301265612,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pydantic__pydantic-2672",
+    "jct_s": 140.24408821668476,
+    "arrival_s": 0.0002033771015703678,
+    "turns": 14,
+    "first_turn_end_s": 42.04420957202092,
+    "post_initial_jct_s": 98.20008202176541,
+    "primed_jct_s": null
+  },
+  {
+    "program": "ofek__hatch-vcs-17",
+    "jct_s": 148.55387970106676,
+    "arrival_s": 0.2852936270646751,
+    "turns": 16,
+    "first_turn_end_s": 97.80262472713366,
+    "post_initial_jct_s": 51.036548600997776,
+    "primed_jct_s": null
+  },
+  {
+    "program": "ofek__bit-32",
+    "jct_s": 154.5315116662532,
+    "arrival_s": 0.2948194178752601,
+    "turns": 20,
+    "first_turn_end_s": 5.0369198098778725,
+    "post_initial_jct_s": 149.7894112742506,
+    "primed_jct_s": null
+  },
+  {
+    "program": "macports__upt-macports-18",
+    "jct_s": 165.42651452682912,
+    "arrival_s": 0.2908554030582309,
+    "turns": 13,
+    "first_turn_end_s": 3.5806718012318015,
+    "post_initial_jct_s": 162.13669812865555,
+    "primed_jct_s": null
+  },
+  {
+    "program": "lark-parser__lark-1013",
+    "jct_s": 169.94188123382628,
+    "arrival_s": 0.2866138559766114,
+    "turns": 8,
+    "first_turn_end_s": 93.7102515459992,
+    "post_initial_jct_s": 76.51824354380369,
+    "primed_jct_s": null
+  },
+  {
+    "program": "zopefoundation__Zope-1003",
+    "jct_s": 173.41130196442828,
+    "arrival_s": 0.29170939279720187,
+    "turns": 9,
+    "first_turn_end_s": 135.90077235316858,
+    "post_initial_jct_s": 37.8022390040569,
+    "primed_jct_s": null
+  },
+  {
+    "program": "koxudaxi__datamodel-code-generator-1249",
+    "jct_s": 174.9815481719561,
+    "arrival_s": 0.290379174053669,
+    "turns": 11,
+    "first_turn_end_s": 103.32778446795419,
+    "post_initial_jct_s": 71.94414287805557,
+    "primed_jct_s": null
+  },
+  {
+    "program": "altair-viz__altair-3128",
+    "jct_s": 176.22091986471787,
+    "arrival_s": 0.29292057314887643,
+    "turns": 14,
+    "first_turn_end_s": 91.14349489100277,
+    "post_initial_jct_s": 85.37034554686397,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pydantic__pydantic-2392",
+    "jct_s": 188.032958984375,
+    "arrival_s": 0.28991628577932715,
+    "turns": 8,
+    "first_turn_end_s": 157.25294970022514,
+    "post_initial_jct_s": 31.069925569929183,
+    "primed_jct_s": null
+  },
+  {
+    "program": "hamcrest__PyHamcrest-129",
+    "jct_s": 204.03243105392903,
+    "arrival_s": 0.2942274399101734,
+    "turns": 22,
+    "first_turn_end_s": 109.72421824280173,
+    "post_initial_jct_s": 94.60244025103748,
+    "primed_jct_s": null
+  },
+  {
+    "program": "AnalogJ__lexicon-336",
+    "jct_s": 205.08515357412398,
+    "arrival_s": 0.2923771278001368,
+    "turns": 16,
+    "first_turn_end_s": 137.15439317189157,
+    "post_initial_jct_s": 68.22313753003255,
+    "primed_jct_s": null
+  },
+  {
+    "program": "iterative__dvc-3333",
+    "jct_s": 214.89529637992382,
+    "arrival_s": 0.28577071614563465,
+    "turns": 15,
+    "first_turn_end_s": 176.5834788340144,
+    "post_initial_jct_s": 38.59758826205507,
+    "primed_jct_s": null
+  },
+  {
+    "program": "lightkurve__lightkurve-1392",
+    "jct_s": 232.5446014041081,
+    "arrival_s": 0.28798630787059665,
+    "turns": 13,
+    "first_turn_end_s": 65.08999406499788,
+    "post_initial_jct_s": 167.74259364698082,
+    "primed_jct_s": null
+  }
+]

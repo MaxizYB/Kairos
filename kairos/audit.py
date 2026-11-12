@@ -1,6 +1,7 @@
 """Validate recorded work and recompute released-controller transactions."""
 
 import argparse
+import hashlib
 import json
 import math
 from pathlib import Path
@@ -15,20 +16,51 @@ ROOT = Path(__file__).resolve().parents[1]
 def audit_events(events):
     counts = dict(snapshots=0, transactions=0, grants=0, bounded_releases=0)
     current_priority = None
+    joint_laws, joint_density, reference_step = {}, None, None
     for event in events:
         if event.get("future_information"):
             raise ValueError("Future information in serving evidence")
-        if event["event"] == "forecast_service":
-            for quote in event["quotes"].values():
+        if event["event"] == "continuous_resources_ready":
+            reference_step = event["reference_step"]
+        elif event["event"] == "continuous_prediction":
+            import numpy as np
+            from kairos.prediction.joint import JointDensity
+
+            if reference_step is None:
+                raise ValueError("Joint prediction has no resource provenance")
+            if joint_density is None:
+                with np.load(ROOT / "assets/joint/density.npz") as data:
+                    joint_density = JointDensity({k: data[k] for k in data.files})
+            joint_laws[event["request"]] = joint_density.compile(
+                (np.asarray(event["projected"]), np.asarray(event["output_mass"])),
+                prefill=event["reference_prefill"],
+                reference_step=reference_step,
+                cap=event["public_cap"],
+            )
+        elif event["event"] == "forecast_service":
+            quotes = list(event["quotes"].values())
+            quotes += [
+                row["quote"]
+                for row in event.get("continuity_j", {}).get("held", {}).values()
+                if row["kind"] == "running-current-call"
+            ]
+            for quote in quotes:
                 if quote["output_exact"]:
                     raise ValueError("Current output was treated as a true length")
-                expected = service_rank(
-                    quote["standard_s"],
-                    quote["actual_s"],
-                    quote["atoms_s"],
-                    quote["mass"],
-                    "distribution",
-                )
+                if quote.get("progress_source") == "continuous-joint-geometric":
+                    expected = joint_laws[quote["request"]].quote(
+                        generated=int(quote["generated_output"]),
+                        restore=quote["restore_s"],
+                        decode_step=quote["decode_step_s"],
+                    )
+                else:
+                    expected = service_rank(
+                        quote["standard_s"],
+                        quote["actual_s"],
+                        quote["atoms_s"],
+                        quote["mass"],
+                        "distribution",
+                    )
                 if not math.isclose(expected["score"], quote["score"], rel_tol=1e-10):
                     raise ValueError("Progress score differs")
             counts["snapshots"] += 1
@@ -126,7 +158,59 @@ def audit_benchmarks():
         cells.append(
             dict(workload=cell["workload"], method=cell["method"], mean_jct_s=mean)
         )
-    return dict(valid=True, cells=cells, repetitions=report["repetitions"])
+    joint_path = ROOT / "results/benchmark/cg1/summary.json"
+    joint_cells = []
+    if joint_path.exists():
+        joint_report = json.loads(joint_path.read_bytes())
+        for cell in joint_report["cells"]:
+            paths = {}
+            for artifact in cell["artifacts"]:
+                path = ROOT / artifact["path"]
+                if (
+                    not path.resolve().is_relative_to(ROOT)
+                    or hashlib.sha256(path.read_bytes()).hexdigest()
+                    != artifact["sha256"]
+                ):
+                    raise ValueError("Modified CG1 experiment artifact")
+                paths[path.name] = path
+            summary = json.loads(paths["summary.json"].read_bytes())
+            if (summary["jobs"], summary["completed"], summary["failed"]) != (
+                cell["programs"],
+                cell["calls"],
+                0,
+            ):
+                raise ValueError("Incomplete CG1 experiment")
+            if not math.isclose(
+                summary["jct_mean_s"], cell["metrics"]["mean_jct_s"], rel_tol=1e-12
+            ):
+                raise ValueError("CG1 summary differs")
+            if "jobs.json" in paths:
+                jobs = json.loads(paths["jobs.json"].read_bytes())
+                if len(jobs) != cell["programs"] or not math.isclose(
+                    statistics.fmean(j["jct_s"] for j in jobs),
+                    summary["jct_mean_s"],
+                    rel_tol=1e-12,
+                ):
+                    raise ValueError("CG1 per-program aggregation differs")
+            if "requests.jsonl" in paths:
+                requests = [
+                    json.loads(line)
+                    for line in paths["requests.jsonl"].read_text().splitlines()
+                ]
+                if len(requests) != cell["calls"] or any(
+                    r["error"] or r["output_tokens"] != r["planned_output_tokens"]
+                    for r in requests
+                ):
+                    raise ValueError("CG1 fixed work differs")
+            joint_cells.append(
+                dict(group=cell["group"], method=cell["method"], calls=cell["calls"])
+            )
+    return dict(
+        valid=True,
+        cells=cells,
+        repetitions=report["repetitions"],
+        cg1_cells=joint_cells,
+    )
 
 
 def main():

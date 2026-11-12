@@ -1,0 +1,59 @@
+{
+  "valid": true,
+  "calls": 420,
+  "programs": 32,
+  "output_tokens": 43928,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 20529,
+  "running_quotes": 6442,
+  "native_ledger": {
+    "snapshots": 1101,
+    "transactions": 1101,
+    "grants": 420,
+    "bounded_releases": 36
+  },
+  "transformer_calls": 420,
+  "transformer_total_s": 10.41704526450485,
+  "transformer_p50_ms": 11.833390686661005,
+  "transformer_p95_ms": 137.00900692492678,
+  "admission_controller_s": 14.195261845365167,
+  "signature": "1f16ffa2f0a697c7dff5fd7a053166a50d2052d3aa2471fb35ae64359f8c20c9",
+  "reservation_lifecycle_audit": {
+    "settlements": 115,
+    "released_logical_pages": 32841,
+    "snapshots": 1101,
+    "transactions": 1101,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 420,
+  "rank_snapshots": 1101,
+  "original_density_cases": 517,
+  "original_density_max_relative_error": 1.6464671573457323e-05,
+  "original_density_mean_relative_error": 4.779235414594218e-07,
+  "continuous_function_compile_once": true,
+  "exact_reuse": {
+    "quotes": 20529,
+    "quote_hits": 13362,
+    "survival_updates": 6671,
+    "survival_hits": 496
+  },
+  "completed_call_reuse_verified": 420,
+  "reuse_fraction": 0.6508841151541721,
+  "unchanged_geometric_rule": true,
+  "unused_prediction_heads_loaded": 0,
+  "packed_input_copies": 2,
+  "completion_boundary": {
+    "valid": true,
+    "observations": 420,
+    "logical_completions": 420,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 32,
+    "observed_terminal_actions": 32,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  }
+}

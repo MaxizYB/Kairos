@@ -1,0 +1,146 @@
+[
+  {
+    "program": "django__django-14672",
+    "jct_s": 37.725885844789445,
+    "arrival_s": 0.5078652701340616,
+    "turns": 7,
+    "first_turn_end_s": 3.5063739051111042,
+    "post_initial_jct_s": 34.7273772098124,
+    "primed_jct_s": null
+  },
+  {
+    "program": "pytest-dev__pytest-7521",
+    "jct_s": 39.467510723974556,
+    "arrival_s": 2.836697405204177,
+    "turns": 8,
+    "first_turn_end_s": 8.824025156907737,
+    "post_initial_jct_s": 33.480182972270995,
+    "primed_jct_s": null
+  },
+  {
+    "program": "astropy__astropy-13453",
+    "jct_s": 49.671186761930585,
+    "arrival_s": 0.4724226063117385,
+    "turns": 9,
+    "first_turn_end_s": 5.609362103976309,
+    "post_initial_jct_s": 44.534247264266014,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-12308",
+    "jct_s": 63.75960846012458,
+    "arrival_s": 2.7244961322285235,
+    "turns": 9,
+    "first_turn_end_s": 5.417314456310123,
+    "post_initial_jct_s": 61.06679013604298,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-12039",
+    "jct_s": 67.27563513396308,
+    "arrival_s": 0.42964683333411813,
+    "turns": 12,
+    "first_turn_end_s": 3.6743505811318755,
+    "post_initial_jct_s": 64.03093138616532,
+    "primed_jct_s": null
+  },
+  {
+    "program": "matplotlib__matplotlib-23412",
+    "jct_s": 68.40328989597037,
+    "arrival_s": 2.7238393290899694,
+    "turns": 12,
+    "first_turn_end_s": 6.906630232930183,
+    "post_initial_jct_s": 64.22049899213016,
+    "primed_jct_s": null
+  },
+  {
+    "program": "scikit-learn__scikit-learn-14983",
+    "jct_s": 73.16815565433353,
+    "arrival_s": 2.910368206910789,
+    "turns": 15,
+    "first_turn_end_s": 8.31053301692009,
+    "post_initial_jct_s": 67.76799084432423,
+    "primed_jct_s": null
+  },
+  {
+    "program": "astropy__astropy-13977",
+    "jct_s": 88.13348762365058,
+    "arrival_s": 0.48320860136300325,
+    "turns": 10,
+    "first_turn_end_s": 4.233044082298875,
+    "post_initial_jct_s": 84.38365214271471,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-11734",
+    "jct_s": 86.86083684489131,
+    "arrival_s": 2.895921992138028,
+    "turns": 13,
+    "first_turn_end_s": 6.086459198966622,
+    "post_initial_jct_s": 83.67029963806272,
+    "primed_jct_s": null
+  },
+  {
+    "program": "sympy__sympy-17318",
+    "jct_s": 94.75990029983222,
+    "arrival_s": 0.395053846295923,
+    "turns": 11,
+    "first_turn_end_s": 6.144377442076802,
+    "post_initial_jct_s": 89.01057670405135,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-16256",
+    "jct_s": 95.21813500486314,
+    "arrival_s": 0.2904221471399069,
+    "turns": 8,
+    "first_turn_end_s": 4.505897596012801,
+    "post_initial_jct_s": 91.00265955599025,
+    "primed_jct_s": null
+  },
+  {
+    "program": "sympy__sympy-23824",
+    "jct_s": 112.57300833798945,
+    "arrival_s": 2.9029660862870514,
+    "turns": 8,
+    "first_turn_end_s": 7.910584614146501,
+    "post_initial_jct_s": 107.56538981013,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-13512",
+    "jct_s": 125.33006291557103,
+    "arrival_s": 0.4905610913410783,
+    "turns": 13,
+    "first_turn_end_s": 4.885670525021851,
+    "post_initial_jct_s": 120.93495348189026,
+    "primed_jct_s": null
+  },
+  {
+    "program": "django__django-13012",
+    "jct_s": 131.4286426617764,
+    "arrival_s": 2.7186254002153873,
+    "turns": 15,
+    "first_turn_end_s": 6.545955152250826,
+    "post_initial_jct_s": 127.60131290974095,
+    "primed_jct_s": null
+  },
+  {
+    "program": "sympy__sympy-13974",
+    "jct_s": 134.8245004140772,
+    "arrival_s": 2.8072883361019194,
+    "turns": 14,
+    "first_turn_end_s": 5.94788375031203,
+    "post_initial_jct_s": 131.68390499986708,
+    "primed_jct_s": null
+  },
+  {
+    "program": "sympy__sympy-18763",
+    "jct_s": 139.55604169517756,
+    "arrival_s": 0.26431284099817276,
+    "turns": 14,
+    "first_turn_end_s": 3.077041456941515,
+    "post_initial_jct_s": 136.7433130792342,
+    "primed_jct_s": null
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "valid": true,
+  "calls": 178,
+  "programs": 16,
+  "output_tokens": 26164,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 4947,
+  "running_quotes": 2599,
+  "native_ledger": {
+    "snapshots": 491,
+    "transactions": 491,
+    "grants": 178,
+    "bounded_releases": 21
+  },
+  "transformer_calls": 0,
+  "transformer_total_s": 0,
+  "transformer_p50_ms": null,
+  "transformer_p95_ms": null,
+  "admission_controller_s": 5.190517432522029,
+  "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+  "reservation_lifecycle_audit": {
+    "settlements": 2,
+    "released_logical_pages": 623,
+    "snapshots": 491,
+    "transactions": 491,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "independent_workload_boundary": {
+    "valid": true,
+    "calls": 178,
+    "programs": 16,
+    "output_tokens": 26164,
+    "fixed_work": true,
+    "scheduler_truth": false,
+    "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+    "completion_boundary": {
+      "valid": true,
+      "observations": 178,
+      "logical_completions": 178,
+      "current_action_only": true,
+      "arrived_metadata_unchanged": true,
+      "trajectory_end_inferred": false,
+      "all_at_actual_output_boundary": true,
+      "expected_terminal_actions": 14,
+      "observed_terminal_actions": 14
+    },
+    "transformer_calls": 0,
+    "policy": "kairos",
+    "method_experiment": "continuity-eager-a~provenanceprior~onlinefitresidual~finishlogical~kairos~heterogeneous"
+  },
+  "completion_boundary": {
+    "valid": true,
+    "observations": 178,
+    "logical_completions": 178,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 14,
+    "observed_terminal_actions": 14,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  }
+}

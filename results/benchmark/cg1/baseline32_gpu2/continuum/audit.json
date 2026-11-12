@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "calls": 420,
+  "programs": 32,
+  "output_tokens": 43928,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "signature": "1f16ffa2f0a697c7dff5fd7a053166a50d2052d3aa2471fb35ae64359f8c20c9",
+  "completion_boundary": {
+    "valid": true,
+    "observations": 420,
+    "logical_completions": 0,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "all_at_actual_output_boundary": true,
+    "expected_terminal_actions": 32,
+    "observed_terminal_actions": 32
+  },
+  "transformer_calls": 0,
+  "policy": "continuum",
+  "method_experiment": "continuum-index-partial-eager-a~heterogeneous"
+}

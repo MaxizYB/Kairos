@@ -14,10 +14,11 @@ queue-local bounded-aging policy described in the method document.
 The 32-program workload is not a 36-program trace. Both workloads use the
 fixed-work-private-stop-v1 protocol, completed all calls, had zero failures,
 and passed the post-run audit. The guard registry was emitted in guarded runs,
-but activation count was zero in both workloads because no request crossed the
-default four-second waiting threshold. Therefore this archive is an
-installation/no-regression comparison, not evidence that starvation relief has
-already been exercised end to end.
+but activation count was zero in both workloads. Source review found that the
+historical guard subtracted epoch arrival timestamps from a monotonic clock and
+clamped the result to zero. The release corrects the clock and tests both clock
+domains. Zero activation cannot establish waits below four seconds, and these
+historical timings do not measure the corrected guard or prove starvation relief.
 
 The JSON file contains the exact floating-point summaries and SHA-256 digests
 of the source summary/audit files retained in the experiment workspace.

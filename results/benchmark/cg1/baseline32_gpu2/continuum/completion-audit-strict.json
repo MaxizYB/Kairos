@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "observations": 420,
+  "logical_completions": 0,
+  "current_action_only": true,
+  "arrived_metadata_unchanged": true,
+  "trajectory_end_inferred": false,
+  "all_at_actual_output_boundary": true,
+  "expected_terminal_actions": 32,
+  "observed_terminal_actions": 32
+}

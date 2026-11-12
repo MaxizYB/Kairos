@@ -25,6 +25,8 @@ def files():
         relative = path.relative_to(ROOT)
         if any(p in IGNORED or p.endswith(".egg-info") for p in relative.parts):
             continue
+        if relative.parts[:2] == ("assets", "joint") and path.suffix in (".pt", ".npz"):
+            continue
         if path.is_file() and relative.as_posix() != "provenance/release_manifest.json":
             yield path, relative.as_posix()
 
@@ -60,7 +62,7 @@ def main():
             dict(
                 schema=1,
                 files=rows,
-                note="Packaging integrity, not proof of GPU execution. Excludes only the manifest itself and local build/run/cache directories.",
+                note="Code checkout integrity, not proof of GPU execution. Excludes the manifest itself, external joint weights, and local build/run/cache directories.",
             ),
             indent=2,
             ensure_ascii=False,

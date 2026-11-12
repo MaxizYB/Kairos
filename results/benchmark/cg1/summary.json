@@ -1,0 +1,505 @@
+{
+  "schema": 1,
+  "repetitions": 1,
+  "fixed_work": true,
+  "groups_are_separate_comparisons": true,
+  "packaged_entrypoint_gpu_remeasured": false,
+  "cells": [
+    {
+      "group": "common16_gpu7",
+      "method": "forest",
+      "programs": 16,
+      "calls": 178,
+      "metrics": {
+        "mean_jct_s": 87.17949960607802,
+        "p95_jct_s": 140.5252270855708,
+        "wall_s": 143.74480174016207,
+        "mean_ttft_s": 3.34077050187625,
+        "p95_ttft_s": 8.949742227140815,
+        "makespan_s": 143.4804291180335
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/forest/summary.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/forest/summary.json",
+          "sha256": "6c50f13b61ccaea61b08ac9cd89277ae6b1a8aeca6d5067f3fc6e93def60fdb8"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/forest/audit.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/forest/audit.json",
+          "sha256": "71194cf531ff659693f13eb779b3e7e97f0205eb91b45f82122007818f5047e9"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/forest/completion-audit-strict.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/forest/completion-audit-strict.json",
+          "sha256": "bcfdfbdbdc26235cec23050e53b76edba5ffa258dc8da27101a1568b5fb5418a"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/forest/jobs.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/forest/jobs.json",
+          "sha256": "749378fdc530c0d7d75d9457c8fffbb7d8ae539897544c114eff689ccd67f361"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/forest/requests.jsonl",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/forest/requests.jsonl",
+          "sha256": "188023e6a140f80348916c1db559c75603ffd6bde6d4d1303239a2509366e4da"
+        }
+      ]
+    },
+    {
+      "group": "common16_gpu7",
+      "method": "cg1",
+      "programs": 16,
+      "calls": 178,
+      "metrics": {
+        "mean_jct_s": 88.00974301705719,
+        "p95_jct_s": 136.00738573435228,
+        "wall_s": 139.8208947069943,
+        "mean_ttft_s": 3.354495381698368,
+        "p95_ttft_s": 12.985078778187754,
+        "makespan_s": 139.55604169517756
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/cg1/summary.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/cg1/summary.json",
+          "sha256": "6e17419c5f481e3fcd7617a25a601b1dd99e93aae49f74b94f9b97506926e0a9"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/cg1/audit.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/cg1/audit.json",
+          "sha256": "1face99103855de1f92a20c10e111c9d3f47fe1b83d22ba28bbc981ba372a645"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/cg1/completion-audit-strict.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/cg1/completion-audit-strict.json",
+          "sha256": "bcfdfbdbdc26235cec23050e53b76edba5ffa258dc8da27101a1568b5fb5418a"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/cg1/jobs.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/cg1/jobs.json",
+          "sha256": "d2d8453bdd1a4c8cb33b02008f15b35ed89085c488fdf9516614cc5c51705794"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/cg1/requests.jsonl",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-r2/results/gpu7-pair-r2/cg1/requests.jsonl",
+          "sha256": "0c33aa258e3eb3967ad5f71fd5156fbc5f08e099448bd3b8b200f4806a958ff7"
+        }
+      ]
+    },
+    {
+      "group": "common16_gpu7",
+      "method": "continuum",
+      "programs": 16,
+      "calls": 178,
+      "metrics": {
+        "mean_jct_s": 103.76671422584332,
+        "p95_jct_s": 158.68049112090375,
+        "wall_s": 165.67973392177373,
+        "mean_ttft_s": 4.348822235940757,
+        "p95_ttft_s": 20.003610725351653,
+        "makespan_s": 165.41478219814599
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/continuum/summary.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-continuum-r2/continuum/summary.json",
+          "sha256": "9b6b64bc0f4e539e42f71d7fd949d7938a54e0bd83d29339130b459a4ba23f88"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/continuum/jobs.json",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-continuum-r2/continuum/jobs.json",
+          "sha256": "b4f9761445d3648a1fb45e683d25ecf1ddaf2430c1a22e0199fe5758a57902b0"
+        },
+        {
+          "path": "results/benchmark/cg1/common16_gpu7/continuum/requests.jsonl",
+          "source": "Phase_continuum/cg1_common16_20261111/results/downloaded-continuum-r2/continuum/requests.jsonl",
+          "sha256": "7116ba5577df29ed2456cb32dd1289f20c70198d57973244c4ccf51b7be9c477"
+        }
+      ]
+    },
+    {
+      "group": "baseline32_gpu2",
+      "method": "forest",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 120.6791432392638,
+        "p95_jct_s": 208.0274453003658,
+        "wall_s": 222.17051118286327,
+        "mean_ttft_s": 6.317937446918915,
+        "p95_ttft_s": 59.951658516167655,
+        "makespan_s": 222.1698168949224
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/forest/summary.json",
+          "source": "Phase_continuum/consistent_prediction_20261111/results/new32-final-geometric-r2/baseline/summary.json",
+          "sha256": "5c036383c9d51969d342adbd6a375b3889c28d6c995942e0a00de1443608642a"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/forest/audit.json",
+          "source": "Phase_continuum/consistent_prediction_20261111/results/new32-final-geometric-r2/baseline/audit.json",
+          "sha256": "2ec4eabd452658d41482aeede8d5a89c96fe64fe7fc4e30c91a2505b6c3ed0e1"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/forest/jobs.json",
+          "source": "Phase_continuum/consistent_prediction_20261111/results/new32-final-geometric-r2/baseline/jobs.json",
+          "sha256": "1a289a58899584ece52203fa6674a0c01595c12435f5d13569d9275b8edf63c2"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/forest/requests.jsonl",
+          "source": "Phase_continuum/consistent_prediction_20261111/results/new32-final-geometric-r2/baseline/requests.jsonl",
+          "sha256": "bfb478edf05890325ec2d5d568891d534b788b37503edb00547e24743733fae0"
+        }
+      ]
+    },
+    {
+      "group": "baseline32_gpu2",
+      "method": "continuum",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 152.396936035846,
+        "p95_jct_s": 260.45075368536635,
+        "wall_s": 269.0815511881374,
+        "mean_ttft_s": 8.919378341527079,
+        "p95_ttft_s": 61.345189238549196,
+        "makespan_s": 269.0804962445982
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuum/summary.json",
+          "source": "Phase_continuum/baseline_comparison_20261111/results/continuum-r1/continuum/summary.json",
+          "sha256": "764efa767f4389ab0d6c45febf1ee5a4402735042d000fcf4c960eba64f77e36"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuum/audit.json",
+          "source": "Phase_continuum/baseline_comparison_20261111/results/continuum-r1/continuum/audit.json",
+          "sha256": "cf64c41755bee229f667ef509d034f2261c2a441d68e561154cef7bed3444ec6"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuum/completion-audit-strict.json",
+          "source": "Phase_continuum/baseline_comparison_20261111/results/continuum-r1/continuum/completion-audit-strict.json",
+          "sha256": "9ddb8c795eef74ea9e2374aabf5928b570ec6c69abc64d4df3af25f19bbcbedf"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuum/jobs.json",
+          "source": "Phase_continuum/baseline_comparison_20261111/results/continuum-r1/continuum/jobs.json",
+          "sha256": "cdc3778dc4097d8cce8e477e0410a3bec7133b20dcd5bb6bbaca2131011c5561"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuum/requests.jsonl",
+          "source": "Phase_continuum/baseline_comparison_20261111/results/continuum-r1/continuum/requests.jsonl",
+          "sha256": "583066f6fe2d8788acb07220b29916bd18569d8f325d690e7dfe09b06ac7b4e6"
+        }
+      ]
+    },
+    {
+      "group": "baseline32_gpu2",
+      "method": "continuous",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 119.73265136251575,
+        "p95_jct_s": 214.01508714735974,
+        "wall_s": 241.0333728888072,
+        "mean_ttft_s": 6.057359298297559,
+        "p95_ttft_s": 38.027917301189014,
+        "makespan_s": 241.03216433385387
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuous/summary.json",
+          "source": "Phase_continuum/distribution_use_20261111/results/fast-continuous-geometric-r1/run/summary.json",
+          "sha256": "9d26841a8bebdedcc648b4543a77a07f6feb9ca64d899d59a677d0d87f309da7"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuous/audit.json",
+          "source": "Phase_continuum/distribution_use_20261111/results/fast-continuous-geometric-r1/run/audit.json",
+          "sha256": "b4b73923e2be323f7441bfe294e63b4d816a7415bfc0d13f0ca9628277f83725"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuous/completion-audit-strict.json",
+          "source": "Phase_continuum/distribution_use_20261111/results/fast-continuous-geometric-r1/run/completion-audit-strict.json",
+          "sha256": "6e6b52bea9ecbfdd44bafabab0ffeb9a7d15895c913043779451a91e8a466a9a"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuous/jobs.json",
+          "source": "Phase_continuum/distribution_use_20261111/results/fast-continuous-geometric-r1/run/jobs.json",
+          "sha256": "f3d3a216e821b4a4145b2e79d32ee1a64572dc4c4a9ae4538f472c661af2b6b9"
+        },
+        {
+          "path": "results/benchmark/cg1/baseline32_gpu2/continuous/requests.jsonl",
+          "source": "Phase_continuum/distribution_use_20261111/results/fast-continuous-geometric-r1/run/requests.jsonl",
+          "sha256": "50e52a06ee1d8e6549ec9a6ead62a117145850be4453ff5257c7d9b16d45e600"
+        }
+      ]
+    },
+    {
+      "group": "cg1_cleanup32_gpu1",
+      "method": "reference",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 117.71035874557856,
+        "p95_jct_s": 214.21570700663142,
+        "wall_s": 235.74610712891445,
+        "mean_ttft_s": 5.954700036401239,
+        "p95_ttft_s": 40.01693893019094,
+        "makespan_s": 235.74462151201442
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/reference/summary.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/summary.json",
+          "sha256": "eec05e3f2c1e883d0ba762f4b6d8ade47ecfc86dfef11ee4e15c80b62a39ad7f"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/reference/audit.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/audit.json",
+          "sha256": "53bafddaf87ed7d3dff46082b5be870d58fa0024a426e5610d091db1515ea514"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/reference/completion-audit-strict.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/completion-audit-strict.json",
+          "sha256": "6e6b52bea9ecbfdd44bafabab0ffeb9a7d15895c913043779451a91e8a466a9a"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/reference/jobs.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/jobs.json",
+          "sha256": "8ccdb44182a29d7d7a006f34cd3038d3e7e084eeb5e03fbd881f622893743750"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/reference/requests.jsonl",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/requests.jsonl",
+          "sha256": "2a8fbd12e23e724ed94b1fe34d6725b7cf6477ad1b5ac24cafcd99fec8069056"
+        }
+      ]
+    },
+    {
+      "group": "cg1_cleanup32_gpu1",
+      "method": "optimized",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 116.42577871317917,
+        "p95_jct_s": 209.4997178367339,
+        "wall_s": 232.83309576194733,
+        "mean_ttft_s": 5.864188039904859,
+        "p95_ttft_s": 37.46629632185202,
+        "makespan_s": 232.83238433487713
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/optimized/summary.json",
+          "source": "Phase_continuum/continuous_geometric_20261111/results/gpu1-optimized-r1/optimized/summary.json",
+          "sha256": "1d6598fc154341d526f0b0e5e07621ccd91a150b3ceb0e39e799c66d68a8abc0"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/optimized/audit.json",
+          "source": "Phase_continuum/continuous_geometric_20261111/results/gpu1-optimized-r1/optimized/audit.json",
+          "sha256": "11f1d87e920f9ca189866b651dfe1905d7312bb28a0172021ed68b399387c5b9"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/optimized/completion-audit-strict.json",
+          "source": "Phase_continuum/continuous_geometric_20261111/results/gpu1-optimized-r1/optimized/completion-audit-strict.json",
+          "sha256": "6e6b52bea9ecbfdd44bafabab0ffeb9a7d15895c913043779451a91e8a466a9a"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/optimized/jobs.json",
+          "source": "Phase_continuum/continuous_geometric_20261111/results/gpu1-optimized-r1/optimized/jobs.json",
+          "sha256": "86e61c68f0b58b218aecc743bb74a68fd8c7902d4f0eec0c24a5e378f21ff681"
+        },
+        {
+          "path": "results/benchmark/cg1/cg1_cleanup32_gpu1/optimized/requests.jsonl",
+          "source": "Phase_continuum/continuous_geometric_20261111/results/gpu1-optimized-r1/optimized/requests.jsonl",
+          "sha256": "a00e16e90e3e1a36b711d5c05403bbb315e8b104e04a330cc29827d80ac51b2f"
+        }
+      ]
+    },
+    {
+      "group": "remaining_work32_gpu1",
+      "method": "remaining_work",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 122.98207431586343,
+        "p95_jct_s": 216.78053717697037,
+        "wall_s": 245.28403207520023,
+        "mean_ttft_s": 6.3124620437145325,
+        "p95_ttft_s": 33.66263537162415,
+        "makespan_s": 245.2822864446789
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/remaining_work/summary.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/remaining_work/summary.json",
+          "sha256": "1d4cb01028805107de5f10608b825d43e19bb55f4a2c92d4eca135c751d1f32c"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/remaining_work/audit.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/remaining_work/audit.json",
+          "sha256": "ee566f370d0016cdd79028f1bd99367b79093c46c9d129332930b7f9303b7685"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/remaining_work/completion-audit-strict.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/remaining_work/completion-audit-strict.json",
+          "sha256": "6e6b52bea9ecbfdd44bafabab0ffeb9a7d15895c913043779451a91e8a466a9a"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/remaining_work/jobs.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/remaining_work/jobs.json",
+          "sha256": "82271904e8ef4357adc7f7bd22877303a651184330f3357f01ad09c144de5263"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/remaining_work/requests.jsonl",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/remaining_work/requests.jsonl",
+          "sha256": "0242d23c450cb9933a675e2f89069cd27a4e684117b2d9e5bb486b088017cba0"
+        }
+      ]
+    },
+    {
+      "group": "remaining_work32_gpu1",
+      "method": "geometric",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 117.71035874557856,
+        "p95_jct_s": 214.21570700663142,
+        "wall_s": 235.74610712891445,
+        "mean_ttft_s": 5.954700036401239,
+        "p95_ttft_s": 40.01693893019094,
+        "makespan_s": 235.74462151201442
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/geometric/summary.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/summary.json",
+          "sha256": "eec05e3f2c1e883d0ba762f4b6d8ade47ecfc86dfef11ee4e15c80b62a39ad7f"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/geometric/audit.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/audit.json",
+          "sha256": "53bafddaf87ed7d3dff46082b5be870d58fa0024a426e5610d091db1515ea514"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/geometric/completion-audit-strict.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/completion-audit-strict.json",
+          "sha256": "6e6b52bea9ecbfdd44bafabab0ffeb9a7d15895c913043779451a91e8a466a9a"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/geometric/jobs.json",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/jobs.json",
+          "sha256": "8ccdb44182a29d7d7a006f34cd3038d3e7e084eeb5e03fbd881f622893743750"
+        },
+        {
+          "path": "results/benchmark/cg1/remaining_work32_gpu1/geometric/requests.jsonl",
+          "source": "Phase_continuum/remaining_work_20261111/results/gpu1-pair-r1/geometric/requests.jsonl",
+          "sha256": "2a8fbd12e23e724ed94b1fe34d6725b7cf6477ad1b5ac24cafcd99fec8069056"
+        }
+      ]
+    },
+    {
+      "group": "guard16_gpu3",
+      "method": "cg1",
+      "programs": 16,
+      "calls": 178,
+      "metrics": {
+        "mean_jct_s": 91.43394749352592,
+        "p95_jct_s": 142.53029092773795,
+        "wall_s": 145.1345963231288,
+        "mean_ttft_s": 3.531318790703133,
+        "p95_ttft_s": 17.901316088787283
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/guard16_gpu3/cg1/summary.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common16-8b-gpu3-r1/cg1/summary.json",
+          "sha256": "0673cc8d3aba14a41deaf6d1cc4b0e0851e81cb53d8cc2acee3e271e2951fce7"
+        },
+        {
+          "path": "results/benchmark/cg1/guard16_gpu3/cg1/audit.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common16-8b-gpu3-r1/cg1/audit.json",
+          "sha256": "6f3c70a03b15636850486bc7caa9ecbd8b41d4f9a634d501d96af7f53cacdbd5"
+        }
+      ]
+    },
+    {
+      "group": "guard16_gpu3",
+      "method": "cg1_fair",
+      "programs": 16,
+      "calls": 178,
+      "metrics": {
+        "mean_jct_s": 88.76779706892557,
+        "p95_jct_s": 137.92807692976203,
+        "wall_s": 145.56422217423096,
+        "mean_ttft_s": 3.3201872854116843,
+        "p95_ttft_s": 11.641000599344313
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/guard16_gpu3/cg1_fair/summary.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common16-8b-gpu3-r1/cg1_fair/summary.json",
+          "sha256": "6048c943634e0a4384e5a9ef7ab743ebd01179ac01e1ec31b9019575c96e851a"
+        },
+        {
+          "path": "results/benchmark/cg1/guard16_gpu3/cg1_fair/audit.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common16-8b-gpu3-r1/cg1_fair/audit.json",
+          "sha256": "1ad062f0e48d590c38663f05759073b070465106296465d441f4885108f7217d"
+        }
+      ]
+    },
+    {
+      "group": "guard32_gpu3",
+      "method": "cg1",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 120.5248919519363,
+        "p95_jct_s": 219.1357906494057,
+        "wall_s": 247.57425665901974,
+        "mean_ttft_s": 6.083441841003618,
+        "p95_ttft_s": 36.930125054088194
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/guard32_gpu3/cg1/summary.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common32-8b-gpu3-r2/cg1/summary.json",
+          "sha256": "0df7b2a33c2c7158f036f35604a353bce28ad4fe7657a9ba97c2825fb30f6203"
+        },
+        {
+          "path": "results/benchmark/cg1/guard32_gpu3/cg1/audit.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common32-8b-gpu3-r2/cg1/audit.json",
+          "sha256": "d65b3d30f2691f82d4dfb73265013830b8f8e615f686d95c61bed63afb55e0bf"
+        }
+      ]
+    },
+    {
+      "group": "guard32_gpu3",
+      "method": "cg1_fair",
+      "programs": 32,
+      "calls": 420,
+      "metrics": {
+        "mean_jct_s": 122.42635905439965,
+        "p95_jct_s": 226.47194248868618,
+        "wall_s": 254.92555190622807,
+        "mean_ttft_s": 6.146298582185548,
+        "p95_ttft_s": 36.794398503703796
+      },
+      "artifacts": [
+        {
+          "path": "results/benchmark/cg1/guard32_gpu3/cg1_fair/summary.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common32-8b-gpu3-r2/cg1_fair/summary.json",
+          "sha256": "f2f9f92bf89557a2e99c8f99c5fddd1d7a9175d3c92df08118383b73a723313e"
+        },
+        {
+          "path": "results/benchmark/cg1/guard32_gpu3/cg1_fair/audit.json",
+          "source": "Phase_continuum/starvation_guard_20261111/results/common32-8b-gpu3-r2/cg1_fair/audit.json",
+          "sha256": "5dfc96963e53e2bcf2c793f0de3f059e5e068edcd35419ff3c09b23d6deeb930"
+        }
+      ]
+    }
+  ],
+  "guard_clock_correction": "Historical guard used monotonic minus epoch arrival time. Zero activations do not prove waits below threshold; corrected implementation has separate queue/clock tests."
+}

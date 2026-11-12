@@ -77,6 +77,15 @@ def prepare(args, out, control_socket):
     # Translate the public method name to the frozen runtime protocol without
     # putting implementation-era switches in the public experiment config.
     env.update(expand(RUNTIME_ENVIRONMENT[args.method], bindings))
+    joint_assets = getattr(args, "joint_assets", None)
+    if args.method == "kairos" and joint_assets is not None:
+        directory = Path(joint_assets).resolve()
+        env.update(
+            KAIROS_PROGRESS_ENCODER=str(directory / "encoder"),
+            KAIROS_PROGRESS_CHECKPOINT=str(directory / "checkpoint"),
+            KAIROS_COUPLED_STUDY=str(directory / "study"),
+            KAIROS_DENSITY_MODEL=str(directory / "density.npz"),
+        )
     env.update(
         CUDA_VISIBLE_DEVICES=str(args.gpu),
         OMP_NUM_THREADS="1",
@@ -252,10 +261,12 @@ def run(args):
             )
         )
         return
-    from kairos.verify import verify_checkout, verify_workload
+    from kairos.verify import verify_checkout, verify_joint_assets, verify_workload
 
     verify_checkout()
     verify_workload(args.trace)
+    if args.method == "kairos":
+        verify_joint_assets(getattr(args, "joint_assets", None))
     verified_model = check_model(args.model)
     if args.engine_cpus == args.helper_cpus or affinity(args.engine_cpus) & affinity(
         args.helper_cpus
@@ -438,6 +449,11 @@ def main():
     )
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--gpu", type=int, default=0)
+    parser.add_argument(
+        "--joint-assets",
+        type=Path,
+        help="External CG1 asset directory (encoder/, checkpoint/, study/, density.npz); weights are not in Git",
+    )
     parser.add_argument("--engine-cpus", default="0-3")
     parser.add_argument("--helper-cpus", default="4-7")
     parser.add_argument("--trace", type=Path, default=ROOT / "data/workload/trace.json")

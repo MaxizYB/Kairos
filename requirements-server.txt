@@ -6,3 +6,4 @@ lmcache==0.5.5rc4
 transformers==5.16.1
 httpx==0.28.1
 numpy==2.2.6
+scipy>=1.14,<2

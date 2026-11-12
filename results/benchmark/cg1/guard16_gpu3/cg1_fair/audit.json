@@ -1,0 +1,86 @@
+{
+  "valid": true,
+  "calls": 178,
+  "programs": 16,
+  "output_tokens": 26164,
+  "fixed_work": true,
+  "scheduler_truth": false,
+  "quotes": 4924,
+  "running_quotes": 2593,
+  "native_ledger": {
+    "snapshots": 495,
+    "transactions": 495,
+    "grants": 178,
+    "bounded_releases": 11
+  },
+  "transformer_calls": 178,
+  "transformer_total_s": 3.2431364790536463,
+  "transformer_p50_ms": 11.887732427567244,
+  "transformer_p95_ms": 44.94630033150318,
+  "admission_controller_s": 6.305479869246483,
+  "signature": "f29ebc710a0ba864d968851f53d65cca66423fcc39b8933f74d6a4195803c8d0",
+  "reservation_lifecycle_audit": {
+    "settlements": 2,
+    "released_logical_pages": 575,
+    "snapshots": 495,
+    "transactions": 495,
+    "orphan_reservations": 0,
+    "physical_frees": 0
+  },
+  "arrived_input_hashes_verified": 178,
+  "rank_snapshots": 495,
+  "original_density_cases": 215,
+  "original_density_max_relative_error": 4.702815113111214e-06,
+  "original_density_mean_relative_error": 2.704581255251309e-07,
+  "continuous_function_compile_once": true,
+  "exact_reuse": {
+    "quotes": 4924,
+    "quote_hits": 1960,
+    "survival_updates": 2725,
+    "survival_hits": 239
+  },
+  "completed_call_reuse_verified": 178,
+  "reuse_fraction": 0.3980503655564582,
+  "unchanged_geometric_rule": true,
+  "unused_prediction_heads_loaded": 0,
+  "packed_input_copies": 2,
+  "completion_boundary": {
+    "valid": true,
+    "observations": 178,
+    "logical_completions": 178,
+    "current_action_only": true,
+    "arrived_metadata_unchanged": true,
+    "trajectory_end_inferred": false,
+    "expected_terminal_actions": 14,
+    "observed_terminal_actions": 14,
+    "all_at_actual_output_boundary": true,
+    "source": "current action only; no last-round inference"
+  },
+  "starvation_guard": {
+    "registry": 1,
+    "activations": 0,
+    "max_credit": 0,
+    "max_wait_s": 0.0,
+    "events": [
+      {
+        "event": "starvation_guard_registry",
+        "time": 1794414515.8475964,
+        "experiment": "continuity-eager-a~provenanceprior~onlinefitresidual~finishlogical~kairos~heterogeneous",
+        "policy": "bounded-j-rank-aging",
+        "threshold_s": 4.0,
+        "quantum_s": 1.0,
+        "scope": "native waiting and skipped-waiting queues only",
+        "changes_score": false,
+        "changes_admission": false,
+        "changes_ttl": false,
+        "changes_eviction": false,
+        "future_information": false,
+        "previous_log_write": {
+          "event": "forecast_registry",
+          "experiment": "continuity-eager-a~provenanceprior~onlinefitresidual~finishlogical~kairos~heterogeneous",
+          "seconds": 4.137121140956879e-05
+        }
+      }
+    ]
+  }
+}

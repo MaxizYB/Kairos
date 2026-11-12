@@ -80,14 +80,17 @@ def native_release():
 NativeBoundary._release = native_release()
 
 
-def controller_type():
+def controller_type(*, public=False):
     module = ModuleType("kairos._runtime.compat.online_path_scheduler")
     module.OnlinePathScheduler = NativeBoundary
     module.FinitePathProtection = lambda policy, forecaster: policy
     queue = ModuleType("vllm.v1.core.sched.request_queue")
     queue.create_request_queue = lambda policy: Queue()
     with patch.dict(sys.modules, {module.__name__: module, queue.__name__: queue}):
-        return importlib.import_module("kairos.scheduler").KairosScheduler
+        # Frozen forest cases verify the shared capacity/TTL control substrate,
+        # not the public joint predictor. Public dispatch is tested separately.
+        module = importlib.import_module("kairos.scheduler")
+        return module.KairosScheduler if public else module._SchedulingCore
 
 
 def request(p, prompt=64, cap=8192):
